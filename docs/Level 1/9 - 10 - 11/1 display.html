@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+
+<body>
+    <!-- display => block -->
+    <h1>Display values and tips.</h1>
+    <h2>Display :block: comes and completes the line and puts an empty space up and down.</h2>
+    <hr>
+    <!-- display => inline -->
+    <span>Display :inline: only takes up as much space as it really does.</span>
+    <hr>
+    <span style="color: green; width: 200px; background-color: aquamarine;">Two display :inline: are placed next to each
+        other</span><!-- width don't worked. -->
+    <span style="color: skyblue;height: 10px;background-color: black;">if there is no separator between them.</span>
+    <hr>
+    <span style="color: green;display: inline-block; width: 200px;background-color: aquamarine;">Two display :inline:
+        are placed next to each
+        other</span><!-- width don't worked. -->
+    <span style="color: skyblue; display: inline-block; height: 10px;background-color: black;"> if there is no separator
+        between them.</span>
+    <br> <!-- break the line and go to the next line. -->
+    <img style="width: 80px;height: 80px;display: inline; background-color: orange;" src="../../../icons/html.ico"
+        alt="html">
+    <hr>
+    <img style="display: none;" src="../../../icons/emmet.ico" alt="extention emmet">
+    <hr>
+    <!-- An example of display :flex: -->
+    <div style="display: flex; flex-direction: row;align-items: center;column-gap: 40px;justify-content: center;">
+        <div style="display: flex; flex-direction: column;">
+            <img width="200px" src="../../../icons/css.ico" alt="icon css">
+            <img width="200px" src="../../../icons/html.ico" alt="icon css">
+        </div>
+        <div style="display: flex;column-gap: 20px;">
+            <img width="200px" src="../../../icons/folder css.ico" alt="icon folder css">
+            <img width="200px" src="../../../icons/folder node js.ico" alt="icon folder node js">
+        </div>
+    </div>
+    <hr>
+</body>
+
+</html>
