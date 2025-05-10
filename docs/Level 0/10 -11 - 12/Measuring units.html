@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 20px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measuring units</title>
+    <style>
+        * {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        hr {
+            border: none;
+            margin: 3px 0;
+        }
+
+        hr.topic {
+            background-color: gold;
+            height: 5px;
+        }
+
+        hr.title {
+            height: 4px;
+            background-color: purple;
+            border-radius: 5px;
+            width: 50vw;
+            justify-self: center;
+        }
+
+        h1 {
+            font-size: xx-large;
+        }
+
+        h2 {
+            font-size: x-large;
+        }
+
+        h3 {
+            font-size: large;
+        }
+
+        section.AbsoluteUnitsBox {
+            display: grid;
+            grid-template-columns: max-content max-content;
+            gap: 10px;
+            justify-content: center;
+            justify-items: end;
+            align-items: center;
+            row-gap: 10px;
+        }
+
+        div {
+            height: 20px;
+            background-color: rgb(47, 255, 220);
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        q {
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body style="font-size: 10px;background-color: rgb(152, 185, 183);">
+    <h1>Measuring units</h1>
+    <hr class="topic">
+    <h2>- Absolute Units -</h2>
+    <!-- About px -->
+    <h3>px</h3>
+    <br>
+    <section class="AbsoluteUnitsBox">
+        <div style="width: 1px;"></div>
+        <p>1px</p>
+
+        <div style="width: 10px;"></div>
+        <p>10px</p>
+
+        <div style="width: 40px;"></div>
+        <p>40px</p>
+    </section>
+    <br>
+    <section class="fontSize">
+        <p style="font-size: 10px;">font size = 10px</p>
+        <p style="font-size: 15px;">font size = 15px</p>
+        <p style="font-size: 20px;">font size = 20px</p>
+    </section>
+    <hr class="title">
+    <!-- About em -->
+    <h3>em</h3>
+    <br>
+    <section class="AbsoluteUnitsBox">
+        <div style="width: 0.1em;"></div>
+        <p>0.1em</p>
+
+        <div style="width: 1em;"></div>
+        <p>1em</p>
+
+        <div style="width: 4em;"></div>
+        <p>4em</p>
+
+        <div style="width: 8em;"></div>
+        <p>8em</p>
+    </section>
+    <br>
+    <section class="fontSize">
+        <p style="font-size: 1em;">font size = 1em</p>
+        <p style="font-size: 1.5em;">font size = 1.5em</p>
+        <p style="font-size: 2em;">font size = 2em</p>
+    </section>
+    <q>The parent of these elements is the body and the font size of the body = 10px</q>
+    <hr class="title">
+    <!-- About rem -->
+    <h3>rem</h3>
+    <br>
+    <section class="AbsoluteUnitsBox">
+        <div style="width: 0.05rem;"></div>
+        <p>0.05rem</p>
+
+        <div style="width: 0.5rem;"></div>
+        <p>0.5rem</p>
+
+        <div style="width: 2rem;"></div>
+        <p>2rem</p>
+
+        <div style="width: 4rem;"></div>
+        <p>4rem</p>
+    </section>
+    <br>
+    <section class="fontSize">
+        <p style="font-size: 0.5rem;">font size = 0.5rem</p>
+        <p style="font-size: 0.75rem;">font size = 0.75rem</p>
+        <p style="font-size: 1rem;">font size = 1rem</p>
+    </section>
+    <q>root is html tag and the font size html = 20px</q>
+    <hr class="topic">
+    <h2>- Relative Units -</h2>
+    <!-- About % -->
+    <h3>%</h3>
+    <br>
+    <section>
+        <p>1%</p>
+        <div style="width: 1%;"></div>
+
+        <p>25%</p>
+        <div style="width: 25%;"></div>
+
+        <p>50%</p>
+        <div style="width: 50%;"></div>
+
+        <p>75%</p>
+        <div style="width: 75%;"></div>
+    </section>
+    <br>
+    <img width="50%" src="../../../learn images/level 0/Code execution environments.jpg"
+        alt="Code execution environments" title="width = 50%">
+    <br>
+    <q>don't work for font size elements</q>
+    <hr class="title">
+    <h3>vw</h3>
+    <br>
+    <section>
+        <p>1vw</p>
+        <div style="width: 1vw;"></div>
+
+        <p>25vw</p>
+        <div style="width: 25vw;"></div>
+
+        <p>50vw</p>
+        <div style="width: 50vw;"></div>
+
+        <p>75vw</p>
+        <div style="width: 75vw;"></div>
+    </section>
+    <br>
+    <section class="fontSize">
+        <p style="font-size: 1vw;">font size = 1vw</p>
+        <p style="font-size: 2vw;">font size = 2vw</p>
+        <p style="font-size: 3vw;">font size = 3vw</p>
+    </section>
+    <hr class="title">
+    <h3>vh</h3>
+    <br>
+    <section>
+        <p>1vh</p>
+        <div style="width: 1vh;"></div>
+
+        <p>25vh</p>
+        <div style="width: 25vh;"></div>
+
+        <p>50vh</p>
+        <div style="width: 50vh;"></div>
+
+        <p>75vh</p>
+        <div style="width: 75vh;"></div>
+    </section>
+    <br>
+    <section class="fontSize">
+        <p style="font-size: 1vh;">font size = 1vh</p>
+        <p style="font-size: 2vh;">font size = 2vh</p>
+        <p style="font-size: 3vh;">font size = 3vh</p>
+    </section>
+    <hr class="topic">
+    <script>
+        alert("To see the difference between the sizes of the Relative Units page small and enlarge")
+    </script>
+</body>
+
+</html>
