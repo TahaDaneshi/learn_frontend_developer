@@ -1,0 +1,3 @@
+-delete a file
+-add attribute superhiddn to the one file
+-copy and cut a file

@@ -1,0 +1,3 @@
+-Take the 'color' Command Properties.
+-Customize the color of the CMD theme.
+-Personalize the title at the top of the CMD page.
