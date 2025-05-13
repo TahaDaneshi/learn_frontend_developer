@@ -10,7 +10,7 @@ nav{
     justify-content: space-around;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     background-color: aqua;
 }
@@ -46,6 +46,12 @@ a:active, a:hover{
     color: rgb(64, 16, 109);
 }
 /* take with ID */
+#moreTitles {
+    display: none;
+    border: 2px dashed red;
+    border-radius: 5px; 
+    padding:2px 5px;
+}
 #menu, #iconeSite, a{
     border-radius: 5px;
     padding: 0 5px;
@@ -63,7 +69,7 @@ a:active, a:hover{
 }
 #menuContent {
     z-index: 1;
-    margin: -100px;
+    margin: -113px;
     width: 95vw;
     margin-right: 0.25vw;
     margin-left: 1vw;
@@ -83,7 +89,6 @@ a:active, a:hover{
     width: 100%;
     height: 35vh;
     width: 90vw;
-    background-color: antiquewhite;
     background-image: url("../../../../learn images/level 0/responsive_web_design.png");
     background-size: cover;
     overflow: hidden;
@@ -122,18 +127,95 @@ section.content {
         margin-top: 13px;
     }
 }
-@media (min-width:680px) and (max-width: 767px) {
+@media (min-width:680px) and (max-width: 999px) {
+    html {
+        font-size: 19px;
+    }
+    body {
+        display: flex;
+    }
+    #navContainer, #menuContent, nav {
+        width: 34vw;
+    }
+    #navContainer {
+        background-color: silver;
+        height: 99vh;
+        left: 0;
+        position: fixed;
+    }
+    nav{
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 2px;
+    }
+    #iconeSite {
+        width: max-content;
+        padding: 3px;
+    }
+    #otherCours {
+        column-gap: 1vw;
+        align-self: baseline;
+    }
+    #contentSite{
+        width: 64vw;
+    }
     #menu {
         display: none;
     }
-    nav, #contentSite{
-        width: 65vw;
+    #menuContent {
+        margin: 0;
+        margin-top: 60px;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
     }
     #contentSite{
         position: absolute;
         right: 0;
     }
+    
 }
 @media (min-width:1000px) {
-    
+    html {
+        font-size: 22px;
+    }
+    nav {
+        justify-content: space-between;
+        padding-left: 5px;
+        height: max-content;
+    }
+    #menu {
+        display: none;
+    }
+    #menuContent {
+        top: -25px;
+    }
+    a {
+        padding: 5px;
+    }
+    #moreTitles {
+        display: inline-block;
+        margin: 0;
+    }
+    #iconeSite {
+        margin-right: 16px;
+        padding: 3px 3px 8px 3px;
+    }
+    .moveDoneMenuContent {
+        transform: translateY(169px);
+    }
+    header {
+        margin-top: 18px;
+    }
+    #headerBox {
+        background-image: none;
+        justify-content: space-around;
+        border-radius: 5px;
+        height: max-content;
+    }
+    #headerBox img {
+        display: block;
+        width: 40vw;
+        height: 37vh;
+    }
 }

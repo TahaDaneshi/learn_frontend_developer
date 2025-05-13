@@ -2,7 +2,7 @@
 // ELEMENTS
 const menuController = document.getElementById('menu');
 const menuContent = document.getElementById('menuContent');
-
+const moreTitles = document.getElementById('moreTitles')
 // EVENTS
 menuController.addEventListener("click", function (event) {
     if (event.target.innerText === "!!!") {
@@ -12,3 +12,11 @@ menuController.addEventListener("click", function (event) {
     }
     menuContent.classList.toggle('moveDoneMenuContent');
 });
+moreTitles.addEventListener('click', function () {
+    if (moreTitles.style.borderColor === 'green') {
+        moreTitles.style.borderColor = "red"
+    } else {
+        moreTitles.style.borderColor = "green"
+    }
+    menuContent.classList.toggle('moveDoneMenuContent');
+})
