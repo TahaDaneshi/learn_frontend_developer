@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Norms';
+    src: url('../../../../fonts/TTNorms-Light.otf');
+}
+* {
+    box-sizing: border-box;
+    /* transition: background-color 0.8s ease; */
+    transition: all 0.3s ease;
+}
+body {
+    font-family: 'Norms';
+}
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+nav button {
+    transition: all 1 ease;
+    background-color: silver;
+    color: green;
+    border-radius: 5px;
+}
+nav button:hover {
+    cursor: pointer;
+}
+.languagesSVG {
+    width: 40px;
+    height: 40px;
+}
+
+.frameworkSVG {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+
+h1 {
+    margin-top: 22px;
+}
+h2,
+p {
+    margin: 3px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+}
+
+a {
+    color: blue;
+    font-size: small;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul.indent1 {
+    list-style-type: disc;
+}
+ol {
+    display: grid;
+    grid-template-columns: repeat(2, 40vw);
+}
+/* dark mode */
+html.dark {
+    background-color: black;
+}
+html.dark {
+    color: rgb(45, 196, 255);
+}
+html.dark .frameworkSVG {
+    width: 30px;
+    height: 27px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(125, 187, 32, 0.884);
+}
+html.dark .languagesSVG {
+    padding: 3px;
+    border-radius: 6px;
+    background-color: purple;
+}
+html.dark nav button {
+    background-color: gray;
+    color:greenyellow;
+    
+}
+/* RESPONSIVE */
+/* @media (max-width: 679px) {
+    
+} */
+@media (min-width: 1001px) {
+    body {
+        font-size: large;
+    }
+}
+@media (max-width: 1000px) {
+    ol {
+            display: block;
+    }
+    body {
+        font-size: medium;
+    }
+}
+@media (max-width: 770px) {
+    body {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 479px) {
+    p {
+        display: block;
+    }
+    body {
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+

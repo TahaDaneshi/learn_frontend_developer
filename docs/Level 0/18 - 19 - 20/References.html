@@ -1,69 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="" id="HTML">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>References</title>
-    <style>
-        body {
-            font-family: sans-serif;
-        }
-
-        svg.languagesSVG {
-            width: 40px;
-        }
-
-        svg.frameworkSVG {
-            background-color: aqua;
-            width: 25px;
-            height: 24px;
-            position: relative;
-            top: 5px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        h2 {
-            display: inline-block;
-        }
-
-        p {
-            display: inline-block;
-        }
-
-        a {
-            color: blue;
-            font-size: small;
-        }
-
-        ul {
-            list-style-type: circle;
-        }
-
-        ul.indent1 {
-            list-style-type: disc;
-        }
-
-        @media (max-width: 479px) {
-            p {
-                display: block;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="src/style.css">
+    <script defer src="./src/script.js"></script>
 </head>
 
 <body>
+    <!-- nav -->
+    <nav>
+        <button id="buttonChangeMode">
+            Light mode
+        </button>
+    </nav>
+    <!-- title -->
     <h1>Reference for teaching programming languages</h1>
     <hr>
+    <!-- languages list-->
     <ol>
+        <!-- HTML -->
         <li>
             <h2>
                 <abbr title="HyperText Markup Language">HTML</abbr>
             </h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/MarkupLanguage/HTML5.svg" alt="HTML5">
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -75,9 +38,10 @@
                 </li>
             </ul>
         </li>
+        <!-- CSS -->
         <li>
             <h2><abbr title="Cascading Style Sheets">CSS</abbr></h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/MarkupLanguage/css3.svg" alt="CSS3"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -96,40 +60,44 @@
                     <ul>
                         <li>
                             <p>Tailwind CSS:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/TailwindCSS.svg"
+                                alt="Tailwind CSS">
                             <a href="https://tailwindcss.com/docs">Tailwind CSS Docs</a>
                         </li>
                         <li>
                             <p>Bootstrap:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/bootstrap.svg"
+                                alt="Bootstrap"></img>
                             <a href="https://getbootstrap.com/docs/">Bootstrap Docs</a>
                         </li>
                         <li>
                             <p title="(پیش‌پردازنده CSS)">Sass:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Preprocessor/sass.svg"
+                                alt="Sass"></img>
                             <a href="https://sass-lang.com/documentation">Sass Documentation</a>
                         </li>
                         <li>
                             <p>Bulma:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/Bulma.svg"
+                                alt="Bulma"></img>
                             <a href="https://bulma.io/documentation/">Bulma Docs</a>
                         </li>
                         <li>
                             <p>Materialize CSS:</p>
-                            <svg class="frameworkSVG"></svg>
+
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/Materializecss.svg"
+                                alt="Materialize CSS"></img>
                             <a href="https://materializecss.com/">Materialize Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- JavaScript -->
         <li>
             <h2>JavaScript</h2>
-            <svg class="languagesSVG" viewBox="0 0 128 128">
-                <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z" />
-                <path fill="#323330"
-                    d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z" />
-            </svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/javascript.svg"
+                alt="JavaScript">
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -140,27 +108,32 @@
                     <ul>
                         <li>
                             <p>React: </p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/React.svg"
+                                alt="React"></img>
                             <a href="https://reactjs.org/docs/getting-started.html">React Docs</a>
                         </li>
                         <li>
                             <p>Vue.js:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/vuejs.svg"
+                                alt="Vue.js"></img>
                             <a href="https://vuejs.org/guide/introduction.html">Vue Documentation</a>
 
                         </li>
                         <li>
                             <p>Angular:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/Angular.svg"
+                                alt="Angular"></img>
                             <a href="https://angular.io/docs">Angular Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- TypeScript -->
         <li>
             <h2>TypeScript</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/TypeScript.svg"
+                alt="TypeScript"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -168,9 +141,11 @@
                 </li>
             </ul>
         </li>
+        <!-- Python -->
         <li>
             <h2>Python</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/python.svg"
+                alt="Python"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -181,26 +156,30 @@
                     <ul>
                         <li>
                             <p>Django:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/Django.svg"
+                                alt="Django"></img>
                             <a href="https://docs.djangoproject.com/">Django Docs</a>
                         </li>
                         <li>
                             <p>Flask:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img src="../../../learn images/Icons/Frameworks/flask.svg" class="frameworkSVG"
+                                alt="Flask"></img>
                             <a href="https://flask.palletsprojects.com/">Flask Documentation</a>
                         </li>
                         <li>
                             <p>FastAPI:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/fastapi.svg"
+                                alt="FastAPI">
                             <a href="https://fastapi.tiangolo.com/">FastAPI Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- Java -->
         <li>
             <h2>Java</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/java.svg" alt="Java"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -211,21 +190,24 @@
                     <ul>
                         <li>
                             <p>Spring:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/spring.svg"
+                                alt="spring" alt="Spring"></img>
                             <a href="https://spring.io/docs">Spring Docs</a>
                         </li>
                         <li>
                             <p>Hibernate:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/hibernate.svg"
+                                alt="Hibernate"></img>
                             <a href="https://hibernate.org/orm/documentation/">Hibernate ORM Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- PHP -->
         <li>
             <h2>PHP</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/php.svg" alt="PHP"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -236,21 +218,24 @@
                     <ul>
                         <li>
                             <p>Laravel:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/laravel.svg"
+                                alt="Laravel"></img>
                             <a href="https://laravel.com/docs">Laravel Docs</a>
                         </li>
                         <li>
                             <p>Symfony:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/symfony.svg"
+                                alt="symfony"></img>
                             <a href="https://symfony.com/doc/current/index.html">Symfony Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- C# -->
         <li>
             <h2>C#</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/csharp.svg" alt="C#"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -261,21 +246,25 @@
                     <ul>
                         <li>
                             <p>.NET:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src='../../../learn images/Icons/Frameworks/dot-net.svg'
+                                alt=".NET"></img>
                             <a href="https://docs.microsoft.com/en-us/dotnet/">.NET Documentation</a>
                         </li>
                         <li>
                             <p>ASP.NET Core:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/dotnetcore.svg"
+                                alt=".NET Core"></img>
                             <a href="https://docs.microsoft.com/en-us/aspnet/core/">ASP.NET Core Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- Kotlin -->
         <li>
             <h2>Kotlin</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/kotlin.svg"
+                alt="Kotlin"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -286,16 +275,18 @@
                     <ul>
                         <li>
                             <p>Ktor:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/ktor.svg"
+                                alt="Ktor"></img>
                             <a href="https://ktor.io/docs/welcome.html"> Ktor Documentation</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- Swift -->
         <li>
             <h2>Swift</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/swift.svg" alt="Swift"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -306,16 +297,18 @@
                     <ul>
                         <li>
                             <p>SwiftUI</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/DeveloperLanguages/swift.svg"
+                                alt="swiftUI" style="filter: invert();"></img>
                             <a href="https://developer.apple.com/documentation/swiftui/">SwiftUI Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- Dart -->
         <li>
             <h2>Dart</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/dart.svg" alt="Dart"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -326,16 +319,18 @@
                     <ul>
                         <li>
                             <p>Flutter</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/flutter.svg"
+                                alt="Flutter"></img>
                             <a href="https://flutter.dev/docs">Flutter Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- Ruby -->
         <li>
             <h2>Ruby</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/ruby.svg" alt="Ruby"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -346,16 +341,18 @@
                     <ul>
                         <li>
                             <p>Ruby on Rails:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/rubyOnRails.svg"
+                                alt="Ruby on Rails"></img>
                             <a href="https://guides.rubyonrails.org/">Rails Guides</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- go -->
         <li>
             <h2><abbr title="(Golang)">Go</abbr></h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/go.svg" alt="Go"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -366,16 +363,18 @@
                     <ul>
                         <li>
                             <p>Gin</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/gin.svg"
+                                alt="gin"></img>
                             <a href="https://gin-gonic.com/docs/"> Gin Web Framework Docs</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </li>
+        <!-- Rust -->
         <li>
             <h2>Rust</h2>
-            <svg class="languagesSVG"></svg>
+            <img class="languagesSVG" src="../../../learn images/Icons/DeveloperLanguages/rust.svg" alt="Rust"></img>
             <ul class="indent1">
                 <li>
                     <p>Official reference:</p>
@@ -386,7 +385,8 @@
                     <ul>
                         <li>
                             <p>Actix-web:</p>
-                            <svg class="frameworkSVG"></svg>
+                            <img class="frameworkSVG" src="../../../learn images/Icons/Frameworks/Actixweb.svg"
+                                alt="Actix-web"></i>
                             <a href="https://actix.rs/docs/">Actix-web Docs</a>
                         </li>
                     </ul>
