@@ -1,21 +1,23 @@
 آموزش اچ تی ام ال : شما هم اکنون در سطح یک هستید : HTML :  
 ===========================================================================================
+    1- که در سطح ۲ تدریس میشوند آشنا میشید CSS در این سطح برخی مباحث
+    2-
+    3-
+===========================================================================================
 0) معرفی اچ تی ام ال و معنی و مخفف چیه - چه کاربردی دارد - چقدر زروری است 
 Hypertext Markup language = زبان نشانه گزاری فرامتن - حساسیت به حروف
 ===========================================================================================
 1) xhtml & html
-xhtml مخفف : Extensible Hypertext Markup language 
-xhtml مبتنی بر XML 
-html مبتنی بر SGML
-xhtml حساس به حروف بزرگ و کوچک است
-html حساسا به بزرگ و کوچک بودن حروف ندارد
-xhtml نیاز به ساختار دقیق و استاندارد
-html سخت گیر نیست حتی موارد حایتی را هم ننویسید ایراد نمیگیرد
-xhtml خطا ها باعث نمایش نشدن صفحه میشوند
-html مروگر خطا ها را نادیده میگیرد
-
-پیشنهاد: html
-
+    xhtml مخفف : Extensible Hypertext Markup language 
+    xhtml مبتنی بر XML 
+    html مبتنی بر SGML
+    xhtml حساس به حروف بزرگ و کوچک است
+    html حساسا به بزرگ و کوچک بودن حروف ندارد
+    xhtml نیاز به ساختار دقیق و استاندارد
+    html سخت گیر نیست حتی موارد حایتی را هم ننویسید ایراد نمیگیرد
+    xhtml خطا ها باعث نمایش نشدن صفحه میشوند
+    html مروگر خطا ها را نادیده میگیرد
+    پیشنهاد ما: html
 ===========================================================================================
 2) نصب اکستنشن های مورد نیاز
     حتما نصب شوند: HTML Preview - Auto Rename Tag - Live Server - Color Highlight
@@ -60,6 +62,7 @@ tag 6 = meta
         3- charset: کاراکتر ها صفحه encoding مشخص کردن
             <meta charset="UTF-8">
             SEO= ضروری
+        4- ...
 ===========================================================================================
 5) attributes 1 صفت ها
 attribute 1 = src
@@ -438,16 +441,7 @@ tag  = progress
 tag  = pre
 tag = sup & sub
 
-===========================================================================================
-) attributes 2
-attribute = href
-attribute = id
-attribute = class
-attribute = name
-attribute = type
-attribute = min
-attribute = max
-attribute = value
+
 ===========================================================================================
 ) tags 7 - links
 tag = a 
@@ -459,13 +453,16 @@ tag = nav
 tag = form
 tag = input
 tag = label
-
 ===========================================================================================
-) attributes 3
-attribute = readonly
-attribute = disabled
-attribute = autofocus
-attribute = required
+) attributes 2
+attribute = href
+attribute = id
+attribute = class
+attribute = name
+attribute = type
+attribute = min
+attribute = max
+attribute = value
 
 ===========================================================================================
 ) tags 9 - get information 2
@@ -477,10 +474,12 @@ tag = optgroup
 tag = textarea
 
 ===========================================================================================
-) attributes 4
-attribute = multiple
-attribute = palceholder
-attribute = size
+) attributes 3
+attribute = readonly
+attribute = disabled
+attribute = autofocus
+attribute = required
+
 
 ===========================================================================================
 ) tags -  table
@@ -491,11 +490,16 @@ tag = td
 tag = caption
 tag = colgroup
 
+
 ===========================================================================================
-) attributes 
+) attributes 4
+attribute = multiple
+attribute = palceholder
+attribute = size
 attribute = bgcolor
 attribute = rowspan
 attribute = open
+
 ===========================================================================================
 ) tags - list 1
 tag = ol
@@ -525,8 +529,8 @@ tag = embed
 
 ===========================================================================================
 ) tags - Multimedia
-tag = source
 tag = audion
+tag = source
 tag = video
 tag = canvas
 
