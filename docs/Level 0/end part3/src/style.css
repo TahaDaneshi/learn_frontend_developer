@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  text-align: center;
+}
+
+body::selection {
+  background-color: skyblue;
+}
+nav {
+  cursor: pointer;
+  z-index: 2;
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  background-color: rgba(0, 183, 255, 0.74);
+  border-radius: 4px;
+  height: max-content;
+  width: max-content;
+}
+nav:hover {
+  outline: 1px dashed rgb(0, 255, 0);
+  transition: all 1s ease;
+}
+nav img {
+  width: 25px;
+  height: 20px;
+}
+h1,
+h2 {
+  color: blueviolet;
+}
+
+h3 {
+  color: green;
+}
+
+p {
+  color: rgb(114, 49, 49);
+}
+
+hr {
+  margin: 2px 0;
+  height: 5px;
+  background-color: aqua;
+  border: none;
+}
+
+/* DARK MODE */
+
+html.dark body {
+  background-color: rgb(39, 38, 38);
+}
+html.dark p {
+  color: rgb(134, 80, 80);
+}
