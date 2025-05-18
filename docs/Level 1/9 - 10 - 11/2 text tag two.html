@@ -5,6 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text tag two</title>
+    <style>
+        Body {
+            Font-family: Arial, sans-serif;
+            Line-height: 1.2;
+            Margin: 0 auto;
+        }
+
+        .addresses {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.2;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .addresses address {
+            font-style: normal;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .addresses .course-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+
+
+        Dfn {
+            Font-style: italic;
+        }
+
+        .term-block {
+            Margin-bottom: 30px;
+            Padding: 15px;
+            Border-left: 3px solid #3498db;
+        }
+    </style>
 </head>
 
 <body>
@@ -16,11 +56,17 @@
         story.
         <strong>Every sentence</strong> in a paragraph is about the same idea.
     </p>
+    <hr>
+
+
     <!-- To show the importance of a part of the sentences, we use <b> tag -->
     <h2>What is a topic sentence?</h2>
     <p>The most important sentence in a paragraph is the <b>topic sentence</b>.
         it is called the <b>topic sentence</b> becouse it tells readers what they are going to read about.
     </p>
+    <hr>
+
+
     <!-- The <em> tag is used for meaningful emphasis on the text. -->
     <h2>what is online dictionary?</h2>
     <p>An online dictionary is one that is available on the <em>Internet</em> or <em>
@@ -32,13 +78,157 @@
         large <em>databases</em> to a word’s spelling and meanings, plus a <em>host</em> of
         information, including its spellings, pronunciation, and origin, etc.
     </p>
-    <!--  -->
+    <hr>
+
+
+    <!-- Tag <i> only tilts the text -->
     <h2>What are the stars?</h2>
     <p>The <i>stars</i> are tiny points of light in the space. On a clear night we
         can see around <i>2,000</i> to <i>3,000 stars</i> without using a telescope. <i>Stars</i>
         look tiny in the sky because they are far away from the Earth. In
         ancient times the sky watchers found patterns of <i>stars</i> in the sky.
     </p>
+    <hr>
+
+
+    <!-- The <dfn> tag helps the search engine to understand this is a term. -->
+    <h2>Programming Terminology</h2>
+
+    <!-- First term definition  -->
+    <div class="term-block">
+        <!-- Using dfn to mark the term being defined -->
+        <h3><dfn id="variable">Variable</dfn></h3>
+
+        <!-- Definition description -->
+        <p>
+            In programming, a <a href="#variable"><em>variable</em></a> Is a named storage location
+            That holds a value which can be changed during program execution.
+        </p>
+
+        <!-- Example usage -->
+        <pre>
+                    // Example in JavaScript
+                    Let <strong>counter</strong> = 0; // 'counter' Is a variable
+                    Counter = counter + 1; // Changing the variable's value
+                    </pre>
+    </div>
+
+    <!--Second term definition -->
+    <div class="term-block">
+        <h3><dfn id="function">Function</dfn></h3>
+        <p>
+            A <a href="#function"><em>function</em></a> Is a reusable block of code that
+            Performs a specific task and can accept parameters and return values.
+        </p>
+        <pre>
+// Example in Python
+Def <strong>greet</strong>(name):  # Function definition
+    Return f"Hello, {name}!"
+
+Message = greet("Alice")  # Function call
+        </pre>
+    </div>
+    <!--Third term definition -->
+    <div class="term-block">
+        <h3><dfn id="oop">Object-Oriented Programming (OOP)</dfn></h3>
+        <p>
+            <a href="#oop"><em>Object-Oriented Programming</em></a> is a programming
+            paradigm
+            Based on the concept of "objects", which can contain data and code to manipulate
+            that data.
+        </p>
+        <pre>
+// Example in Java
+Public class <strong>Car</strong> {  // Class definition
+    Private String model;  // Field
+    
+    Public void setModel(String m) {  // Method
+        Model = m;
+    }
+}
+            </pre>
+    </div>
+
+
+    <p>Note: Click on italicized terms to jump to their definitions.</p>
+
+
+
+
+    <!-- The <abbr> tag is used to display abbrivations. -->
+    <span>Example for abbr tag: </span>
+    <p>
+        The <abbr title="World Health Organization">WHO</abbr> recently collaborated with
+        <abbr title="United Nations">UN</abbr> agencies to address global health concerns.
+        According to their <abbr title="Center for Disease Control">CDC</abbr> division, new
+        <abbr title="Artificial Intelligence">AI</abbr>
+        technologies are being implemented to track disease patterns. This initiative
+        follows <abbr title="Organization for Economic Cooperation and Development">OECD</abbr>
+        guidelines for international
+        health cooperation.
+    </p>
+    <hr>
+
+
+
+    <!--  The <address> tag is used to determine the information about the Way to communicate with the author. -->
+
+    <div class="addresses">
+        <h2 class="course-title">Advanced JavaScript Programming Course</h2>
+
+        <!-- Main course content section -->
+
+        <h3>Course Overview</h3>
+        <p>
+            This course covers advanced JavaScript concepts including closures,
+            prototypes,
+            asynchronous programming, and modern ES6+ features.
+        </p>
+
+        <!-- Using address tag for course instructor contact information -->
+        <address>
+            <strong>Course Instructor:</strong> Dr. Sarah Johnson<br>
+            <strong>Email:</strong> <a href="mailto:s.johnson@codeacademy.edu">s.johnson@codeacademy.edu</a><br>
+            <strong>Office Hours:</strong> Mon-Wed, 2:00 PM - 4:00 PM<br>
+            <strong>Department:</strong> Computer Science<br>
+            <strong>Location:</strong>
+            <a href="https://maps.example.com/code-academy" target="_blank">
+                Code Academy, Building 3, Room 205<br>
+                123 Tech Park Drive, Silicon Valley, CA 94025
+            </a>
+        </address>
+
+        <!-- Additional course information -->
+        <h3>Teaching Assistants</h3>
+        <p>For immediate help with exercises, contact our TAs:</p>
+
+        <!-- Nested address elements for multiple contacts -->
+        <address>
+            <strong>TA Team Lead:</strong> Michael Chen<br>
+            <a href="mailto:m.chen@codeacademy.edu">m.chen@codeacademy.edu</a><br>
+            Available: Tue-Thu, 10:00 AM - 12:00 PM
+        </address>
+
+        <address>
+            <strong>TA Support:</strong> Emily Rodriguez<br>
+            <a href="mailto:e.rodriguez@codeacademy.edu">e.rodriguez@codeacademy.edu</a><br>
+            Available: Mon-Fri, 4:00 PM - 6:00 PM
+        </address>
+
+        <!-- Footer with general contact information -->
+        <h3>Additional Resources</h3>
+        <!-- Address for general inquiries -->
+        <address>
+            <strong>Code Academy Main Office</strong><br>
+            Phone: <a href="tel:+18005551234">(800) 555-1234</a><br>
+            Email: <a href="mailto:info@codeacademy.edu">info@codeacademy.edu</a><br>
+            Website: <a href="https://www.codeacademy.edu">www.codeacademy.edu</a>
+        </address>
+
+    </div>
+
+</html>
+
 </body>
 
 </html>

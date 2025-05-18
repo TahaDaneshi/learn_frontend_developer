@@ -32,12 +32,12 @@ Hypertext Markup language = زبان نشانه گزاری فرامتن - حسا
 ===========================================================================================
 4) tags 1
 special tag = DOCTYPE html
-tag 1 = html
-tag 2 = head
-tag 3 = body
-tag 4 = title
-tag 5 = img
-tag 6 = meta
+    tag 1 = html
+    tag 2 = head
+    tag 3 = body
+    tag 4 = title
+    tag 5 = img
+    tag 6 = meta
 <!DOCTYPE html>
 <html> پایه کل سایت 
     <head> معمور اتصالات
@@ -65,13 +65,13 @@ tag 6 = meta
         4- ...
 ===========================================================================================
 5) attributes 1 صفت ها
-attribute 1 = src
-attribute 2 = alt
-attribute 3= title
-attribute 4 = style
-attribute 5 = width
-attribute 6 = height
-attribute 7 = dir
+    attribute 1 = src
+    attribute 2 = alt
+    attribute 3= title
+    attribute 4 = style
+    attribute 5 = width
+    attribute 6 = height
+    attribute 7 = dir
 صفتی برای قرار دادن موارد ضاحری برای تگ ها
 صفت ها درون بخش باز تگ نوشته میشوند با یک فاصله بعد از اسم تگ
 سینتکس نوشتن: attributeName="" or attributeName=''
@@ -151,9 +151,9 @@ attribute 7 = dir
     نکته: هم تک خطی است و هم یکیش برای چندین خط کد کافیه
 ===========================================================================================
 7) tags 2 - text tags 1
-tag  = h1 to h6
-tag  = p
-tag  = span
+    tag  = h1 to h6
+    tag  = p
+    tag  = span
 =-= h1 to h6
     مخفف Heading = سرتیتر - عنوان
     کاربرد: برای ساختار دهی سلسله مراتب محتوای صفحه استفاده میشود
@@ -269,13 +269,13 @@ tag  = span
         2 - اگر برای پنهان کردن محتوای مهم استفاده کنیم جریمه میشویم اما اگر برای ریسپانسیو سازی باشد اشکالی ندارد
 ===========================================================================================
 10) tags 3 - text tags 2
-tag 8 = br 
-tag 9 = hr
------ text tags 2 ----
-tag 10 = strong
-tag 11 = b
-tag 12 = em
-tag 13 = i 
+    tag 8 = br 
+    tag 9 = hr
+    ----- text tags 2 ----
+    tag 10 = strong
+    tag 11 = b
+    tag 12 = em
+    tag 13 = i 
 =-= br
     مخفف break line = شکستن خط
     Opening و block یک عنصر
@@ -325,9 +325,9 @@ tag 13 = i
     SEO = بدون تعثیر مستقیم ندارد
 ===========================================================================================
 11) tags 4 - form tags 1
-tag 14 = dfn
-tag 15 = abbr
-tag 16 = address
+    tag 14 = dfn
+    tag 15 = abbr
+    tag 16 = address
 =-= dfn
     مخفف Definition = تعریف
     closing-Opening و inline یک عنصر
@@ -388,11 +388,11 @@ tag 16 = address
 دو تگ منسوخ شده: center - big
 ===========================================================================================
 ) tags 5 - form tags 2
-tag = code
-tag = cite
-tag = del 
-tag = mark
-tag = q 
+    tag = code
+    tag = cite
+    tag = del 
+    tag = mark
+    tag = q 
 =-= code
     مخفف Code = کد
     کاربر: برای نمایش قطعات کد های کامپیوتری در متن
