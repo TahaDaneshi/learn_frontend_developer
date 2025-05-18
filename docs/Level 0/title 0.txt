@@ -1093,6 +1093,70 @@ end) سوال های متداول Frequently asked questions
  part3
     فرق زبان برنامه نویسی و فریمورک و لایبرری و ماژول؟
         در فایل پیوست قرار دارد.
+    روش های مختلف نام گذاری؟
+      فایل پیوست موجواست
+      نکته: توی همگی از فاصله استفاده نمیشود
+      1- Camel Case
+        Meaning: کمل کیس = حالت شتری
+        Use in: JavaScript, Java, C#
+        Types: 
+          1- Lower Camel Case
+            اولین کلمه با حرف کوچک نوشته میشود و باقی با حرف بزرگ شروع میشوند
+            Place of use: function متغیر- تابع variable
+            Example: JavaScript
+              let userName = "Ilar";
+              function calculateTotalPrice() {}
+        2- Upper Camel Case
+          همه کلمات با حرف بزرگ شروع میشوند
+          Place of use: class کلاس
+          Example: java 
+            calss UserProfile {}
+        Strengths:
+          1- Java - JavaScript رایج در
+          2- ندارد Underline نیاز به تایپ 
+        Weaknesses: ممکن است برای نام های طولانی خوانایی کمتری داشته باشد
+      2- Kebab Case
+        کلمات با خط تیره "-" جدا میشوند
+        Meaning: حالت کبابی
+        Place of use:  id, class, URL,
+        Use in: HTML, CSS
+        Example: HTML
+          <p class="user-first-name"></p>
+        Strengths: URL,CSS خوانایی عالی در
+        Weaknesses: در بسیاری از زبان ها قابل استفاده نیست و خط تیره به عنوان عملگر تفریق تفسیر میشود
+      3- Snake Case
+        Meaning: حالت مار 
+        - از هم کلمات جدا میشوند "_" Underline با 
+        Use in: Python, Ruby, PHP, SQL 
+        Example: Python
+          user_age = 19
+          def calculate_total_price():
+            pass
+        Strengths:
+          1- خوانایی بالا برای نام های طولانی
+          2- استاندارد رایج در پایتون و برخی زبان ها
+        Weaknesses: 
+          1- ممکن است سخت یا کند باشد Underline تایپ
+          2- در برخی زبان ها کمتر مرسوم است
+      4- Screaming Snake Case 
+        Meaning: حالت مار فریاد زننده
+        تمامی حروف با حرف بزرگ نوشته میشودن و بین هر کلمه "_" آندرلاین وجود دارد
+        Place of use: constant ثابت
+        Use in: بسیاری از زبان ها
+        Example: Python
+          MAX_CONNECTIONS = 100
+        Strengths: تمایز واضح ثابت از متغیر ها
+        Weaknesses: برای نام های طولانی خوانایی کمتری دارد
+      5- Pascal Case
+        Meaning: حالت پاسکالی
+        همه کلمات با حرف بزرگ شروع میشوند
+        Place of use: Class کلاس
+        Use in: TypeScript, Java,C#
+        Example: C#
+          class UserFamily {}
+        Strengths: تمایز واضح بین کلاس ها و متغیر ها
+        Weaknesses: اگر برای متغیر ها ساتفاده شود ممکن است باعث اشتباه شود
+      توجه!: رعایت استاندارد های نامگذاری در هر زبان برای خوانایی و کار تیمی ضروری است
 
 ===========================================================================================
 ## End level 0 ##
