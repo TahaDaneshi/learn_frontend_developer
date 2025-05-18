@@ -38,8 +38,8 @@ special tag = DOCTYPE html
     tag 4 = title
     tag 5 = img
     tag 6 = meta
-<!DOCTYPE html>
-<html> پایه کل سایت 
+  <!DOCTYPE html>
+  <html> پایه کل سایت 
     <head> معمور اتصالات
         <meta charset='UTF-8'> برای پشتیبانی سایت از تمامی کارارکتر ها
         <title>[اسم موضوع دلخواه]</title> موضوع سایت رو نایش میدهد
@@ -48,8 +48,8 @@ special tag = DOCTYPE html
     <body> بدنه ساختمان
         <img> برای گزاشتن عکس
     </body>
-</html>
-=-= meta
+  </html>
+  =-= meta
     مخفف metadata = عنصر فراداده
     کار: را در بر میگیرد html اطلاعات سند 
     مکان: <head> در بخش هد قار میگیرد
@@ -72,13 +72,13 @@ special tag = DOCTYPE html
     attribute 5 = width
     attribute 6 = height
     attribute 7 = dir
-صفتی برای قرار دادن موارد ضاحری برای تگ ها
-صفت ها درون بخش باز تگ نوشته میشوند با یک فاصله بعد از اسم تگ
-سینتکس نوشتن: attributeName="" or attributeName=''
-=-= src
+  صفتی برای قرار دادن موارد ضاحری برای تگ ها
+  صفت ها درون بخش باز تگ نوشته میشوند با یک فاصله بعد از اسم تگ
+  سینتکس نوشتن: attributeName="" or attributeName=''
+  =-= src
     برای دادن محل یک فایل یا یک آدرس به تگ به آن داده میشود
     مثال: <img src='f:taha\new\tree.png'> الان عکسی که ما بهش دیم را توی سایت نمایش میدهد
-=-= alt
+  =-= alt
     مخفف alternative = جایگزین
     کاربرد:
         ۱ - بریا زمانی است که تصویر بارگذاری نمیشود نمایش داده میشود به جای عکس
@@ -98,7 +98,7 @@ special tag = DOCTYPE html
     SEO =
         ۱ = درک بهتر محتوا : به موتورجستجو کمک میکند محتوای تصویر را بفهمد
         ۲ = ایندکس شدن : تصاویر ممکن است در جستوجو تصویر گوگل ظاهر شوند
-=-= title
+  =-= title
     معنی title = عنوان یا توضیح است
     نحوه کار: اطلاعات اضافی درباره یک عنصر ارائه می دهد که  معمولا به صورت راهنمای ابزاری
     (tooltip) = راهنمای ابزاری
@@ -120,17 +120,17 @@ special tag = DOCTYPE html
         1 - درک بهتر محتوا: به موتور های جستوجو کمک میکند رابطه بین عناصر را درک کند
         2 - لینک ها: به موتور های جستوجو کمک میکند تا ارتباط بین صفحات را بفهمد
     توجه! برخلاف آلت برای تصاویر که ضروری است، تایتل اختیاری است و استفاده بیش از حد آن ممکن است تجربه کاربر را خراب کند
-=-= style
+  =-= style
     برای نوشتن کد های سی اس اس اینلاین در اچ تی ام ال استفاده میشود و تمام دستودات سی اس اس را میشود نوشت توش
     مثال: <body style='color:green;'>Taha Daneshi</body> متن سبز نمایش داده میشود
-=-= width
+  =-= width
     برای دادن طول به یک عنصر سایت استفاده میشود و مثل همتای خود در سی اس اس است اما اینجا اگر فرمت را براش وارد نکنیم پیش فرض پیکسل قرار میدهد
     مثال: <img src='./tree.png' width='40'> تصویر به طول 40px نمایش داده میشود
     توجه: اگر طول و عرض برای تصویر مشخص نشود خودکار اندازه ها از روی خود تصویر زده میشود
-=-= height
+  =-= height
     برای دادن عرض به یک عنصر سایت استفاده میشود و مثل همتای خود در سی اس اس است اما اینجا اگر فرمت را براش وارد نکنیم پیش فرض پیکسل قرار میدهد
     مثال: <img src='./tree.png' height='40'> تصویر به عرض 40px نمایش داده میشود
-=-= dir
+  =-= dir
     برای تعیین راست چین بودن یا چپ چین بودن نوشتن متن استفاده میشود
     مقادیر =
         1 - ltr : چپ به راست و پیشفر left to right
@@ -154,7 +154,7 @@ special tag = DOCTYPE html
     tag  = h1 to h6
     tag  = p
     tag  = span
-=-= h1 to h6
+  =-= h1 to h6
     مخفف Heading = سرتیتر - عنوان
     کاربرد: برای ساختار دهی سلسله مراتب محتوای صفحه استفاده میشود
     closing-Opening و block یک عنصر
@@ -169,7 +169,7 @@ special tag = DOCTYPE html
     3 - بیش از یک بار استفاده نکنید h1 از
     4 - زیاد استفاده نکنید چون تاثیر زیادی روی سعو ندارد و باعث شلوغی صفحه میشود h6 و h5 از 
     توجه! خود کار متن درونشون را بولد یا همون پررنگ میکنند
-=-= p 
+  =-= p 
     مخفف Paragraph = پاراگراف - بند 
     closing-Opening و block یک عنصر
     کاربرد: برای تعریف یک پاراگراف متنی
@@ -179,7 +179,7 @@ special tag = DOCTYPE html
     3 - از تکرار بیرویه تگ ان درحالی که خالی باشد صرف نظر کنید
     4 - است کلمه کلیدی سایت را استفاده کنید h1 پاراگراف اول که معمولا بعد از 
     نکته: strong - i - b - span درون این تگ میشود تگ های دیگری هم قرار داد مثل
-=-= span
+  =-= span
     مخفف span = دامنه یا بازه
     closing-Opening , inline یک عنصر 
     کاربرد: برای استایل دهی بخشی از متن
@@ -276,7 +276,7 @@ special tag = DOCTYPE html
     tag 11 = b
     tag 12 = em
     tag 13 = i 
-=-= br
+  =-= br
     مخفف break line = شکستن خط
     Opening و block یک عنصر
     کاربرد:
@@ -285,13 +285,13 @@ special tag = DOCTYPE html
     قابلیت این را دارد که درون تگ های متنی قرار گیرد
     SEO = تاثیر منفی ندارد
     به جای اینکه چندین بار ازش استفاده کنید از سی اس اس استفاده کنید
-=-= hr
+  =-= hr
     مخفف Horizontal Rule = خط افقی
     Opening و block یک عنصر
     کاربرد: یک خط افقی جدا کننده در قفحه ایجاد میکند.
     SEO = تاثیر مستقیمی ندارد
     بارمعنایی دارد: جدا کردن بخش
-=-= strong
+  =-= strong
     مخفف strong = قوی / مهم
     closing-Opening و inline یک عنصر
     کاربرد: متن را پررنگ میکند
@@ -299,14 +299,14 @@ special tag = DOCTYPE html
     SEO =
     1 = به انجین میفهماند که این بخش از متن مهم است واقعا
     2 = بهتره زمانی که واقعا یک کلمه مهم است این را بزنیم و نه فقط برای استفاده بصری باشد
-=-= b 
+  =-= b 
     مخفف bold = پررنگ
     closing-Opening و inline یک عنصر
     برای پررنگ کردن متن استفاده میشود
     بار معنایی ندارد بر خلاف عنصر مشابهش= strong
     کاربرد: برای زمانی که فقط میخواهیم یک متن به صورت بصری احمیت پیدا کند و نخوایم موتور جستوجو گر روش تمرکز کند
     SEO = تاثیر مستقیمی ندارد
-=-= em
+  =-= em
     مخفف Emphasis = تاکید
     closing-Opening و inline یک عنصر
     بارمعنایی: برای تاکید روی متن استفاده میشود
@@ -314,7 +314,7 @@ special tag = DOCTYPE html
     SEO = 
     1 - موتور های جستوجو ممکن است به متن توجه بیشتری کنند
     2 - زمانی که متن اهمیت زیادی ندار و فقط میخواهیم ایتالیک شود متن استفاده نشود
-=-= i 
+  =-= i 
     مخفف italic = ایتالیک / کج
     closing-Opening و inline یک عنصر
     کاربرد: متن را به صورت کج نمایش میدهد
@@ -328,7 +328,7 @@ special tag = DOCTYPE html
     tag 14 = dfn
     tag 15 = abbr
     tag 16 = address
-=-= dfn
+  =-= dfn
     مخفف Definition = تعریف
     closing-Opening و inline یک عنصر
     بارمعنایی: به موتور جستوجو کمک میکند که بفهمد این یک اصطلاحات است
@@ -342,7 +342,7 @@ special tag = DOCTYPE html
      em برای تاکید
      dfn برای اصطلاحات
      abbr برای مخفف ها استفاده میشود
-=-= abbr
+  =-= abbr
     خفف abbreviation = مخفف
     SEO = 
         1- بهبود درک محتوا برای موتور جستوجو
@@ -358,7 +358,7 @@ special tag = DOCTYPE html
     نکته SEO:
         1- فقط اولین مخفف هارا اینجوری کنید نه اینکه هر جا بودش اینکارو کنید
         2- صفت عنوان را قرار دهید title
-=-= address
+  =-= address
     مخفف Address = نشانی
     معنی : مشخص کردن اطلاعات تماس مربوط به نویسنده
     کاربرد:
@@ -393,7 +393,7 @@ special tag = DOCTYPE html
     tag = del 
     tag = mark
     tag = q 
-=-= code
+  =-= code
     مخفف Code = کد
     کاربر: برای نمایش قطعات کد های کامپیوتری در متن
     کاربرد صحیح:
@@ -414,7 +414,7 @@ special tag = DOCTYPE html
          for i in range(5): 
             print(i)
         </code></pre>
-=-= cite
+  =-= cite
     مخفف Citation = ارجاع / استناد 
     کاربرد: برای عنوان یک اثر خلاقانه مثل= کتاب، فیلم، نقاشی، مقاله
     توجه:
@@ -425,97 +425,97 @@ special tag = DOCTYPE html
         نمایش: ایتالیک
         معناشناسی: ارجاع به اثر
         SEO: کمک به درک معنا 
-=-= del
+  =-= del
+  
+
+  =-= mark
 
 
-=-= mark
-
-
-=-= q 
+  =-= q 
 
 
 ===========================================================================================
 ) tags 6 - form tags 3
-tag  = meter
-tag  = progress
-tag  = pre
-tag = sup & sub
+    tag  = meter
+    tag  = progress
+    tag  = pre
+    tag = sup & sub
 
 
 ===========================================================================================
 ) tags 7 - links
-tag = a 
-tag = nav 
+    tag = a 
+    tag = nav 
 
 
 ===========================================================================================
 ) tags 8 - get information 1
-tag = form
-tag = input
-tag = label
+    tag = form
+    tag = input
+    tag = label
 ===========================================================================================
 ) attributes 2
-attribute = href
-attribute = id
-attribute = class
-attribute = name
-attribute = type
-attribute = min
-attribute = max
-attribute = value
+    attribute = href
+    attribute = id
+    attribute = class
+    attribute = name
+    attribute = type
+    attribute = min
+    attribute = max
+    attribute = value
 
 ===========================================================================================
 ) tags 9 - get information 2
-tag = fieldset
-tag = legend
-tag = select
-tag = option
-tag = optgroup
-tag = textarea
+    tag = fieldset
+    tag = legend
+    tag = select
+    tag = option
+    tag = optgroup
+    tag = textarea
 
 ===========================================================================================
 ) attributes 3
-attribute = readonly
-attribute = disabled
-attribute = autofocus
-attribute = required
+    attribute = readonly
+    attribute = disabled
+    attribute = autofocus
+    attribute = required
 
 
 ===========================================================================================
 ) tags -  table
-tag = table
-tag = tr
-tag = th 
-tag = td
-tag = caption
-tag = colgroup
+    tag = table
+    tag = tr
+    tag = th 
+    tag = td
+    tag = caption
+    tag = colgroup
 
 
 ===========================================================================================
 ) attributes 4
-attribute = multiple
-attribute = palceholder
-attribute = size
-attribute = bgcolor
-attribute = rowspan
-attribute = open
+    attribute = multiple
+    attribute = palceholder
+    attribute = size
+    attribute = bgcolor
+    attribute = rowspan
+    attribute = open
 
 ===========================================================================================
 ) tags - list 1
-tag = ol
-tag = li 
-tag = ul
+    tag = ol
+    tag = li 
+    tag = ul
 
 ===========================================================================================
 ) tags - Sections
-tag = header
-tag = footer
-tag = section 
-tag = article
-tag = div
-tag = datails
-tag = dialog
-tag = summary
+    tag = header
+    tag = footer
+    tag = section 
+    tag = article
+    tag = div
+    tag = datails
+    tag = dialog
+    tag = summary
 
 
 ===========================================================================================
@@ -524,37 +524,37 @@ tag = summary
 
 ===========================================================================================
 ) tags = External files
-tag = iframe
-tag = embed
+    tag = iframe
+    tag = embed
 
 ===========================================================================================
 ) tags - Multimedia
-tag = audion
-tag = source
-tag = video
-tag = canvas
+    tag = audion
+    tag = source
+    tag = video
+    tag = canvas
 
 ===========================================================================================
 ) attributes
-attribute = controls
-attribute = autoplay
-attribute = loop
+    attribute = controls
+    attribute = autoplay
+    attribute = loop
 
 ===========================================================================================
 ) tag = marquee
 
 ===========================================================================================
 ) attributes
-attribute = direction
-attribute = behavior
-attribute = scrollamount
-attribute = scrolldelay
+    attribute = direction
+    attribute = behavior
+    attribute = scrollamount
+    attribute = scrolldelay
 
 
 ===========================================================================================
 ) tags = script
-tag = script
-tag = noscript
+    tag = script
+    tag = noscript
 
 ===========================================================================================
 ) attributes
