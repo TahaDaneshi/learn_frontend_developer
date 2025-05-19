@@ -73,6 +73,14 @@
       text-decoration-color: red;
     }
 
+    pre.code {
+      width: max-content;
+      padding: 0 5px;
+      margin: 5px;
+      border: 2px solid green;
+      text-align: left;
+    }
+
     /* TOOLS */
 
     .none {
@@ -83,6 +91,7 @@
 
     html.dark {
       background-color: black;
+      color: blueviolet;
     }
 
     html::selection {
@@ -98,12 +107,12 @@
       color: rgb(122, 201, 4);
     }
 
-    html.dark p {
-      color: blueviolet;
-    }
-
     html.dark #FA p {
       font-size: large;
+    }
+
+    html.dark hr {
+      opacity: 0.7;
     }
   </style>
 </head>
@@ -132,10 +141,18 @@
     <hr>
     <!-- mark -->
     <h2><dfn>mark</dfn> tag</h2>
+    <!-- first example mark -->
     <p>
       When debugging JavaScript, always check the <mark>console.log()</mark> output
       to track variable values and errors.
     </p>
+    <!-- second example mark -->
+    <pre class="code"><code>
+  function add(a, b) {
+    return a + b; // <mark>Basic arithmetic operation</mark>
+  }
+  </code></pre>
+
 
   </section>
   <!--# section Farsi #-->
@@ -153,10 +170,16 @@
     <hr>
     <!-- mark -->
     <h2><dfn>mark</dfn> تگ</h2>
-    <!-- first example -->
+    <!-- first example mark -->
     <p><mark>console.log()</mark> هنگام اشکال زدایی جاوااسکریپت، همیشه خروجی<br>
       را برای ردیابی مقادیر متغیر و خطا ها بررسی کنید
     </p>
+    <!-- second example mark -->
+    <pre class="code"><code>
+  function add(a, b) {
+    return a + b; // <mark>عملیات حسابی پایه</mark>
+  }
+  </code></pre>
     <hr>
   </section>
   <!-- JavaScript Code -->
