@@ -474,7 +474,7 @@ special tag = DOCTYPE html
 ) tags 7 - links
     tag = a 
     tag = nav 
-
+    tag = style
 
 ===========================================================================================
 ) tags 8 - get information 1
