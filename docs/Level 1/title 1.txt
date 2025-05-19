@@ -436,7 +436,6 @@ special tag = DOCTYPE html
     Important Attributes: 1- cite 2- datetime
     Point = 
       1- ترکیب با `<ins>`: معمولاً برای نشان‌دادن محتوای جایگزین، `<del>` و `<ins>` را کنار هم استفاده می‌کنند.
-      
   =-= mark
 
 
@@ -449,6 +448,7 @@ special tag = DOCTYPE html
     tag  = progress
     tag  = pre
     tag = sup & sub
+  =-= meta
 
 
 ===========================================================================================

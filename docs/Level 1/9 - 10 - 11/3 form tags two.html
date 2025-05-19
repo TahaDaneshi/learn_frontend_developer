@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="root" lang="en" class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -23,36 +23,165 @@
       margin: 2px 0;
     }
 
+    #changeMode {
+      padding: 0 1px;
+      border-radius: 3px;
+      width: 27px;
+      height: 25px;
+      position: fixed;
+      top: 5px;
+      right: 5px;
+      z-index: 2;
+      cursor: pointer;
+      background-color: rgba(135, 207, 235, 0.836);
+    }
+
+    #changeMode:active {
+      outline: 1px dashed blue;
+    }
+
+    #changeLanguage {
+      padding: 0 3px;
+      border-radius: 4px;
+      width: 60px;
+      height: 25px;
+      z-index: 2;
+      display: flex;
+      position: fixed;
+      top: 5px;
+      left: 5px;
+      background-color: rgba(135, 207, 235, 0.836);
+      cursor: pointer;
+    }
+
+    #changeLanguage:active {
+      outline: 1px dashed blue;
+    }
+
+    #changeLanguage img {
+      padding-right: 1px;
+      border-right: 1px solid green;
+    }
+
+    #languageName {
+      user-select: none;
+      margin-left: 2px;
+      color: black;
+    }
+
+    del {
+      text-decoration-color: red;
+    }
+
+    /* TOOLS */
+
     .none {
       display: none;
+    }
+
+    /* DARK MODE */
+
+    html.dark {
+      background-color: black;
+    }
+
+    html::selection {
+      background-color: rgb(1, 99, 1);
+      color: skyblue;
+    }
+
+    html.dark h1 {
+      color: blue;
+    }
+
+    html.dark h2 {
+      color: rgb(122, 201, 4);
+    }
+
+    html.dark p {
+      color: blueviolet;
+    }
+
+    html.dark #FA p {
+      font-size: large;
     }
   </style>
 </head>
 
 <body>
-  <!-- topic sentence EN -->
-  <p id="EN">
-  <h1>form tags two</h1>
-  <hr>
-  <!-- del -->
-  <h2>del tag</h2>
-  <p>
-    In older versions of JavaScript, <code>var</code> is used to define the variable, but in <abbr title="">ES6+</abbr>
-    <code>const</code> and <code>let</code> ware introduced.
-  </p>
-  <hr>
-  </p>
-  <p id="FA">
+  <!-- change mode -->
+  <div id="changeMode">
+    <img id="modeIcon" src="../../../learn images/Icons/Objects/Sun.svg" alt="mode">
+  </div>
+  <!-- change language button  -->
+  <div id="changeLanguage"><img src="../../../learn images/Icons/tools web/language.svg" alt="language"><span
+      id="languageName">En</span>
+  </div>
+  <!-- section Enlish -->
+  <section id="EN" class="">
+    <!-- topic sentence EN -->
+    <h1>form tags two</h1>
+    <hr>
+    <!-- del -->
+    <h2><dfn>del</dfn> tag</h2>
+    <p>
+      In older versions of JavaScript, <dfn><del>var</del></dfn> is used to define the variable, but in <abbr
+        title="ECMAScript 6 and later">ES6+</abbr>
+      <code>const</code> and <code>let</code> ware introduced.
+    </p>
+    <hr>
+  </section>
+  <!-- section Farsi -->
+  <section id="FA" class="">
     <!-- topic sentence FA -->
-  <h1> تگ های فرم 2</h1>
-  <hr>
-  <!-- del -->
-  <h2></h2>
-  <p>
-    <span class="none">0</span> معرفی شدند <code>const</code> و <code>let</code> <abbr title="">ES6+</abbr> استفاده
-    میشود، اما در <code>var</code> در نسخه های قدیمی جاوااسکریپت، برای تعریف متغیر فقط از
-  </p>
-  </p>
+    <h1> تگ های فرم 2</h1>
+    <hr>
+    <!-- del -->
+    <h2><dfn>del</dfn> تگ</h2>
+    <p>
+      <span class="none">0</span> معرفی شدند <code>const</code> و <code>let</code> <abbr
+        title="ECMAScript 6 and later">ES6+</abbr> استفاده
+      میشود، اما در <dfn><del>var</del></dfn> در نسخه های قدیمی جاوااسکریپت، برای تعریف متغیر فقط از
+    </p>
+  </section>
+  <!-- JavaScript Code -->
+  <script>
+    // ELEMENTS
+    const HTML = document.getElementById("root");
+    // change mode
+    const btnChangeMode = document.getElementById("changeMode");
+    const modeIcon = document.getElementById("modeIcon");
+    // change language 
+    const btnChangeLanguage = document.getElementById("changeLanguage");
+    const languageNameContainer = document.getElementById("languageName");
+    //
+    const sectionEnglish = document.getElementById("EN");
+    const sectionFarsi = document.getElementById("FA");
+
+
+    // EVENTS
+    // change mode
+    btnChangeMode.addEventListener("click", function () {
+      let mode = HTML.className
+      if (mode === "dark") {
+        modeIcon.setAttribute("src", "../../../learn images/Icons/Objects/Sun.svg")
+      } else {
+        modeIcon.setAttribute("src", "../../../learn images/Icons/Objects/Moon.svg")
+      }
+      HTML.classList.toggle("dark");
+    });
+    // change language
+    btnChangeLanguage.addEventListener("click", () => {
+      let language = languageNameContainer.innerHTML
+      if (language === "En") {
+        languageNameContainer.innerText = "Fa"
+      } else {
+        languageNameContainer.innerText = "En"
+      }
+      sectionEnglish.classList.toggle("none");
+      sectionFarsi.classList.toggle("none");
+    })
+  </script>
 </body>
 
 </html>
