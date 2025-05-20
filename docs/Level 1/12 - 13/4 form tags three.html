@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="root" lang="en">
+<html id="root" class="dark" lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -37,22 +37,34 @@
     <br>
     <p>Processing your data analysis with Pandas:</p>
     <progress id="pandasProgress" value="0" max="100"></progress>
-    <button id="btn" onclick="startProcess()">Run Analysis</button>
-    <script>
-      let progress = 0;
-      function startProcess() {
-        const progressBar = document.getElementById('pandasProgress');
-        if (progress < 100) {
-          progress += 10;
-          progressBar.value = progress;
-        }
-      }
-    </script>
+    <button onclick="startProcess()">Run Analysis</button>
     <hr>
   </section>
   <!-- Farsi language section -->
-  <section id="FA"></section>
+  <section id="FA" dir="rtl">
+    <!-- progress -->
+    <h2>تگ progress</h2>
+    <!-- progress example 1 -->
+    <p>آپلود اسکریپت پایتون شما در سرور:</p>
+    <progress value="70" max="100">70%</progress>
+    <span>۷۰% کامل</span>
+    <br>
+    <!-- progress example 2 -->
+    <!-- progress example 3 -->
+  </section>
   <br>
+  <script>
+    // VARIABLES
+    let progress = 0;
+    // FUNCTIONS
+    function startProcess() {
+      const progressBar = document.getElementById('pandasProgress');
+      if (progress < 100) {
+        progress += 10;
+        progressBar.value = progress;
+      }
+    }
+  </script>
   <script src="./src/javascript/buttons modes.js"></script>
 </body>
 
