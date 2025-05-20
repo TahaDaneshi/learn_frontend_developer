@@ -467,8 +467,13 @@ special tag = DOCTYPE html
     tag  = progress
     tag  = pre
     tag = sup & sub
-  =-= meta
-
+    tag = blockquote
+  =-= meter
+  =-= progress
+    
+  =-=pre
+  =-=sup & sub
+  =-=blockquote
 
 ===========================================================================================
 ) tags 7 - links
