@@ -387,7 +387,7 @@ special tag = DOCTYPE html
 
 دو تگ منسوخ شده: center - big
 ===========================================================================================
-) tags 5 - form tags 2
+12) tags 5 - form tags 2
     tag = code
     tag = cite
     tag = del 
@@ -462,7 +462,7 @@ special tag = DOCTYPE html
     Difference(blockquote) = استفاده میشود (block) برای نقل قول های طولانی و بلاک blockquote است اما (inline) برای نقل قول کوتاه و درون خطی q
 
 ===========================================================================================
-) tags 6 - form tags 3
+13) tags 6 - form tags 3
     tag  = meter
     tag  = progress
     tag  = pre
