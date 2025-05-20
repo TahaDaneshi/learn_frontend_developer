@@ -1,0 +1,27 @@
+/* DARK MODE */
+
+html.dark {
+  background-color: black;
+  color: blueviolet;
+}
+
+html::selection {
+  background-color: rgb(1, 99, 1);
+  color: skyblue;
+}
+
+html.dark h1 {
+  color: blue;
+}
+
+html.dark h2 {
+  color: rgb(122, 201, 4);
+}
+
+html.dark #FA p {
+  font-size: 21px;
+}
+
+html.dark hr {
+  opacity: 0.7;
+}
