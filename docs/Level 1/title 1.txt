@@ -470,7 +470,20 @@ special tag = DOCTYPE html
     tag = blockquote
   =-= meter
   =-= progress
-    
+    Abbreviation {progress} => پیشرفت
+    Usage: برای نمایش یک نوار پیشرفت استفاده میشود.
+    Properties =
+      level:
+      Target: بیان پیشرفت
+      Display: مرورگرها آن را به صورت یک نوار پیشرفت نمایش میدهند.
+    SEO = 
+      1- تأثیر مستقیمی بر سئو ندارد، چون یک عنصر بصری است
+      2- UX میتواند تجربه کاربری 
+      را بهبود بخشد که به صورت غیرمستقیم برای سئو مفید است
+    Important Attributes: 1- value 2- max 3- form
+    Point =
+      1- همراه با متن جایگزین: برای اینکه اگر مرورگر پشتیبانی نکرد اون متن نمایش داده بشه
+      2- برای دسترسی پذیری aria- استفاده از
   =-=pre
   =-=sup & sub
   =-=blockquote
