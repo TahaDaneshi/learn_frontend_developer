@@ -36,7 +36,7 @@
     <!-- progress example 3 -->
     <br>
     <p>Processing your data analysis with Pandas:</p>
-    <progress id="pandasProgress" value="0" max="100"></progress>
+    <progress class="pandasProgress" value="0" max="100"></progress>
     <button onclick="startProcess()">Run Analysis</button>
     <hr>
   </section>
@@ -54,20 +54,26 @@
     <span> اضافه کردن aria-label</span>
     <!-- progress example 3 -->
     <p>پردازش تجزیه و تحلیل داده های شما با پانداس:</p>
-    <progress id="pandasProgress" value="0" max="100"></progress>
+    <progress class="pandasProgress" value="0" max="100"></progress>
     <button onclick="startProcess()">شروع تحلیل</button>
     <hr>
   </section>
   <br>
   <script>
+    // ELEMENTS
+    const btnRunAnalysis = document.getElementsByClassName('pandasProgress');
     // VARIABLES
-    let progress = 0;
+    let progressValue = 0;
+    let i = 0
     // FUNCTIONS
     function startProcess() {
-      const progressBar = document.getElementById('pandasProgress');
-      if (progress < 100) {
-        progress += 10;
-        progressBar.value = progress;
+      if (progressValue < 100) {
+        progressValue += 10;
+        if (i === 2) i = 0
+        while (i <= btnRunAnalysis.length) {
+          btnRunAnalysis[i].value = progressValue;
+          i++
+        };
       }
     }
   </script>
