@@ -515,6 +515,7 @@ special tag = DOCTYPE html
       2- برای دسترسی پذیری aria- استفاده از
   =-=pre
     Abbreviation(pre) {preformatted text} => متن از پیش فرمت شده
+    Usage:   برای نمایش متن‌هایی استفاده می‌شود که فضای سفید و شکست خطوط در آنها باید دقیقاً همان‌طور که در کد منبع نوشته شده‌اند حفظ شوند
     
   =-=sup & sub
   =-=blockquote
