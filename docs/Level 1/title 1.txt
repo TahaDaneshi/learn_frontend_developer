@@ -514,6 +514,8 @@ special tag = DOCTYPE html
       1- همراه با متن جایگزین: برای اینکه اگر مرورگر پشتیبانی نکرد اون متن نمایش داده بشه
       2- برای دسترسی پذیری aria- استفاده از
   =-=pre
+    Abbreviation(pre) {preformatted text} => متن از پیش فرمت شده
+    
   =-=sup & sub
   =-=blockquote
 
