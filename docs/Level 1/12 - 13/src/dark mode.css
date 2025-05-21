@@ -17,7 +17,9 @@ html.dark h1 {
 html.dark h2 {
   color: rgb(122, 201, 4);
 }
-
+html.dark h3 {
+  color: darkcyan;
+}
 html.dark #FA p {
   font-size: 21px;
 }
