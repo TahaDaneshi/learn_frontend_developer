@@ -525,7 +525,6 @@ special tag = DOCTYPE html
     SEO =
       1- تأثیر مستقیمی بر سئو ندارد
       2- استفاده میشود <figure> یا <code> بهتر است همراه با توضیحات معنایی مثل 
-
   =-=sup & sub
   =-=blockquote
 
