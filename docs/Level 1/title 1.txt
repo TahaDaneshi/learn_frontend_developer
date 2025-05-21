@@ -472,7 +472,7 @@ special tag = DOCTYPE html
     Abbreviation(meter) {Measurement} => سنجش / اندازه گیری
     Usage: برای نمایش یک مقدار اندازه‌گیری شده در یک محدوده مشخص استفاده می‌شود
     Properties:
-      level:
+      level: inline
       Target: نمایش مقادیر عددی در یک محدوده مشخص کاربرد دارد
         example 1 = نمایش میزان پیشرفت یک فرآیند 
         example 2 =   نمایش میزان استفاده از منابع (مثل فضای دیسک یا حافظه)
@@ -502,7 +502,7 @@ special tag = DOCTYPE html
     Abbreviation {progress} => پیشرفت
     Usage: برای نمایش یک نوار پیشرفت استفاده میشود.
     Properties =
-      level:
+      level: inline
       Target: بیان پیشرفت
       Display: مرورگرها آن را به صورت یک نوار پیشرفت نمایش میدهند.
     SEO = 
