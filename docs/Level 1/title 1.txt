@@ -516,7 +516,12 @@ special tag = DOCTYPE html
   =-=pre
     Abbreviation(pre) {preformatted text} => متن از پیش فرمت شده
     Usage:   برای نمایش متن‌هایی استفاده می‌شود که فضای سفید و شکست خطوط در آنها باید دقیقاً همان‌طور که در کد منبع نوشته شده‌اند حفظ شوند
-    
+    Properties =
+      level: block
+      Target: نمایش متن با همون ساختار نوشته شده در کد
+        example 1 = نمایش کدهای برنامه‌نویسی
+      Display: با حفظ فاصله ها نمایش داده میشود
+
   =-=sup & sub
   =-=blockquote
 
