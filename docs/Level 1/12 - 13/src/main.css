@@ -68,4 +68,5 @@ pre.code {
   border: 2px solid green;
   border-radius: 2px;
   text-align: left;
+  direction: ltr;
 }
