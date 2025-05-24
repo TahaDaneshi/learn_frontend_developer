@@ -555,7 +555,7 @@ special tag = DOCTYPE html
       1- استفاده شود Unicode برای نمادهای خاص (مثل ® یا ™) بهتر است از خود نمادهای
   =-= blockquote
 ===========================================================================================
-14) Attributes
+14) Attributes 2
     attribute = cite
     attribute = datetime
     attribute = form
