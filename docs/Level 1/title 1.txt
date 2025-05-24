@@ -560,15 +560,15 @@ special tag = DOCTYPE html
     attribute = datetime
     attribute = form
 ===========================================================================================
-) tags 7 - links
+15) tags 7 - links
     tag = a 
     tag = style
 
 ===========================================================================================
-) Attributes 3 - link
+16) Attributes 3 - link
     attribute = href
 ===========================================================================================
-) tags - Sections
+17) tags - Sections
     tag = nav
     tag = header
     tag = footer
