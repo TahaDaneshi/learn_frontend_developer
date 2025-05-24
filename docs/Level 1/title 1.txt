@@ -565,13 +565,15 @@ special tag = DOCTYPE html
     tag = style
 
 ===========================================================================================
+) Attributes 3 - link
+    attribute = href
+===========================================================================================
 ) tags 8 - get information 1
     tag = form
     tag = input
     tag = label
 ===========================================================================================
 ) attributes 2
-    attribute = href
     attribute = id
     attribute = class
     attribute = name
