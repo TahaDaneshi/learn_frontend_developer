@@ -2,6 +2,7 @@
 :root {
   --main-color :rgb(78, 196, 243)
 }
+
 /* BUTTONS */
 
 button:hover {
@@ -10,4 +11,11 @@ button:hover {
 
 button:active {
   border-color: var(--main-color);
+}
+
+/* TEXTS */
+
+body {
+  font-family: cursive;
+  text-align: center;
 }
