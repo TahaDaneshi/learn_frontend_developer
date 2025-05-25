@@ -13,9 +13,14 @@ nav {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
-/* BUTTONS */
+/* NAV BUTTONS */
 
 /* language changer */
+#btn-change-language {
+  width: 70px;
+  gap: 3px;
+}
+
 #btn-change-language img{
   height: 28px;
   padding-right: 3px;
