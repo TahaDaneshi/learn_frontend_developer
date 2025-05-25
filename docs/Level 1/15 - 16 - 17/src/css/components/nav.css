@@ -1,0 +1,14 @@
+/* nav style */
+
+/* NAV CONTAINER */
+nav {
+  height: 33px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 255, 0.5);
+}
