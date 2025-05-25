@@ -3,7 +3,7 @@
 /* NAV CONTAINER */
 nav {
   height: 33px;
-  padding: 5px;
+  padding: 7px;
   display: flex;
   justify-content: space-between;
   position: fixed;
