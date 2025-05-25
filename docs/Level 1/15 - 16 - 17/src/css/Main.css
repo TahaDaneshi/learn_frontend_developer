@@ -1,7 +1,13 @@
 /* Main css */
-
+:root {
+  --main-color :rgb(78, 196, 243)
+}
 /* BUTTONS */
 
 button:hover {
   border-color: silver;
+}
+
+button:active {
+  border-color: var(--main-color);
 }

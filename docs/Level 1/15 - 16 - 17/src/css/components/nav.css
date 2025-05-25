@@ -32,7 +32,7 @@ nav button {
 #btn-change-language img{
   height: 28px;
   padding-right: 3px;
-  border-right: 1px dashed rgb(78, 196, 243);
+  border-right: 1px dashed var(--main-color);
 }
 
 #txt-current-language {
