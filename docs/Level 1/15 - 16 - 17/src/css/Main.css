@@ -25,7 +25,10 @@ body {
   text-align: center;
 }
 /* SECTIONS */
+article {
+  padding: 0 10vw;
+}
 
-article, section {
+header, article, section {
   border-bottom: 4px solid var(--main-color);
 }
