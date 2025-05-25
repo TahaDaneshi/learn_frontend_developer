@@ -30,7 +30,7 @@ nav button {
 }
 
 #btn-change-language img{
-  height: 28px;
+  height: 26px;
   padding-right: 3px;
   border-right: 1px dashed var(--main-color);
 }
