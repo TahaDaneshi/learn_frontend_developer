@@ -34,3 +34,8 @@ nav button {
   padding-right: 3px;
   border-right: 1px dashed rgb(78, 196, 243);
 }
+
+#txt-current-language {
+  letter-spacing: 1px;
+  font-weight: 600;
+}
