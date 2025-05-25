@@ -6,6 +6,7 @@ nav {
   padding: 7px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   top:0;
   left: 0;
@@ -16,6 +17,7 @@ nav {
 /* NAV BUTTONS */
 
 nav button {
+  height: 26px;
   display: flex;
   align-items: center;
   user-select: none;
