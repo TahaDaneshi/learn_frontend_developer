@@ -15,6 +15,14 @@ nav {
 
 /* NAV BUTTONS */
 
+nav button {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  border: 1px solid gray;
+  background-color: rgba(243, 242, 252, 0.8);
+}
+
 /* language changer */
 #btn-change-language {
   width: 70px;
