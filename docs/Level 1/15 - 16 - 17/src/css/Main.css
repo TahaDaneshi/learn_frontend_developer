@@ -3,6 +3,11 @@
   --main-color :rgb(78, 196, 243)
 }
 
+/* ALL */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 /* BUTTONS */
 
 button:hover {
