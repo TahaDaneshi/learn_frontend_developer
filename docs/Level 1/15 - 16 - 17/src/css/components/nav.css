@@ -12,3 +12,12 @@ nav {
   right: 0;
   background-color: rgba(0, 0, 255, 0.5);
 }
+
+/* BUTTONS */
+
+/* language changer */
+#btn-change-language img{
+  height: 28px;
+  padding-right: 3px;
+  border-right: 1px dashed rgb(78, 196, 243);
+}
