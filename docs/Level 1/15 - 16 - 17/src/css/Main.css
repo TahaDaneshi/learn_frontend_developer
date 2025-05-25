@@ -24,3 +24,8 @@ body {
   font-family: cursive;
   text-align: center;
 }
+/* SECTIONS */
+
+article, section {
+  border-bottom: 4px solid var(--main-color);
+}
