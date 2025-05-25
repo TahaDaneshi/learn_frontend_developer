@@ -1,1 +1,7 @@
 /* Main css */
+
+/* BUTTONS */
+
+button:hover {
+  border-color: silver;
+}
