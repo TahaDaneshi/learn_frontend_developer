@@ -24,6 +24,15 @@ body {
   font-family: cursive;
   text-align: center;
 }
+
+a {
+  color: blue;
+  text-decoration: underline var(--main-color);
+}
+
+a:hover {
+  text-decoration: underline skyblue;
+}
 /* SECTIONS */
 article {
   padding: 0 10vw;
