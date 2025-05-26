@@ -1,0 +1,8 @@
+/* RESPONSIVE */
+
+/* BIG MOBILE */
+@media (max-width: 768px) {
+  article {
+    padding: 0 3vw;
+  }
+}
