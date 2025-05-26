@@ -1,8 +1,13 @@
 'strict'
 
 // ELEMENTS
-const nav = document.getElementsByTagName('nav')[0]
-
+const nav = document.getElementsByTagName('nav')[0];
+// changers
+const btnChangeLanguage = document.getElementById('btn-change-language');
+const txtCurrentLanguage = document.getElementById('txt-current-language');
+// sections
+const EnSection = document.getElementById("EN");
+const FaSection = document.getElementById("FA");
 // FUNCTIONS
 async function auto() {
   // change 'nav' background color 
@@ -13,3 +18,13 @@ async function auto() {
 auto()
 
 // EVENTS
+btnChangeLanguage.addEventListener('click', () => {
+
+  if (txtCurrentLanguage.innerText === "EN") {
+    txtCurrentLanguage.innerText = "FA"
+  } else {
+    txtCurrentLanguage.innerText = "EN"
+  };
+  EnSection.classList.toggle("none")
+  FaSection.classList.toggle("none")
+})
