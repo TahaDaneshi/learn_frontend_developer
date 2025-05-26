@@ -41,3 +41,7 @@ nav button {
   letter-spacing: 1px;
   font-weight: 600;
 }
+
+#img-current-mode {
+  width: 26px;
+}
