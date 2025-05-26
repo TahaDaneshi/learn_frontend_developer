@@ -41,3 +41,13 @@ article {
 header, article, section {
   border-bottom: 4px solid var(--main-color);
 }
+
+/* TABLES */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,th,tr, td {
+  border: 1px solid var(--main-color);
+}
