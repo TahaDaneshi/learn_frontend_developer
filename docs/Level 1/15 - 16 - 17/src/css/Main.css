@@ -1,6 +1,7 @@
 /* Main css */
 :root {
-  --main-color :rgb(78, 196, 243)
+  --main-color :rgb(78, 196, 243);
+  --dark-txt-color : rgb(209, 240, 253);
 }
 
 /* ALL */

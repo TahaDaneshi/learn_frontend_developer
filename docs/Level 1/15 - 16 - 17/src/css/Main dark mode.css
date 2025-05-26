@@ -1,0 +1,7 @@
+/* DARK MODE */
+
+/* BODY */
+body {
+  color: var(--dark-txt-color);
+  background-color: black;
+}
