@@ -622,17 +622,30 @@ special tag = DOCTYPE html
     attribute = rel
     attribute = download
   =-= href
-    Abbreviation() {} =>
+    Abbreviation(href) {Hypertext Reference} => ارجاع ابر متنی
     Attached file: true
-    Usage:
+    Usage: مشخص کننده مقصد یک لینک یا ارتباط بین منابع است 
     Properties =
-      Target:
-      Display:
-    Meaning:
-    Important Tags =
+      Target: تایین مقصد یک لینک
+        example 1 = <a> ایجاد پیوند بین صفحات وب
+        example 2 = <link> اتصال فایل‌های 
+        example 3 = favicon تعریف
+        example 4 = <area> ایجاد مناطق قابل کلیک در نقشه‌های تصویری 
+      Display: none
+    Meaning: "آدرس مرجع" یا "منبع پیوند" 
+    Important Tags = 
+      1- a (لینک ها)
+      2- link (ارتباط با منابع خارجی) 
+      3- area (در نقشه های تصویری)
     SEO =
+      1- ایجاد ارتباط معنایی بین محتواها
+      2- کمک به کراولرها برای کشف محتوای جدید
+      3- از طریق لینک‌ها (PageRank) انتقال ارزش صفحه
+      4- تجربه کاربری بهتر با ناوبری آسان
     SEO Point =
+      1- (error 404) اجتناب از لینک‌های شکسته
     Point =
+      1-استفاده شود <a> حتماً از این اتریبیوت در تگ
   =-= target
     Abbreviation() {} =>
     Attached file: true
