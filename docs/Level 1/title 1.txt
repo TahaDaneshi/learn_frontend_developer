@@ -660,6 +660,23 @@ special tag = DOCTYPE html
       3-  دسترسی پذیری: استفاده شود aria-label حتماً از
       4- CSS: آن را به منوی مدرن تبدیل کنید CSS میتوانید با
       5- JavaScript: بسازید c(غیر ثابت) میتوانید سایت هایی خاص و فعال
+
+  =-=header
+ 
+  =-=footer
+ 
+  =-=section 
+ 
+  =-=article
+ 
+  =-=div
+ 
+  =-=datails
+ 
+  =-=dialog
+ 
+  =-=summary
+
 ===========================================================================================
 ) tags 8 - get information 1
     tag = form
