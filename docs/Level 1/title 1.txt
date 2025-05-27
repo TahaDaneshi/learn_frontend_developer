@@ -753,17 +753,30 @@ special tag = DOCTYPE html
     attribute = max
     attribute = value
   =-= id
-    Abbreviation() {} =>
-    Attached file: true
-    Usage:
+    Abbreviation(id) {identifier} => شناسه
+    Attached file: false
+    Usage: برای آدرس‌دهی و هدف‌گیری عناصر استفاده می‌شود
     Properties =
-      Target:
-      Display:
-    Meaning:
-    Important Tags =
-    SEO =
-    SEO Point =
+      Target: تعریف میکند HTML یک شناسه منحصر به فرد را برای یک عنصر 
+        example 1 = (استایل‌دهی خاص) CSS هدف‌گیری با 
+        example 2 = (دسترسی به عنصر) JavaScript ارجاع در 
+        example 3 = (URL در #id با) لینک‌دهی داخلی
+        example 4 = (<label for="id"> مثال) ارتباط با عناصر دیگر 
+      Display: none
+    Meaning: HTML نشانی یکتای یک عنصر
+    Important Tags = HTML همه تگ‌های 
+    SEO = غیرمستقیم
+      1- کمک به کراولرها: درک بهتر روابط بین عناصر
+      2- لینک‌دهی داخلی: برای محتوا anchor links امکان ایجاد
+    SEO Point=
+      1- استفاده معنادار: (نه random strings) از کلمات توصیفی استفاده کنید 
+      2- یکتایی: باید در صفحه منحصر به فرد باشد id هر
+      3- عدم استفاده افراطی: فقط برای عناصر مهم استفاده شود
+      4- اجتناب از کاراکترهای خاص: فقط حروف، اعداد، خط تیره و زیرخط مجازند
     Point =
+      1- در کل سند باید یکتا باشد
+      2- (case-sensitive) حساس به حروف بزرگ و کوچک است
+
   =-= class
     Abbreviation() {} =>
     Attached file: true
