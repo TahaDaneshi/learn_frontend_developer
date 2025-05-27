@@ -589,6 +589,35 @@ special tag = DOCTYPE html
       2- لینک‌های شکسته: هرگز از لینک‌های 404 استفاده نکنید
       3- تعداد مناسب: در هر صفحه 100-150 لینک بیشتر نباشد
       4- اولویت‌دهی: لینک‌های مهم را در محتوای اصلی قرار دهید
+  =-= style
+    Abbreviation{style} => سبک
+    Attached file: true
+    Usage: استفاده میشود HTML درون سند CSS این تگ برای تعریف
+    Properties =
+      level: none
+      Target: HTML اعمال استایل‌های بصری به عناصر
+        example 1 = رنگ color
+        example 2 = فونت font-family
+        example 3 = حاشیه border / outline
+        ...
+      Display: روی تگ ها نمایش داده میشود
+    Meaning:
+    Important Attributes = 1- media
+    SEO = مثبت / منفی
+      مثبت
+        1- CSS کاهش فایل های خارجی
+      منفی
+        2- منتقل شود تا صفحه سریعتر بارگذاری شود CSS زیاد باشد بهتر است به فایل style اگر حجم کد های درون
+    SEO Point =
+      1- استفاده کنید <style> برای استایل‌های مختصر و خاص همان صفحه از
+      2-(external) خارجی استفاده کنید CSS از تکرار کد های یکسان در صفحات مختلف خود داری کنید و به جای آن از
+      3- media از محدود کردن استایل به رسانه‌های خاص استفاده کنی با
+        example = <style media="print"> 
+                    body{font-size: 12pt;}
+                  </style>
+    Point =
+      1-(internal) قرار میگیرد <head> (تگ) در قسمت 
+      2-(inline) قرار گیرد <tag style=""> (اتریبیوت) مستقیماً روی یک عنصر با ویژگی 
 ===========================================================================================
 16) Attributes 3 - link
     attribute = href
