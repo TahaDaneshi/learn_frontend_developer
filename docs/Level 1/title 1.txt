@@ -621,6 +621,17 @@ special tag = DOCTYPE html
 ===========================================================================================
 16) Attributes 3 - link
     attribute = href
+    attribute = target
+    attribute = rel
+    attribute = download
+  =-= href
+
+  =-= target
+
+  =-= rel
+
+  =-= download
+  
 ===========================================================================================
 17) tags - Sections
     tag = nav
