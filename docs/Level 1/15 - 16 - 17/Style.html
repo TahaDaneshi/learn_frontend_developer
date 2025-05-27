@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Style Tag Example</title>
+  <style>
+    /* استایل برای کدهای برنامه‌نویسی */
+    .code-block {
+      padding: 10px;
+      font-family: 'Courier New', monospace;
+      color: antiquewhite;
+      border-left: 4px solid rgb(0, 154, 214);
+      background-color: black;
+    }
+
+    .keyword {
+      color: #861bce;
+      font-weight: bold;
+    }
+
+    .comment {
+      color: rgb(7, 148, 7);
+    }
+
+    .variable-key-words {
+      color: #1770b9;
+    }
+
+    .variable-name {
+      color: #6ea1ca;
+    }
+
+    .function-name {
+      color: tan;
+    }
+
+    .strings {
+      color: rgb(199, 123, 35);
+    }
+
+    .numbers {
+      color: rgb(143, 214, 36);
+    }
+  </style>
+</head>
+
+<body style="background-color: gainsboro;">
+  <h1 style="text-align: center;">JavaScript Loop Example</h1>
+  <br>
+  <div class="code-block">
+    <p class="comment">// This is a 'for' loop in JavaScript:</p>
+    <p><span class="keyword">for</span> (<span class="variable-key-words">let</span> <span
+        class="variable-name">i</span> = <span class="numbers">0</span>; <span class="variable-name">i</span>
+      < <span class="numbers">5</span>; <span class="variable-name">i</span>++) {
+    </p>
+    <p> <span class="variable-name">console</span>.<span class="function-name">log</span>(<span
+        class="strings">"Iteration: "</span> + <span class="variable-name">i</span>);</p>
+    <p>}</p>
+  </div>
+  <script>
+    for (let i = 0; i < 5; i++) {
+      console.log("Iteration: " + i);
+    }
+  </script>
+</body>
+
+</html>
