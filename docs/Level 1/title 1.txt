@@ -637,13 +637,13 @@ special tag = DOCTYPE html
     Attached file: true
     Usage: تعریف بخش ناوبری اصلی صفحه استفاده میشود
     Properties =
-      level:
+      level: block
       Target: بخش ناوبری اصلی
         example 1 = منوهای اصلی سایت
         example 2 = لینک‌های ناوبری مهم
         example 3 = مجموعه‌ای از لینک‌های مرتبط
         example 4 = فهرست محتوای صفحه (در برخی موارد)
-      Display:
+      Display: 
     Meaning: به موتورهای جستجو کمک می‌کند ساختار سایت را بهتر درک کنند
     Important Attributes = 1-aria-label : برای توصیف هدف ناوبری
     SEO = مثبت
