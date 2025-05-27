@@ -574,7 +574,7 @@ special tag = DOCTYPE html
         example 2 = id لینک به بخش‌های خاص همان صفحه با
         example 3 = لینک به فایل‌های قابل دانلود
         example 4 = (tel:) یا تلفن (mailto:) لینک به ایمیل
-      Display:
+      Display: میکشه (underline) متن درونش به رنگ آبی و یک خط زیرش
       Meaning: موتورهای جستجو از لینک‌ها برای کشف و رتبه‌بندی صفحات استفاده می‌کنند
     Important Attributes = 1-href 2-target 3-rel 4-download
     SEO = ✅ تأثیر مستقیم و قوی دارد
@@ -643,7 +643,7 @@ special tag = DOCTYPE html
         example 2 = لینک‌های ناوبری مهم
         example 3 = مجموعه‌ای از لینک‌های مرتبط
         example 4 = فهرست محتوای صفحه (در برخی موارد)
-      Display: 
+      Display: استایل خاصی ندارد
     Meaning: به موتورهای جستجو کمک می‌کند ساختار سایت را بهتر درک کنند
     Important Attributes = 1-aria-label : برای توصیف هدف ناوبری
     SEO = مثبت
