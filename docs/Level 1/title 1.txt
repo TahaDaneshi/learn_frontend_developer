@@ -845,30 +845,36 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-= min
-    Abbreviation() {} =>
+  =-= min & max
+    Abbreviation{min} => حداقل مقدار قابل قبول برای عنصر
+    Abbreviation{max} => حداکثر مقدار قابل قبول برای عنصر
     Attached file: true
-    Usage:
+    Usage: این اتریبیوت‌ها محدوده معتبر برای مقادیر ورودی را تعریف می‌کنند.
     Properties =
-      Target:
-      Display:
-    Meaning:
+      Target: محدوده معتربر برای ورودی ها
+        example 1 = اعتبار سنجی فرم ها
+        example 2 = (range) ایجاد محدوده برای اسلاید ها
+        example 3 = محدود کردن تاریخ های قابل انتخاب
+        example 4 = تعریف محدوده برای عناصر اندازه‌گیری
+      Display: زمان برخوردن به محدودیت متوجه این اتریبیوت میشویم
+    Meaning: حد اقل و حد اکثر
     Important Tags =
-    SEO =
+      1-input با نوع های زیر
+        1- number 2- range 3- date 4- datetime-local 5- month 6- time 7- week
+      2-meter ( min & max فقط برای)
+      3-progress (max فقط برای)
+    SEO = غیرمستقیم
+      1-کاهش خطاها: جلوگیری از ارسال فرم‌های نامعتبر
+      2- ساختار بهتر: کمک به درک محتوای صفحه
     SEO Point =
+      1- بهبود تجربه کاربری
+      2- کمک به کراولرها: درک بهتر محدوده مقادیر
+      3- فرم‌های بهینه: کمک به ارسال داده‌های معتبر
     Point =
-  =-= max
-    Abbreviation() {} =>
-    Attached file: true
-    Usage:
-    Properties =
-      Target:
-      Display:
-    Meaning:
-    Important Tags =
-    SEO =
-    SEO Point =
-    Point =
+      1- باشد YYYY-MM-DD بیاد به فرمت min/max مقادیر <input type="date"> برای
+      2- (پیش فرض = 1) لازم است max فقط <progress> در
+      3- برای تعیین میزان افزایش/کاهش استفاده کنید step میتوانید از اتریبیوت 
+      4- قابل دسترسی و تغییر هستند JavaScript و CSS این اتریبیوت ها با
   =-= value
     Abbreviation() {} =>
     Attached file: true
