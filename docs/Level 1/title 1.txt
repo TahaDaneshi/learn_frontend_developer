@@ -753,19 +753,89 @@ special tag = DOCTYPE html
     attribute = max
     attribute = value
   =-= id
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= class
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= name
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= type
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= min
-  
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= max
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= value
-  
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) tags 9 - get information 2
     tag = fieldset
