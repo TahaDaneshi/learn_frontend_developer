@@ -744,7 +744,7 @@ special tag = DOCTYPE html
     tag = input
     tag = label
 ===========================================================================================
-) attributes 2
+) attributes 4
     attribute = id
     attribute = class
     attribute = name
@@ -752,7 +752,20 @@ special tag = DOCTYPE html
     attribute = min
     attribute = max
     attribute = value
+  =-= id
 
+  =-= class
+
+  =-= name
+
+  =-= type
+
+  =-= min
+  
+  =-= max
+
+  =-= value
+  
 ===========================================================================================
 ) tags 9 - get information 2
     tag = fieldset
