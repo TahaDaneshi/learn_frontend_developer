@@ -622,13 +622,53 @@ special tag = DOCTYPE html
     attribute = rel
     attribute = download
   =-= href
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= target
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= rel
-
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
   =-= download
-  
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 17) tags - Sections
     tag = nav
