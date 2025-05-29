@@ -940,17 +940,77 @@ special tag = DOCTYPE html
     tag = caption
     tag = colgroup
   =-= table
-
+    Abbreviation{style} => 
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-= tr
-
+    Abbreviation{style} => 
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-= th
-
+    Abbreviation{style} => 
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-= td
-
+    Abbreviation{style} => 
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-= caption
-
+    Abbreviation{style} => 
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-= colgroup
-
+    Abbreviation{style} => 
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) attributes 4
     attribute = multiple
