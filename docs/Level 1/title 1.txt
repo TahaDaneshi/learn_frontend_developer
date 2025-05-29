@@ -1015,9 +1015,9 @@ special tag = DOCTYPE html
     Attached file: true
     Properties =
       level:
-      Target:
-      Display:
-    Meaning:
+      Target: ارائه عنوان یا توضیح مختصری درباره محتوای جدول
+      Display: بالای جدول نمایش داده میشود
+    Meaning: به موتورهای جستجو کمک می‌کند محتوای جدول را بهتر درک کنند
     Important Attributes =
     SEO =
     SEO Point =
