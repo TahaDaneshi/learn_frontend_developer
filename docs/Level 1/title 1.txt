@@ -988,9 +988,9 @@ special tag = DOCTYPE html
     th Meaning: معمولاً در اولین سطر جدول برای عنوان ستون‌ها یا اولین ستون برای عنوان سطرها استفاده می‌شود
     td properties =
       level:
-      Target:
-      Display:
-    td Meaning:
+      Target: تعریف سلول‌های معمولی جدول که حاوی داده هستند
+      Display: بدون تغییر متن
+    td Meaning: محتوای اصلی جدول
     Important Attributes =
     SEO =
     SEO Point =
