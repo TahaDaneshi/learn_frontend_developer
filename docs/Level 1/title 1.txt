@@ -976,17 +976,17 @@ special tag = DOCTYPE html
     Abbreviation(th) {Table Header} => هدر جدول
     Abbreviation(td) {Table Data} => داده جدول
     Attached file: true
-    tr perties =
+    tr properties =
       level: 
       Target: عریف یک سطر در جدول استفاده می‌شود
       Display: ردیف در جدول
     tr Meaning: نشان‌دهنده یک رکورد یا مجموعه‌ای از داده‌های مرتبط در جدول است
-    th perties =
+    th properties =
       level:
       Target:
       Display:
     th Meaning:
-    td perties =
+    td properties =
       level:
       Target:
       Display:
