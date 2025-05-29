@@ -972,9 +972,9 @@ special tag = DOCTYPE html
       4- برای توضیح جدول استفاده کنید caption از ویژگی
       5- (کمتر استفاده می شود HTML5 در) برای توضیح مختصر جدول summary از ویژگی
   =-= tr - th - td
-    Abbreviation(){yle} => 
-    Abbreviation(){yle} => 
-    Abbreviation(){yle} => 
+    Abbreviation(tr) {Table Row} => سطر جدول
+    Abbreviation(th) {Table Header} => هدر جدول
+    Abbreviation(td) {Table Data} => داده جدول
     Attached file: true
     tr perties =
       level:
