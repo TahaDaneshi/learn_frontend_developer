@@ -1031,6 +1031,9 @@ special tag = DOCTYPE html
       4- از توضیحات طولانی خودداری کنید
       5- برای جداول پیچیده، توضیح واضحی ارائه دهید
     Point =
+      1- برای توضیح جامع محتوای جدول استفاده شده <caption> از
+      2- عنوان به صورت توصیفی و حاوی کلمات کلیدی مرتبط است
+      3- (caption-side: top;) تنظیم میشود CSS با <caption> موقعیت
   =-= colgroup
     Abbreviation{style} => 
     Attached file: true
