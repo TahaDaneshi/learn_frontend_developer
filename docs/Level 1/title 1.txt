@@ -971,38 +971,26 @@ special tag = DOCTYPE html
       3- برای هدرهای ستون و سطر استفاده کنید scope از ویژگی
       4- برای توضیح جدول استفاده کنید caption از ویژگی
       5- (کمتر استفاده می شود HTML5 در) برای توضیح مختصر جدول summary از ویژگی
-  =-= tr
-    Abbreviation{style} => 
+  =-= tr - th - td
+    Abbreviation(){yle} => 
+    Abbreviation(){yle} => 
+    Abbreviation(){yle} => 
     Attached file: true
-    Properties =
+    tr perties =
       level:
       Target:
       Display:
-    Meaning:
-    Important Attributes =
-    SEO =
-    SEO Point =
-    Point =
-  =-= th
-    Abbreviation{style} => 
-    Attached file: true
-    Properties =
+    tr Meaning:
+    th perties =
       level:
       Target:
       Display:
-    Meaning:
-    Important Attributes =
-    SEO =
-    SEO Point =
-    Point =
-  =-= td
-    Abbreviation{style} => 
-    Attached file: true
-    Properties =
+    th Meaning:
+    td perties =
       level:
       Target:
       Display:
-    Meaning:
+    td Meaning:
     Important Attributes =
     SEO =
     SEO Point =
