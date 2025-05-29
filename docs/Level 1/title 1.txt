@@ -983,9 +983,9 @@ special tag = DOCTYPE html
     tr Meaning: نشان‌دهنده یک رکورد یا مجموعه‌ای از داده‌های مرتبط در جدول است
     th properties =
       level:
-      Target:
-      Display:
-    th Meaning:
+      Target: تعریف سلول‌های عنوان در جدول
+      Display: متن درونش یکمی پررنگ میشود
+    th Meaning: معمولاً در اولین سطر جدول برای عنوان ستون‌ها یا اولین ستون برای عنوان سطرها استفاده می‌شود
     td properties =
       level:
       Target:
