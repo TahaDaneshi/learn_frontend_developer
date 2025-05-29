@@ -995,6 +995,9 @@ special tag = DOCTYPE html
       1- colspan: ادغام افقی سلول‌ها
       2- rowspan: ادغام عمودی سلول‌ها
       3- headers: ارتباط با هدرهای مربوطه
+    (th) Important Attributes =
+      1- scope: تعیین دامنه هدر (col/row/colgroup/rowgroup)
+      2- abbr: ارائه نسخه مختصر از عنوان
     SEO =
      مثبت
       1- استفاده صحیح به موتورهای جستجو کمک می‌کند ساختار داده‌ها را بهتر درک کنند
