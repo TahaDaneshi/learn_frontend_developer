@@ -1099,7 +1099,7 @@ special tag = DOCTYPE html
       5- استفاده شود schema.org/HowTo بریا مراحل هم از
     Point =
   =-= li
-    Abbreviation(li) {} =>
+    Abbreviation(li) {List Item} => آیتم لیست
     Attached file: true
     Properties =
       level:
