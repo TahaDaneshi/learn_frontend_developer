@@ -1068,13 +1068,18 @@ special tag = DOCTYPE html
     tag = li 
     tag = ul
   =-= ol
-    Abbreviation(ol) {} =>
+    Abbreviation(ol) {Ordered List} => لیست مرتب/شماره‌دار
     Attached file: true
     Properties =
-      level:
-      Target:
-      Display:
-    Meaning:
+      level: block
+      Target: ایجاد لیست‌هایی که ترتیب آیتم‌ها مهم است
+        example 1 = (Step-by-Step) نمایش مراحل انجام کار
+        example 2 = لیست‌های آموزشی با ترتیب مشخص
+        example 3 = رتبه‌بندی‌ها و اولویت‌ها
+        example 4 = دستورالعمل‌های برنامه‌نویسی
+        example 5 = فهرست‌های عددی
+      Display: لیستی که هر ایتم ترتیبی مشخص دارد
+    Meaning: کمک به موتورهای جستجو برای درک سلسله مراتب اطلاعات
     Important Attributes =
     SEO =
     SEO Point =
