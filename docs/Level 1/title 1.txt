@@ -1010,7 +1010,6 @@ special tag = DOCTYPE html
         2. scope="row" برای عنوان سطر
       3- مربوطه استفاه میشود <th> برای ارتباط با <td> در headres از اتریبیوت
       4- استفاده کنید id, header برای داده های پیچیده از اتریبیوت 
-    Point =
   =-= caption
     Abbreviation{style} => 
     Attached file: true
