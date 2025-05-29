@@ -1035,13 +1035,13 @@ special tag = DOCTYPE html
       2- عنوان به صورت توصیفی و حاوی کلمات کلیدی مرتبط است
       3- (caption-side: top;) تنظیم میشود CSS با <caption> موقعیت
   =-= colgroup
-    Abbreviation{style} => 
+    Abbreviation(colgroup) {Column Group} => گروه ستون ها
     Attached file: true
     Properties =
       level:
-      Target:
-      Display:
-    Meaning:
+      Target: برای گروه‌بندی و اعمال سبک به مجموعه‌ای از ستون‌ها در جدول
+      Display: روی جدول های مربوطه سبک هاش قابل مشاهست
+    Meaning: کمک به موتورهای جستجو برای درک روابط بین ستون‌ها
     Important Attributes =
     SEO =
     SEO Point =
