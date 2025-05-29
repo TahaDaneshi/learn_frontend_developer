@@ -939,7 +939,17 @@ special tag = DOCTYPE html
     tag = td
     tag = caption
     tag = colgroup
+  =-= table
 
+  =-= tr
+
+  =-= th
+
+  =-= td
+
+  =-= caption
+
+  =-= colgroup
 
 ===========================================================================================
 ) attributes 4
