@@ -1011,7 +1011,7 @@ special tag = DOCTYPE html
       3- مربوطه استفاه میشود <th> برای ارتباط با <td> در headres از اتریبیوت
       4- استفاده کنید id, header برای داده های پیچیده از اتریبیوت 
   =-= caption
-    Abbreviation{style} => 
+    Abbreviation(caption) {Table Caption} => عنوان جدول / توضیح جدول
     Attached file: true
     Properties =
       level:
