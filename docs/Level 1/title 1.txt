@@ -1081,6 +1081,10 @@ special tag = DOCTYPE html
       Display: لیستی که هر ایتم ترتیبی مشخص دارد
     Meaning: کمک به موتورهای جستجو برای درک سلسله مراتب اطلاعات
     Important Attributes =
+      1- type: نوع شماره‌گذاری:(1, A, a, I, i)
+      2- start: عدد شروع لیست
+      3- reversed: لیست معکوس (از آخر به اول)
+      4- compact: (HTML5 منسوخ شده در)
     SEO =
      مثبت
       1- بهبود ساختار محتوا و خوانایی
