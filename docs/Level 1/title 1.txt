@@ -1103,9 +1103,12 @@ special tag = DOCTYPE html
     Attached file: true
     Properties =
       level:
-      Target:
-      Display:
-    Meaning:
+      Target: تعریف یک آیتم در لیست‌
+        example 1 = ایجاد آیتم‌های لیست در منوها
+        example 2 = نمایش ویژگی‌های محصول
+        example 3 = فهرست مراحل آموزشی
+      Display: یکی از ایتم های یک لیست و بدون تغیر خاص
+    Meaning: کمک به موتورهای جستجو برای درک بهتر روابط بین آیتم‌ها
     Important Attributes =
     SEO =
     SEO Point =
