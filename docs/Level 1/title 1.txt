@@ -940,7 +940,7 @@ special tag = DOCTYPE html
     tag = caption
     tag = colgroup
   =-= table
-    Abbreviation{style} => 
+    Abbreviation{table} => جدول
     Attached file: true
     Usage: برای نمایش داده های جدولی و ماتریسی استفاده می شود
     Properties =
