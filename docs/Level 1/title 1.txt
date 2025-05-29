@@ -977,10 +977,10 @@ special tag = DOCTYPE html
     Abbreviation(td) {Table Data} => داده جدول
     Attached file: true
     tr perties =
-      level:
-      Target:
-      Display:
-    tr Meaning:
+      level: 
+      Target: عریف یک سطر در جدول استفاده می‌شود
+      Display: ردیف در جدول
+    tr Meaning: نشان‌دهنده یک رکورد یا مجموعه‌ای از داده‌های مرتبط در جدول است
     th perties =
       level:
       Target:
