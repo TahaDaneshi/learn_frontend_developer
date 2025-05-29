@@ -1067,7 +1067,42 @@ special tag = DOCTYPE html
     tag = ol
     tag = li 
     tag = ul
-
+  =-= ol
+    Abbreviation(ol) {} =>
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= li
+    Abbreviation(li) {} =>
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= ul
+    Abbreviation(ul) {} =>
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) tags = External files
     tag = iframe
