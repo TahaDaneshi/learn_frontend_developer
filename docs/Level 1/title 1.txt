@@ -1197,7 +1197,7 @@ special tag = DOCTYPE html
       3- بهینه‌سازی: کنید (bundle) و در صورت امکان ادغام (minify) فایل‌های جاوااسکریپت را  فشرده
       4- سئو:  موتورهای جستجو می‌توانند جاوااسکریپت را اجرا کنند، اما محتوای کلیدی را تا حد امکان در فایبل اچ تی ام ال قرار دهید 
   =-= noscript
-    Abbreviation(noscript) {} =>
+    Abbreviation(noscript) {no script} => بدون اسکریپت
     Attached file: true
     Properties =
       level:
