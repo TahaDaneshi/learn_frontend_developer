@@ -1157,7 +1157,7 @@ special tag = DOCTYPE html
 ===========================================================================================
 ) tag = marquee
   =-= marquee
-    Abbreviation(ul) {} =>
+    Abbreviation{marquee} => سَرکِش
     Attached file: true
     Properties =
       level:
