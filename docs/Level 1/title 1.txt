@@ -1196,7 +1196,7 @@ special tag = DOCTYPE html
       4- استفاده شود <h2>-<h6> همراه با تگ‌های معنایی دیگر مثل
     Point =
   =-= ul
-    Abbreviation(ul) {} =>
+    Abbreviation(ul) {Unordered List} => لیست نامرتب
     Attached file: true
     Properties =
       level:
