@@ -1054,7 +1054,7 @@ special tag = DOCTYPE html
       3- برای جداول ساده از آن استفاده نکنید / فقط برای جداول پیچیده با گروه‌بندی ستون‌های واضح استفاده شود
     Point =
 ===========================================================================================
-) attributes 4
+) Attributes - table
     attribute = multiple
     attribute = palceholder
     attribute = size
