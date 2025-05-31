@@ -1199,10 +1199,10 @@ special tag = DOCTYPE html
     Abbreviation(ul) {Unordered List} => لیست نامرتب
     Attached file: true
     Properties =
-      level:
-      Target:
-      Display:
-    Meaning:
+      level: block
+      Target: برای ایجاد لیستی از آیتم‌ها استفاده می‌شود که ترتیب خاصی ندارند 
+      Display: هر ایتم در اولش یک شکل که شروع ایتم را معلوم میکند نمایش داده میشود
+    Meaning: لیستی که ترتیب خواصی ایتم ها ندارند
     Important Attributes =
     SEO =
     SEO Point =
