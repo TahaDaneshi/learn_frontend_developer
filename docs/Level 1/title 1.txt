@@ -1200,9 +1200,11 @@ special tag = DOCTYPE html
     Abbreviation(noscript) {no script} => بدون اسکریپت
     Attached file: true
     Properties =
-      level:
-      Target:
-      Display:
+      level: none
+      Target: محتوای این تگ فقط زمانی نمایش داده می‌شود که جاوااسکریپت در مرورگر کاربر غیرفعال باشد  
+        example 1 = ارائه محتوای جایگزین برای کاربرانی که جاوااسکریپت ندارند یا آن را غیرفعال کرده‌اند
+        example 2 = fallback استفاده برای پیام‌های هشدار، محتوای استاتیک جایگزین، یا راه‌حل‌های 
+      Display: بسته گی به محتوای درونش دارد
     Meaning:
     Important Attributes =
     SEO =
