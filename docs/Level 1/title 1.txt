@@ -1061,7 +1061,78 @@ special tag = DOCTYPE html
     attribute = bgcolor
     attribute = rowspan
     attribute = open
-
+  =-= multiple
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= palceholder
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= size
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= bgcolor
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= rowspan
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= open
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) tags - list 1
     tag = ol
