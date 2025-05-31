@@ -1166,6 +1166,10 @@ special tag = DOCTYPE html
       Display: عنصر متحرک
     Meaning:
     Important Attributes =
+      1- direction: جهت حرکت (left, right, up, down)
+      2- behavior: نوع حرکت (scroll, slide, alternate)
+      3- scrollamount: سرعت حرکت (عدد بالاتر = سریع‌تر).  
+      4- loop: تعداد دفعات تکرار
     SEO =
      منفی
       1- موتورهای جستجو ممکن است محتوای داخلش را کم احمیت تلقی میکنند
