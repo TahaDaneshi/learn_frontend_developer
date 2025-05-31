@@ -1169,7 +1169,30 @@ special tag = DOCTYPE html
 ) tags = script
     tag = script
     tag = noscript
-
+  =-= script
+    Abbreviation(script) {} =>
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= noscript
+    Abbreviation(noscript) {} =>
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) attributes
 
