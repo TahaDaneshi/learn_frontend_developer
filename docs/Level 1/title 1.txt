@@ -1194,7 +1194,7 @@ special tag = DOCTYPE html
      هشدار
       7- ممکن است در مرورگرهای جدید به طور کامل حذف شود همیشه از استانداردهای روز استفاده کنید!
 ===========================================================================================
-) attributes
+) Attributes - marquee
     attribute = direction
     attribute = behavior
     attribute = scrollamount
