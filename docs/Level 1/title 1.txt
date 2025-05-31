@@ -1170,7 +1170,7 @@ special tag = DOCTYPE html
     tag = script
     tag = noscript
   =-= script
-    Abbreviation(script) {} =>
+    Abbreviation{script} => اسکریپت
     Attached file: true
     Properties =
       level:
