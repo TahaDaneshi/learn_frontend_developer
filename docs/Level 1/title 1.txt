@@ -1173,14 +1173,18 @@ special tag = DOCTYPE html
     Abbreviation{script} => اسکریپت
     Attached file: true
     Properties =
-      level:
-      Target:
-      Display:
+      level: none
+      Target: اسفتاده میشود HTML برای افزودن کدهای اجرایی (عمدتاً جاوااسکریپت) به صفحه 
+      Display: بسته به کد درون نمایش متفاوتی خواهد داشت
     Meaning:
     Important Attributes =
     SEO =
     SEO Point =
     Point =
+      1- باشد src یا لینک به فایل‌های خارجی با  (inline) می‌تواند حاوی کدهای داخلی 
+      2- خطاها: اسکریپت‌های معیوب ممکن است باعث توقف تجزیه صفحه توسط کراولرها شوند
+      3- بهینه‌سازی: کنید (bundle) و در صورت امکان ادغام (minify) فایل‌های جاوااسکریپت را  فشرده
+      4- سئو:  موتورهای جستجو می‌توانند جاوااسکریپت را اجرا کنند، اما محتوای کلیدی را تا حد امکان در فایبل اچ تی ام ال قرار دهید 
   =-= noscript
     Abbreviation(noscript) {} =>
     Attached file: true
