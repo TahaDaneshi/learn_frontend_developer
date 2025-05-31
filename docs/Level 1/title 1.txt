@@ -1161,8 +1161,9 @@ special tag = DOCTYPE html
     Attached file: true
     Properties =
       level:
-      Target:
-      Display:
+      Target: ایجاد متن یا محتوای متحرک (اسکرول، لغزان، یا چشمک‌زن) 
+        exampel 1 = نمایش متن‌های متحرک مانند اعلان‌های مهم، تبلیغات، یا تیترهای خبری
+      Display: عنصر متحرک
     Meaning:
     Important Attributes =
     SEO =
