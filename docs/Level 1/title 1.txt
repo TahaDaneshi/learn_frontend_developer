@@ -1156,7 +1156,18 @@ special tag = DOCTYPE html
 
 ===========================================================================================
 ) tag = marquee
-
+  =-= marquee
+    Abbreviation(ul) {} =>
+    Attached file: true
+    Properties =
+      level:
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) attributes
     attribute = direction
