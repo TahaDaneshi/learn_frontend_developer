@@ -1308,7 +1308,6 @@ special tag = DOCTYPE html
   =-= behavior
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
@@ -1320,7 +1319,6 @@ special tag = DOCTYPE html
   =-= scrollamount
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
@@ -1332,7 +1330,6 @@ special tag = DOCTYPE html
   =-= scrolldelay
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
