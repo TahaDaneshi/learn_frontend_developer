@@ -1374,7 +1374,8 @@ special tag = DOCTYPE html
         1- <marquee> کنترل سرعت نرم‌تر حرکت متن در 
         2- ایجاد افکت‌های متحرک با سرعت قابل تنظیم (امروزه توصیه نمی‌شود)
       Display: روی تاخیر بین حرکات متوالی تاثیر دارد
-    Values:
+    Values: عددی بر حسب میلی‌ثانیه 
+      Default mode = 85
     Important Tags =
     SEO =
     SEO Point =
