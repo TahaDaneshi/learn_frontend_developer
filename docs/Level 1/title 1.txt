@@ -1330,7 +1330,7 @@ special tag = DOCTYPE html
         Default mode: true
       2- slide: متن از یک سمت وارد شده و در انتها متوقف می‌شود
       3- alternate: متن بین دو انتها به جلو و عقب حرکت می‌کند
-    Important Tags =
+    Important Tags = است HTML5 استفاده می‌شود که یک تگ منسوخ شده در  <marquee> این ویژگی منحصراً برای تگ 
     SEO =
     SEO Point =
     Point =
