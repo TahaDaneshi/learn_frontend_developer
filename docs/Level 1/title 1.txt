@@ -1291,8 +1291,8 @@ special tag = DOCTYPE html
     Attached file: true
     Usage:
     Properties =
-      Target:
-      Display:
+      Target: مشخص کردن جهت نمایش متن
+      Display: بر روی جهت نمایش متن تاثیر میگذارد
     Meaning:
     Important Tags =
     SEO =
