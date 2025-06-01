@@ -1331,7 +1331,8 @@ special tag = DOCTYPE html
       2- slide: متن از یک سمت وارد شده و در انتها متوقف می‌شود
       3- alternate: متن بین دو انتها به جلو و عقب حرکت می‌کند
     Important Tags = است HTML5 استفاده می‌شود که یک تگ منسوخ شده در  <marquee> این ویژگی منحصراً برای تگ 
-    SEO =
+    SEO =تأثیر منفی
+      داشته باشد SEO می‌تواند تأثیر منفی روی  behavior و <marquee> استفاده از 
     SEO Point =
     Point =
   =-= scrollamount
