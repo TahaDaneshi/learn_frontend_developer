@@ -1318,7 +1318,7 @@ special tag = DOCTYPE html
       4- در فرم ها ممکن است جهت اعداد نیاز به تنظیمات جداگانه داشته باشند
       5- مرورگرهای مدرن معمولاً جهت را به طور خودکار تشخیص می‌دهند، اما مشخص کردن آن توصیه می‌شود.
   =-= behavior
-    Abbreviation() {} =>
+    Abbreviation{behavior} => رفتار
     Attached file: true
     Properties =
       Target:
