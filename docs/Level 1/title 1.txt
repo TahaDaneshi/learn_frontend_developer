@@ -1326,6 +1326,10 @@ special tag = DOCTYPE html
         2- نمایش اطلاعیه‌های مهم به صورت متحرک
       Display: تاثیر دارد <marquee> در شیوه رفتار متن درون تگ
     Values:
+      1- scroll: متن از یک سمت وارد شده و از سمت دیگر خارج می‌شود
+        Default mode: true
+      2- slide: متن از یک سمت وارد شده و در انتها متوقف می‌شود
+      3- alternate: متن بین دو انتها به جلو و عقب حرکت می‌کند
     Important Tags =
     SEO =
     SEO Point =
