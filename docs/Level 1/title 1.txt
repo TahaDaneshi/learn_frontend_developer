@@ -1286,8 +1286,54 @@ special tag = DOCTYPE html
     attribute = behavior
     attribute = scrollamount
     attribute = scrolldelay
-
-
+  =-= direction
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= behavior
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= scrollamount
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= scrolldelay
+    Abbreviation() {} =>
+    Attached file: true
+    Usage:
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) tags = script
     tag = script
