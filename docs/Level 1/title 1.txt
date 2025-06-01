@@ -1289,7 +1289,7 @@ special tag = DOCTYPE html
   =-= direction
     Abbreviation{direction} => جهت
     Attached file: true
-    Usage:
+    Usage: تعیین و تغییر جهت نمایش متن
     Properties =
       Target: مشخص کردن جهت نمایش متن
       Display: بر روی جهت نمایش متن تاثیر میگذارد
