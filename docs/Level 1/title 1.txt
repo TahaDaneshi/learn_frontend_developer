@@ -1338,6 +1338,10 @@ special tag = DOCTYPE html
       2- باعث کاهش سرعت بارگذاری صفحه می‌شود
       3- می‌تواند تجربه کاربری را مختل کند
     Point =
+      1- منسوخ شده HTML5 در behavior و ویژگی <marquee> تگ
+      2- استفاده کنید JavaScript و CSS برای اثرات مشابه، از 
+      3- این تگ ممکن است در برخی مرورگرهای مدرن پشتیبانی نشود.
+      4- برای کاربر شود (accessibility) استفاده از آن ممکن است باعث مشکلات دسترسی 
   =-= scrollamount
     Abbreviation() {} =>
     Attached file: true
