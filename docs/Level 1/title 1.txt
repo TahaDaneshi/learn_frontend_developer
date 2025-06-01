@@ -1343,7 +1343,7 @@ special tag = DOCTYPE html
       3- این تگ ممکن است در برخی مرورگرهای مدرن پشتیبانی نشود.
       4- برای کاربر شود (accessibility) استفاده از آن ممکن است باعث مشکلات دسترسی 
   =-= scrollamount
-    Abbreviation() {} =>
+    Abbreviation(scrollamount) {scroll amount} => مقدار اسکرول
     Attached file: true
     Properties =
       Target:
