@@ -1351,7 +1351,7 @@ special tag = DOCTYPE html
         2- ایجاد افکت‌های تبلیغاتی یا اطلاع‌رسانی متحرک (امروزه توصیه نمی‌شود)
       Display: تاثیر میگذارد <marquee> بر روی سرعت حرکت متن تگ
     Values:
-    Important Tags =
+    Important Tags = شده است (deprecated) منسوخ HTML5 کاربرد دارد که در <marquee> این ویژگی فقط برای تگ 
     SEO =
     SEO Point =
     Point =
