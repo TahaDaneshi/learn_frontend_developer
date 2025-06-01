@@ -1376,7 +1376,7 @@ special tag = DOCTYPE html
       Display: روی تاخیر بین حرکات متوالی تاثیر دارد
     Values: عددی بر حسب میلی‌ثانیه 
       Default mode = 85
-    Important Tags =
+    Important Tags = شده است (deprecated) منسوخ HTML5 کاربرد دارد که در <marquee> این ویژگی فقط برای تگ
     SEO =
     SEO Point =
     Point =
