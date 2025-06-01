@@ -1346,8 +1346,10 @@ special tag = DOCTYPE html
     Abbreviation(scrollamount) {scroll amount} => مقدار اسکرول
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: کنترل میکند <marquee> سرعت حرکت متن را در تگ
+        1- <marquee> کنترل سرعت متن متحرک در 
+        2- ایجاد افکت‌های تبلیغاتی یا اطلاع‌رسانی متحرک (امروزه توصیه نمی‌شود)
+      Display: تاثیر میگذارد <marquee> بر روی سرعت حرکت متن تگ
     Values:
     Important Tags =
     SEO =
