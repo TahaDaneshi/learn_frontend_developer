@@ -1293,7 +1293,12 @@ special tag = DOCTYPE html
     Properties =
       Target: مشخص کردن جهت نمایش متن
       Display: بر روی جهت نمایش متن تاثیر میگذارد
-    Values:
+    Values =
+      1- ltr :
+        Abbreviation(ltr) {Left To Right} => چپ به راست
+        Default mode = true
+      2- rtl
+        Abbreviation(rtl) {Right To Left} => راست به چپ
     Important Tags =
     SEO =
     SEO Point =
