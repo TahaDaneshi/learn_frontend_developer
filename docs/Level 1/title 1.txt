@@ -1367,7 +1367,7 @@ special tag = DOCTYPE html
       2- در مرورگرهای جدید ممکن است به درستی کار نکند
       3- برای کاربران دارای معلولیت (مثل مشکلات بینایی یا تمرکز) مشکل ساز است
   =-= scrolldelay
-    Abbreviation() {} =>
+    Abbreviation(scrolldelay) {scroll delay} => تأخیر در اسکرول
     Attached file: true
     Properties =
       Target:
