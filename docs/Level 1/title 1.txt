@@ -1293,7 +1293,7 @@ special tag = DOCTYPE html
     Properties =
       Target: مشخص کردن جهت نمایش متن
       Display: بر روی جهت نمایش متن تاثیر میگذارد
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
@@ -1305,7 +1305,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
@@ -1317,7 +1317,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
@@ -1329,7 +1329,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
