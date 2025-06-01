@@ -1358,6 +1358,10 @@ special tag = DOCTYPE html
       2- سرعت بارگذاری صفحه را کاهش می‌دهد (بهینه نیست).  
       3- را خراب می‌کند (متن‌های متحرک حواس کاربر را پرت می‌کنند) UX تجربه کاربری 
     SEO Point =
+     جایگزین‌های بهتر برای سئو
+      1- JavaScript یا CSS Animation استفاده از 
+        example: CSS در @keyframes
+      2- نمایش متن‌های مهم به صورت ثابت یا با انیمیشن‌های سبک
     Point =
   =-= scrolldelay
     Abbreviation() {} =>
