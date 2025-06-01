@@ -1299,6 +1299,7 @@ special tag = DOCTYPE html
         Default mode = true
       2- rtl
         Abbreviation(rtl) {Right To Left} => راست به چپ
+      3- auto : مرورگر خودش جهت را تشخیص می‌دهد
     Important Tags = 1-div 2-p 3-span 4-input 5-textarea 6-table 7-marquee
       بهطور کلی هر تگی که محتوای متنی دارد
     SEO =
