@@ -1287,7 +1287,7 @@ special tag = DOCTYPE html
     attribute = scrollamount
     attribute = scrolldelay
   =-= direction
-    Abbreviation() {} =>
+    Abbreviation{direction} => جهت
     Attached file: true
     Usage:
     Properties =
