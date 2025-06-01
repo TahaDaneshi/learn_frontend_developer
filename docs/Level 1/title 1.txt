@@ -1321,8 +1321,10 @@ special tag = DOCTYPE html
     Abbreviation{behavior} => رفتار
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: کنترل میکند <marquee> رفتار حرکتی متن را در تگ 
+        1- ایجاد متن متحرک در صفحات وب (که امروزه توصیه نمی‌شود)
+        2- نمایش اطلاعیه‌های مهم به صورت متحرک
+      Display: تاثیر دارد <marquee> در شیوه رفتار متن درون تگ
     Values:
     Important Tags =
     SEO =
