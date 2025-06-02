@@ -1288,7 +1288,7 @@ special tag = DOCTYPE html
       6- برای محتوای اصلی صفحه استفاده نشود
     Point =همراه شود muted در مرورگرهای مدرن، پخش خودکار صدا معمولاً مسدود می‌شود مگر با 
   =-= loop
-    Abbreviation() {} =>
+    Abbreviation{loop} => حلقه
     Attached file: true
     Properties =
       Target:
