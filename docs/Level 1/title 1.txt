@@ -1265,8 +1265,11 @@ special tag = DOCTYPE html
     Abbreviation(autoplay) {auto play} => پخش خودکار
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: مشخص می‌کند که یک رسانه (صوتی یا تصویری) باید بلافاصله پس از بارگذاری صفحه شروع به پخش کند
+        example 1 = پخش خودکار ویدیوهای پس‌زمینه
+        example 2 = پخش خودکار موسیقی یا افکت‌های صوتی
+        example 3 = نمایش تبلیغات ویدیویی به صورت خودکار
+      Display: زمانی که یک مالتی مدیا خود به خود اجرا شود معلوم میشود
     Values:
     Important Tags =
     SEO =
