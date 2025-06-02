@@ -1258,6 +1258,9 @@ special tag = DOCTYPE html
       3- پشتیبانی از ایندکس کردن محتوای رسانه‌ای (گوگل می‌تواند ویدیوها را بهتر درک کند)
     SEO Point =
     Point =
+     جایگزین‌های سفارشی‌سازی شده
+      1- برای ساخت کنترل‌های شخصی‌سازی شده استفاده کنید JavaScript + CSS از
+      2- استفاده کنید Plyr یا Video.js از کتابخانه‌هایی مثل
   =-= autoplay
     Abbreviation() {} =>
     Attached file: true
