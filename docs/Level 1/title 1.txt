@@ -1297,7 +1297,7 @@ special tag = DOCTYPE html
         example 3 = ایجاد افکت‌های بصری تکراری
         example 4 = ( <marquee> نمایش اسلایدهای خودکار (در تگ منسوخ شده 
       Display: زمنی که یک مدیا خود به خود تکرار شود
-    Values:
+    Values: بدون مقدار (فقط وجود ویژگی کافی است)
     Important Tags =
     SEO =
     SEO Point =
