@@ -1246,7 +1246,7 @@ special tag = DOCTYPE html
     Properties =
       Target: نمایش کنترل‌های پخش رسانه برای عناصر چندرسانه‌ای فعال می‌کند
       Display: نمایش دکمه پخش / مکث / صدا / بزرگ و کوچک کردن صفحه
-    Values:
+    Values: بدون مقدار (فقط وجودش کافی است) → فعال می‌شود  
     Important Tags =
     SEO =
     SEO Point =
