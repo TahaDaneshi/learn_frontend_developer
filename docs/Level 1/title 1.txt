@@ -1240,6 +1240,39 @@ special tag = DOCTYPE html
     attribute = controls
     attribute = autoplay
     attribute = loop
+  =-= controls
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Values:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= autoplay
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Values:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= loop
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Values:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
 
 ===========================================================================================
 ) tag = marquee
