@@ -1291,8 +1291,12 @@ special tag = DOCTYPE html
     Abbreviation{loop} => حلقه
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: یک ویژگی بولین است که باعث می‌شود محتوای رسانه‌ای به طور مداوم و بی‌نهایت تکرار شود.
+        example 1 = پخش مداوم موسیقی پس‌زمینه
+        example 2 = نمایش ویدیوهای تبلیغاتی به صورت چرخشی
+        example 3 = ایجاد افکت‌های بصری تکراری
+        example 4 = ( <marquee> نمایش اسلایدهای خودکار (در تگ منسوخ شده 
+      Display: زمنی که یک مدیا خود به خود تکرار شود
     Values:
     Important Tags =
     SEO =
