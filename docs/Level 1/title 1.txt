@@ -1241,7 +1241,7 @@ special tag = DOCTYPE html
     attribute = autoplay
     attribute = loop
   =-= controls
-    Abbreviation() {} =>
+    Abbreviation{controls} => کنترل‌ها
     Attached file: true
     Properties =
       Target:
