@@ -1262,7 +1262,7 @@ special tag = DOCTYPE html
       1- برای ساخت کنترل‌های شخصی‌سازی شده استفاده کنید JavaScript + CSS از
       2- استفاده کنید Plyr یا Video.js از کتابخانه‌هایی مثل
   =-= autoplay
-    Abbreviation() {} =>
+    Abbreviation(autoplay) {auto play} => پخش خودکار
     Attached file: true
     Properties =
       Target:
