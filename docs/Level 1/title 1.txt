@@ -1244,8 +1244,8 @@ special tag = DOCTYPE html
     Abbreviation{controls} => کنترل‌ها
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: نمایش کنترل‌های پخش رسانه برای عناصر چندرسانه‌ای فعال می‌کند
+      Display: نمایش دکمه پخش / مکث / صدا / بزرگ و کوچک کردن صفحه
     Values:
     Important Tags =
     SEO =
