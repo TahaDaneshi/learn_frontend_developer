@@ -998,7 +998,66 @@ special tag = DOCTYPE html
     tag = option
     tag = optgroup
     tag = textarea
-
+  =-= fieldset
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= legend
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= select
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= option
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= optgroup
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= textarea
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) attributes 3
     attribute = readonly
