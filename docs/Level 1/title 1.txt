@@ -793,7 +793,7 @@ special tag = DOCTYPE html
       4- استفاده کنید type="search" برای جستجو از
       5- برای پیشنهادات استفاده نمایید datalist از
   =-= label
-    Abbreviation() {} =>
+    Abbreviation{label} => برچسب
     Attached file: true
     Properties =
       Target:
