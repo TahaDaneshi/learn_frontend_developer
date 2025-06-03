@@ -765,7 +765,7 @@ special tag = DOCTYPE html
       Display: به اشکالی که بتواند اطلاعاتی بگیرد در می آید و بسته به مکان متفاوت است
     Meaning:
     Important Attributes =
-    SEO =
+    SEO = تأثیر کمی روی سئو دارد
     SEO Point =
     Point =
   =-= label
