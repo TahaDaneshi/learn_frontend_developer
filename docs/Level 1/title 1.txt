@@ -787,6 +787,11 @@ special tag = DOCTYPE html
       3- استفاده کنید required برای فیلدهای مهم از
       4- را مشخص کنید type نوع صحیح
     Point =
+      1- را مطابقت دهید label در for و id همیشه
+      2- برای بهبود دسترسی استفاده کنید aria-* از اتریبیوت
+      3- regex برای اعتبارسنجی با pattern استفاده از
+      4- استفاده کنید type="search" برای جستجو از
+      5- برای پیشنهادات استفاده نمایید datalist از
   =-= label
     Abbreviation() {} =>
     Attached file: true
