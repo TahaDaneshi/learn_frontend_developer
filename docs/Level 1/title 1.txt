@@ -758,8 +758,11 @@ special tag = DOCTYPE html
     Abbreviation{input} => ورودی
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: برای ایجاد فیلدهای تعاملی که کاربر می‌تواند داده وارد کند
+        example 1 = دریافت انواع داده‌ها از کاربر (متن، عدد، رمز عبور، تاریخ، فایل و...)
+        example 2 = ایجاد کنترل‌های فرم مانند چک‌باکس، رادیو باتن، دکمه و...
+        example 3 = بخش اصلی هر فرم تعاملی در وب
+      Display: به اشکالی که بتواند اطلاعاتی بگیرد در می آید و بسته به مکان متفاوت است
     Meaning:
     Important Attributes =
     SEO =
