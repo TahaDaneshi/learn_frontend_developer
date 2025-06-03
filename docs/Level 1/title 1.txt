@@ -743,6 +743,39 @@ special tag = DOCTYPE html
     tag = form
     tag = input
     tag = label
+  =-= form
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= input
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
+  =-= label
+    Abbreviation() {} =>
+    Attached file: true
+    Properties =
+      Target:
+      Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) attributes 4
     attribute = id
