@@ -796,8 +796,11 @@ special tag = DOCTYPE html
     Abbreviation{label} => برچسب
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: برای ایجاد برچسب توصیفی برای عناصر ورودی فرم استفاده می‌شود
+        example 1 = ارتباط معنایی بین متن توصیفی و عنصر ورودی
+        example 2 = (Screen Readers) بهبود دسترسی‌پذیری برای کاربران صفحه‌خوان
+        example 3 = افزایش قابلیت استفاده با امکان کلیک روی برچسب برای فعال کردن عنصر ورودی
+      Display: متن ساده و بدون تغیر خواصی نمایش داده میشود
     Meaning:
     Important Attributes =
     SEO =
