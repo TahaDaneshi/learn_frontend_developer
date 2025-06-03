@@ -755,7 +755,7 @@ special tag = DOCTYPE html
     SEO Point =
     Point =
   =-= input
-    Abbreviation() {} =>
+    Abbreviation{input} => ورودی
     Attached file: true
     Properties =
       Target:
