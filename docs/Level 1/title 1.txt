@@ -999,7 +999,7 @@ special tag = DOCTYPE html
     tag = optgroup
     tag = textarea
   =-= fieldset
-    Abbreviation() {} =>
+    Abbreviation(fieldset) {Field Set} => مجموعه فیلد
     Attached file: true
     Properties =
       Target:
