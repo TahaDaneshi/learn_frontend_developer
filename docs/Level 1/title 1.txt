@@ -767,6 +767,10 @@ special tag = DOCTYPE html
     Important Attributes =
     SEO = تأثیر کمی روی سئو دارد
     SEO Point =
+      1- مرتبط استفاده کنید <label> همیشه از تگ
+      2- برای شناسایی فیلدها استفاده نمایید name از اتریبیوت
+      3- استفاده کنید required برای فیلدهای مهم از
+      4- را مشخص کنید type نوع صحیح
     Point =
   =-= label
     Abbreviation() {} =>
