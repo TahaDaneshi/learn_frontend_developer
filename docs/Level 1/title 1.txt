@@ -1002,7 +1002,11 @@ special tag = DOCTYPE html
     Abbreviation(fieldset) {Field Set} => مجموعه فیلد
     Attached file: true
     Properties =
-      Target:
+      Target: برای گروه‌بندی منطقی چندین کنترل فرم در یک جعبه مرزی استفاده می‌شود.
+        example 1 = ایجاد گروه‌های معنایی از عناصر فرم مرتبط
+        example 2 = بهبود سازماندهی فرم‌های پیچیده
+        example 3 = افزایش دسترسی‌پذیری برای کاربران صفحه‌خوان
+        example 4 = ایجاد ساختار بصری بهتر برای کاربران
       Display:
     Important Attributes =
     SEO =
