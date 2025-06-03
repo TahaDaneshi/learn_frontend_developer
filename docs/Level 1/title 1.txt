@@ -1010,6 +1010,9 @@ special tag = DOCTYPE html
       Display:
     Important Attributes =
     SEO =
+      1- مستقیم: بهبود ساختار معنایی صفحه که به خزنده‌ها کمک می‌کند
+      2- کمک به درک بهتر روابط بین عناصر فرم توسط موتورهای جستجو
+      3- غیرمستقیم: (UX) بهبود تجربه کاربری
     SEO Point =
     Point =
   =-= legend
