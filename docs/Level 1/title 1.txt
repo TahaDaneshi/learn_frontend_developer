@@ -1064,6 +1064,12 @@ special tag = DOCTYPE html
         example 3 = محدود کردن ورودی کاربر به گزینه‌های از پیش تعریف شده
       Display: dropdown menu (منوی کشویی)
     Important Attributes =
+      1- name : نام فیلد برای ارسال به سرور
+      2- multiple : امکان انتخاب چندگانه
+      3- required : اجباری بودن انتخاب
+      4- size : تعداد گزینه‌های قابل نمایش بدون نیاز به اسکرول
+      5- disabled : غیرفعال کردن کنترل
+      6- autofocus : فوکوس خودکار هنگام بارگذاری صفحه
     SEO = تأثیر کمی روی سئو دارد
     SEO Point =
       1- همراه شود <label> همیشه با تگ
