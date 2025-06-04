@@ -1083,7 +1083,7 @@ special tag = DOCTYPE html
       4- برای گزینه‌های زیاد (بیشتر از 10) از جستجوی قابل فیلتر کردن استفاده نمایید
       5- باید با متن نمایشی متفاوت باشد اگر برای پردازش سرور نیاز دارید value مقدار
   =-= option
-    Abbreviation() {} =>
+    Abbreviation{option} => گزینه
     Attached file: true
     Properties =
       Target:
