@@ -1064,7 +1064,7 @@ special tag = DOCTYPE html
         example 3 = محدود کردن ورودی کاربر به گزینه‌های از پیش تعریف شده
       Display: dropdown menu (منوی کشویی)
     Important Attributes =
-    SEO =
+    SEO = تأثیر کمی روی سئو دارد
     SEO Point =
     Point =
   =-= option
