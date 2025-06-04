@@ -1086,7 +1086,10 @@ special tag = DOCTYPE html
     Abbreviation{option} => گزینه
     Attached file: true
     Properties =
-      Target:
+      Target:<select> , <optgroup>, <datalist> برای تعریف گزینه‌های قابل انتخاب در عناصر
+        example 1 = ایجاد آیتم‌های انتخاب در منوهای کشویی
+        example 2 = ارائه گزینه‌های از پیش تعریف شده به کاربر
+        example 3 = محدود کردن ورودی‌های کاربر به مقادیر معتبر
       Display:
     Important Attributes =
     SEO =
