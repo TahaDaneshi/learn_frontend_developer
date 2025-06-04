@@ -1066,6 +1066,10 @@ special tag = DOCTYPE html
     Important Attributes =
     SEO = تأثیر کمی روی سئو دارد
     SEO Point =
+      1- همراه شود <label> همیشه با تگ
+      2- برای شناسایی فیلد استفاده کنید name از اتریبیوت
+      3- های معنادار استفاده کنید value برای گزینه‌های مهم از
+      4- های توضیحی برای گزینه‌های پیچیده استفاده نمایید option از
     Point =
   =-= option
     Abbreviation() {} =>
