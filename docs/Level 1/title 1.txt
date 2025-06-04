@@ -1058,8 +1058,11 @@ special tag = DOCTYPE html
     Abbreviation{select} => انتخاب
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: استفاده می‌شود که کاربر می‌تواند از بین چند گزینه یکی را انتخاب کند (منوی کشویی)dropdown menu برای ایجاد یک
+        example 1 = ایجاد لیست انتخاب در فرم‌ها
+        example 2 = صرفه‌جویی در فضای صفحه هنگام نمایش گزینه‌های زیاد
+        example 3 = محدود کردن ورودی کاربر به گزینه‌های از پیش تعریف شده
+      Display: dropdown menu (منوی کشویی)
     Important Attributes =
     SEO =
     SEO Point =
