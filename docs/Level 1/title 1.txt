@@ -1055,7 +1055,7 @@ special tag = DOCTYPE html
         5- باید کوتاه (حداکثر یک خط) باشد <legend> متن
         6- داشته باشد <legend> حد اکثر باید یک<fieldset> هر
   =-= select
-    Abbreviation() {} =>
+    Abbreviation{select} => انتخاب
     Attached file: true
     Properties =
       Target:
