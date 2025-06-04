@@ -1033,7 +1033,10 @@ special tag = DOCTYPE html
     Abbreviation{legend} => توضیح یا عنوان
     Attached file: true
     Properties =
-      Target:
+      Target: <fieldset> عنوان توصیفی برای گروه‌بندی عناصر در تگ
+        example 1 = ارائه توضیح معنایی برای گروهی از کنترل‌های فرم
+        example 2 = ایجاد ساختار بصری واضح برای فرم‌های پیچیده
+        example 3 = (Screen Readers) بهبود دسترسی‌پذیری برای کاربران صفحه‌خوان 
       Display:
     Important Attributes =
     SEO =
