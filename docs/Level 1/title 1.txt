@@ -1030,7 +1030,7 @@ special tag = DOCTYPE html
       4- برای ارتباط با عناوین پیچیده‌تر استفاده کرد aria-labelledby میتوان از
       5- برای فرم‌های چندمرحله‌ای عالی است
   =-= legend
-    Abbreviation() {} =>
+    Abbreviation{legend} => توضیح یا عنوان
     Attached file: true
     Properties =
       Target:
