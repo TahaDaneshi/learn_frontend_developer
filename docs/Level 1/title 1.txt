@@ -1092,7 +1092,7 @@ special tag = DOCTYPE html
         example 3 = محدود کردن ورودی‌های کاربر به مقادیر معتبر
       Display:
     Important Attributes =
-    SEO =
+    SEO = تأثیر کمی بر سئو دارد
     SEO Point =
     Point =
   =-= optgroup
