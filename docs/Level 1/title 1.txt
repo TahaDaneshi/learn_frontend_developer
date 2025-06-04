@@ -1094,6 +1094,10 @@ special tag = DOCTYPE html
     Important Attributes =
     SEO = تأثیر کمی بر سئو دارد
     SEO Point =
+      1- استفاده از متن‌های توصیفی و معنادار
+      2- با محتوای واقعی در صورت امکان value تطابق 
+      3- <optgroup> گروه‌بندی گزینه‌های مرتبط با
+      4- استفاده از کلمات کلیدی مرتبط به صورت طبیعی
     Point =
   =-= optgroup
     Abbreviation() {} =>
