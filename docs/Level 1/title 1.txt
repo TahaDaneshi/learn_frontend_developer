@@ -1092,6 +1092,10 @@ special tag = DOCTYPE html
         example 3 = محدود کردن ورودی‌های کاربر به مقادیر معتبر
       Display:
     Important Attributes =
+      1- value: مقدار ارسالی به سرور
+      2- selected: انتخاب پیش‌فرض
+      3- disabled: غیرفعال کردن گزینه
+      4- label: متن جایگزین برای نمایش
     SEO = تأثیر کمی بر سئو دارد
     SEO Point =
       1- استفاده از متن‌های توصیفی و معنادار
