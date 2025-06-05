@@ -1111,7 +1111,7 @@ special tag = DOCTYPE html
       6- ترتیب گزینه‌ها می‌تواند بر تجربه کاربر تأثیر بگذارد
       7- از گزینه خالی به عنوان راهنما استفاده کنید
   =-= optgroup
-    Abbreviation() {} =>
+    Abbreviation(optgroup) {Option Group} => گروه گزینه
     Attached file: true
     Properties =
       Target:
