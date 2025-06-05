@@ -1784,7 +1784,7 @@ special tag = DOCTYPE html
         example 2 = اسکریپت‌های تبلیغاتی (Ad scripts)
         example 3 = ابزارهای ردیابی کاربران
         example 4 = ندارد DOM هر اسکریپتی که وابستگی به سایر اسکریپت‌ها یا
-    Values:
+    Values: none
     Important Tags = است <script> این ویژگی مخصوص تگ
     SEO =
      مثبت
@@ -1809,7 +1809,7 @@ special tag = DOCTYPE html
         example 1 = نیاز دارد DOM زمانی که اسکریپت به المان‌های
         example 2 = وقتی اسکریپت وابستگی به سایر اسکریپت‌ها ندارد
         example 3 = برای بهبود عملکرد بارگذاری صفحه
-    Values:
+    Values: none
     Important Tags =
     SEO =
     SEO Point =
