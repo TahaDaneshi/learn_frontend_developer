@@ -57,7 +57,7 @@
     مرورگرها: باز کردن DevTools (مثل Chrome)
     VS Code: رفتن به تعریف تابع (Go to Definition)
     Example: شما را به تعریف تابع می‌برد F12 در جاوااسکریپت
-
+  Important F Keys: F1 - F2 - F5 - F8 - F9 - F12
 ===========================================================================================
 2) work with command prompt = کار با خط فرمان
 open cmd in the computer =
