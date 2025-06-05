@@ -962,6 +962,9 @@ UX =
   =-= []
     English: Square brackets (Left/Right)
     فارسی: کروشه (باز/بسته)
+  =-= {}
+    English: Curly braces / Braces
+    فارسی: آکولاد (باز/بسته)
 
 ===========================================================================================
 end) سوال های متداول Frequently asked questions
