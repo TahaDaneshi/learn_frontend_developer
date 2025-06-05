@@ -1142,7 +1142,7 @@ special tag = DOCTYPE html
       8- برای لیست‌های بسیار طولانی از جستجوی قابل فیلتر استفاده کنید
       9- گروه‌ها را بر اساس دسته‌بندی منطقی سازماندهی کنید
   =-= textarea
-    Abbreviation() {} =>
+    Abbreviation(textarea) {Text Area} => ناحیه متنی
     Attached file: true
     Properties =
       Target:
