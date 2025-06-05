@@ -1785,7 +1785,7 @@ special tag = DOCTYPE html
         example 3 = ابزارهای ردیابی کاربران
         example 4 = ندارد DOM هر اسکریپتی که وابستگی به سایر اسکریپت‌ها یا
     Values:
-    Important Tags =
+    Important Tags = است <script> این ویژگی مخصوص تگ
     SEO =
     SEO Point =
     Point =
