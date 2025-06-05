@@ -1145,8 +1145,11 @@ special tag = DOCTYPE html
     Abbreviation(textarea) {Text Area} => ناحیه متنی
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: برای ایجاد یک فیلد متنی چندخطی استفاده می‌شود
+        example 1 = دریافت ورودی متنی طولانی از کاربر
+        example 2 = مناسب برای نظرات، توضیحات، کدها یا هر محتوای چندخطی
+        example 3 = قابل استفاده در فرم‌های تماس، سیستم‌های کامنت‌گذاری و ویرایشگرهای ساده
+      Display: یک جعبه ورودی متن که کاربر میتونه توش متن های تولانی با جعبه منعتف
     Important Attributes =
     SEO =
     SEO Point =
