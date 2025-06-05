@@ -1776,7 +1776,7 @@ special tag = DOCTYPE html
     attribute = async
     attribute = defer
   =-= async
-    Abbreviation() {} =>
+    Abbreviation(async) {asynchronous} => غیرهمزمان / ناهمگام
     Attached file: true
     Properties =
       Target:
