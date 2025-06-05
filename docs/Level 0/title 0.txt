@@ -12,7 +12,7 @@
     Concepts Key Words ( Space - Enter - Ctrl - Alt - Shift -   Caps Lock - Tab - Esc - Num Lock - End - Delete - Home -  Insert - Page Up - Page Down )
 ===========================================================================================
 1.1) F1 to F12
-  F1 - Help
+  F1 - Help - راهنما
     ویندوز/لینوکس: در بیشتر برنامه‌ها. Help باز کردن
     VS Code: (هم کار میکند Ctrl+F1) Command Palette باز کردن
     Example: لیست تمام دستورات را نشان می‌دهد F1 هستید، فشار دادن VS Code وقتی در
