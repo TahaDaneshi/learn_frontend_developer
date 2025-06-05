@@ -1120,7 +1120,7 @@ special tag = DOCTYPE html
         example 3 = ایجاد ساختار سلسله‌مراتبی برای گزینه‌ها
       Display:
     Important Attributes =
-    SEO =
+    SEO = مستقیم: بهبود ساختار معنایی صفحه (کمک به خزنده‌ها برای درک روابط)
     SEO Point =
     Point =
   =-= textarea
