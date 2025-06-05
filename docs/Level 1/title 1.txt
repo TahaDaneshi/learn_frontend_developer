@@ -1779,8 +1779,11 @@ special tag = DOCTYPE html
     Abbreviation(async) {asynchronous} => غیرهمزمان / ناهمگام
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target: این ویژگی مشخص می‌کند که اسکریپت باید به صورت غیرمسدودکننده و مستقل از سایر فرآیندهای بارگذاری صفحه اجرا شود
+        example 1 = برای اسکریپت‌های مستقل مانند تحلیلی (analytics)
+        example 2 = اسکریپت‌های تبلیغاتی (Ad scripts)
+        example 3 = ابزارهای ردیابی کاربران
+        example 4 = ندارد DOM هر اسکریپتی که وابستگی به سایر اسکریپت‌ها یا
     Values:
     Important Tags =
     SEO =
