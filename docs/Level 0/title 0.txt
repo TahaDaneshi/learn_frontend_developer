@@ -11,6 +11,8 @@
     Key Words Important (Ctrl + c - Ctrl + v - Ctrl + x - Ctrl  + s - Ctrl + z - Shift + Alt) -
     Concepts Key Words ( Space - Enter - Ctrl - Alt - Shift -   Caps Lock - Tab - Esc - Num Lock - End - Delete - Home -  Insert - Page Up - Page Down )
 ===========================================================================================
+1.1) F1 to F12
+===========================================================================================
 2) work with command prompt = کار با خط فرمان
 open cmd in the computer =
  0 - وارد دایرکتوری یا همون فولدری شوید و سمت راست بخش جستوجو در جایی که لوکیشن فولدر را نوشته کلیک کرده و کل متنو پاک کرده و به جاش متن زیر را بنویسید
