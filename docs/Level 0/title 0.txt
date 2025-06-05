@@ -923,6 +923,9 @@ UX =
   =-= !
     English: Exclamation mark
     فارسی: علامت تعجب
+  =-= @
+    English: At sign / At symbol
+    فارسی: علامت اَت
 
 ===========================================================================================
 end) سوال های متداول Frequently asked questions
