@@ -1120,6 +1120,9 @@ special tag = DOCTYPE html
         example 3 = ایجاد ساختار سلسله‌مراتبی برای گزینه‌ها
       Display:
     Important Attributes =
+      1- label (اجباری): عنوان گروه
+      2- disabled: غیرفعال کردن کل گروه
+      3- class/id: برای استایل‌دهی و شناسایی
     SEO = مستقیم: بهبود ساختار معنایی صفحه (کمک به خزنده‌ها برای درک روابط)
     SEO Point =
       1- استفاده میشود <select> فقط در داخل تگ
