@@ -1805,8 +1805,10 @@ special tag = DOCTYPE html
     Abbreviation(defer) {defer execution} => تأخیر در اجرا
     Attached file: true
     Properties =
-      Target:
-      Display:
+      Target:اجرا شود HTML این ویژگی مشخص می‌کند که اسکریپت باید پس از تجزیه کامل سند
+        example 1 = نیاز دارد DOM زمانی که اسکریپت به المان‌های
+        example 2 = وقتی اسکریپت وابستگی به سایر اسکریپت‌ها ندارد
+        example 3 = برای بهبود عملکرد بارگذاری صفحه
     Values:
     Important Tags =
     SEO =
