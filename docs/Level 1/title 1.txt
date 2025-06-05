@@ -1802,7 +1802,7 @@ special tag = DOCTYPE html
       4- استفاده شود async از (Google Analytics مانند) بهتر است برای اسکریپت‌های شخص ثالث
     Difference(defer) = صبر می‌کنند اما ترتیب را حفظ می‌کنند HTML تا پایان تجزیه defer اسکریپت‌های
   =-= defer
-    Abbreviation() {} =>
+    Abbreviation(defer) {defer execution} => تأخیر در اجرا
     Attached file: true
     Properties =
       Target:
