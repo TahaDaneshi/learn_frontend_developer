@@ -1810,7 +1810,7 @@ special tag = DOCTYPE html
         example 2 = وقتی اسکریپت وابستگی به سایر اسکریپت‌ها ندارد
         example 3 = برای بهبود عملکرد بارگذاری صفحه
     Values: none
-    Important Tags =
+    Important Tags = است <script> این ویژگی مخصوص تگ
     SEO =
     SEO Point =
     Point =
