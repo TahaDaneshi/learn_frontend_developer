@@ -1114,7 +1114,10 @@ special tag = DOCTYPE html
     Abbreviation(optgroup) {Option Group} => گروه گزینه
     Attached file: true
     Properties =
-      Target:
+      Target: استفاده میشود <select> برای گروه‌بندی گزینه‌های مرتبط در تگ
+        example 1 = سازماندهی گزینه‌های مرتبط در منوهای کشویی
+        example 2 = بهبود خوانایی و کاربرپسندی لیست‌های طولانی
+        example 3 = ایجاد ساختار سلسله‌مراتبی برای گزینه‌ها
       Display:
     Important Attributes =
     SEO =
