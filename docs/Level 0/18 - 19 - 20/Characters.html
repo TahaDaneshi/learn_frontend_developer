@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Characters</title>
+  <style>
+    Body {
+      Font-family: Arial, sans-serif;
+      Line-height: 1.6;
+      Margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    Table {
+      Width: 100%;
+      Border-collapse: collapse;
+      Margin: 20px 0;
+    }
+
+    Th,
+    td {
+      Border: 1px solid #ddd;
+      Padding: 8px;
+      Text-align: center;
+    }
+
+    Th {
+      Background-color: #f2f2f2;
+    }
+
+    Tr:nth-child(even) {
+      Background-color: #f9f9f9;
+    }
+
+    tr:hover,
+    td:hover {
+      background-color: aqua;
+    }
+
+    .character {
+      Font-size: 1.5em;
+      Font-weight: bold;
+    }
+
+    .example {
+      Font-family: monospace;
+      Background-color: #f5f5f5;
+      Padding: 2px 5px;
+      Border-radius: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>کاراکترهای خاص در برنامه‌نویسی</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>کاراکتر</th>
+        <th>نام انگلیسی</th>
+        <th>نام فارسی</th>
+        <th>مثال برنامه‌نویسی</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="character">!</td>
+        <td>Exclamation mark</td>
+        <td>علامت تعجب</td>
+        <td class="example">if (x != 0) { … }</td>
+      </tr>
+      <tr>
+        <td class="character">@</td>
+        <td>At sign</td>
+        <td>علامت اَت</td>
+        <td class="example">@decorator</td>
+      </tr>
+      <tr>
+        <td class="character">#</td>
+        <td>Hash / Pound</td>
+        <td>علامت هَش/دیز</td>
+        <td class="example"># This Is a comment</td>
+      </tr>
+      <tr>
+        <td class="character">$</td>
+        <td>Dollar sign</td>
+        <td>علامت دلار</td>
+        <td class="example">let price = 100$;</td>
+      </tr>
+      <tr>
+        <td class="character">%</td>
+        <td>Percent sign</td>
+        <td>علامت درصد/مودولو</td>
+        <td class="example">10 % 3 → 1</td>
+      </tr>
+      <tr>
+        <td class="character">^</td>
+        <td>Caret</td>
+        <td>علامت کلاهک</td>
+        <td class="example">2^3 (توان در برخی زبان‌ها)</td>
+      </tr>
+      <tr>
+        <td class="character">&</td>
+        <td>Ampersand</td>
+        <td>علامت اَند</td>
+        <td class="example">if (x & y) { … }</td>
+      </tr>
+      <tr>
+        <td class="character">*</td>
+        <td>Asterisk</td>
+        <td>علامت ستاره</td>
+        <td class="example">def func(*args)</td>
+      </tr>
+      <tr>
+        <td class="character">( )</td>
+        <td>Parentheses</td>
+        <td>پرانتز</td>
+        <td class="example">print("Hello")</td>
+      </tr>
+      <tr>
+        <td class="character">-</td>
+        <td>Hyphen</td>
+        <td>خط تیره</td>
+        <td class="example">5 – 3</td>
+      </tr>
+      <tr>
+        <td class="character">_</td>
+        <td>Underscore</td>
+        <td>آندرلاین</td>
+        <td class="example">user_name = "Ali"</td>
+      </tr>
+      <tr>
+        <td class="character">=</td>
+        <td>Equals sign</td>
+        <td>علامت مساوی</td>
+        <td class="example">x = 10</td>
+      </tr>
+      <tr>
+        <td class="character">+</td>
+        <td>Plus</td>
+        <td>علامت جمع</td>
+        <td class="example">2 + 3</td>
+      </tr>
+      <tr>
+        <td class="character">[ ]</td>
+        <td>Square brackets</td>
+        <td>کروشه</td>
+        <td class="example">list = [1, 2, 3]</td>
+      </tr>
+      <tr>
+        <td class="character">{ }</td>
+        <td>Curly braces</td>
+        <td>آکولاد</td>
+        <td class="example">dict = {"name": "Ali"}</td>
+      </tr>
+      <tr>
+        <td class="character">|</td>
+        <td>Pipe</td>
+        <td>خط عمودی</td>
+        <td class="example">if (x | y) { … }</td>
+      </tr>
+      <tr>
+        <td class="character">\</td>
+        <td>Backslash</td>
+        <td>بک‌اسلش</td>
+        <td class="example">"C:\\folder\\file.txt"</td>
+      </tr>
+      <tr>
+        <td class="character">/</td>
+        <td>Slash</td>
+        <td>اسلش</td>
+        <td class="example">10 / 2</td>
+      </tr>
+      <tr>
+        <td class="character">:</td>
+        <td>Colon</td>
+        <td>دونقطه</td>
+        <td class="example">if x > 0:</td>
+      </tr>
+      <tr>
+        <td class="character">;</td>
+        <td>Semicolon</td>
+        <td>نقطه‌ویرگول</td>
+        <td class="example">let x = 10;</td>
+      </tr>
+      <tr>
+        <td class="character">" '</td>
+        <td>Double/Single quote</td>
+        <td>دابل/تک کوتیشن</td>
+        <td class="example">name = "Ali"</td>
+      </tr>
+      <tr>
+        <td class="character">,</td>
+        <td>Comma</td>
+        <td>ویرگول</td>
+        <td class="example">[1, 2, 3]</td>
+      </tr>
+      <tr>
+        <td class="character">.</td>
+        <td>Dot</td>
+        <td>نقطه</td>
+        <td class="example">math.pi</td>
+      </tr>
+      <tr>
+        <td class="character">~</td>
+        <td>Tilde</td>
+        <td>تیلدا</td>
+        <td class="example">~x (NOT بیتی)</td>
+      </tr>
+      <tr>
+        <td class="character">`</td>
+        <td>Backtick</td>
+        <td>بک‌تیک</td>
+        <td class="example">`Hello ${name}`</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
