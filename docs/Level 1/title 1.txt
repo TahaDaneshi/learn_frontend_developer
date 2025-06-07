@@ -1354,7 +1354,7 @@ special tag = DOCTYPE html
         example 1 = تعیین عرض فیلدهای ورودی متنی (بر اساس تعداد کاراکترهای تقریبی)  
         example 2 = کنترل تعداد گزینه‌های قابل مشاهده در 
         example 3 = با تنظیم اندازه مناسب برای فیلدها UX بهبود
-    Values:
+    Values: number
     Important Tags = input - select
     SEO = عدم تأثیر مستقیم بر رتبه‌بندی
     SEO Point =
