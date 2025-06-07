@@ -1320,6 +1320,9 @@ special tag = DOCTYPE html
         example 3 = وارد کردن چندین ایمیل در یک فیلد ورودی
     Meaning:
     Important Tags =
+      1- <input type="file">: برای انتخاب چندین فایل
+      2- <input type="email">: برای وارد کردن چندین آدرس ایمیل
+      3- <select>: برای انتخاب چندین گزینه از لیست dropdown
     SEO =
     SEO Point =
     Point =
