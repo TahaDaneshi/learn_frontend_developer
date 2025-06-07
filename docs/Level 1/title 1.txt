@@ -1383,7 +1383,7 @@ special tag = DOCTYPE html
     SEO Point =
     Point =
   =-= open
-    Abbreviation() {} =>
+    Abbreviation{open} => باز/گشوده
     Attached file: true
     Properties =
       Target:
