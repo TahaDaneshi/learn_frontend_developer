@@ -1346,7 +1346,6 @@ special tag = DOCTYPE html
       2- محتوا نباید ضروری باشد: را ایندکس نکنند palceholder موتورهای جستجو ممکن است محتوای
       3- رنگ کم‌کنتراست: ممکن است برای برخی کاربران قابل مشاهده نباشد
       4- دسترسی‌پذیری: رانخوانند placeholder ممکن است همیشه Screen Readers
-    Point =
   =-= size
     Abbreviation() {} =>
     Attached file: true
