@@ -1314,7 +1314,10 @@ special tag = DOCTYPE html
     Abbreviation{multiple} => چندتایی/چندگانه
     Attached file: true
     Properties =
-      Target:
+      Target: این اتریبیوت نشان می‌دهد که کاربر می‌تواند بیش از یک مقدار یا گزینه را انتخاب کند
+        example 1 = آپلود چندین فایل به صورت همزمان
+        example 2 = انتخاب چندین آیتم از لیست
+        example 3 = وارد کردن چندین ایمیل در یک فیلد ورودی
       Display:
     Meaning:
     Important Tags =
