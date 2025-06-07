@@ -1334,7 +1334,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
@@ -1345,7 +1345,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
@@ -1356,7 +1356,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
@@ -1367,7 +1367,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
@@ -1378,7 +1378,7 @@ special tag = DOCTYPE html
     Properties =
       Target:
       Display:
-    Meaning:
+    Values:
     Important Tags =
     SEO =
     SEO Point =
