@@ -1332,7 +1332,11 @@ special tag = DOCTYPE html
     Abbreviation{palceholder} => متن نگهدارنده/نوشته راهنما
     Attached file: true
     Properties =
-      Target:
+      Target: این متن به کاربر نشان می‌دهد که چه نوع محتوایی باید در فیلد مربوطه وارد کند.
+        example 1 = نمایش راهنمای ورودی در فیلدهای فرم
+        example 2 = نشان دادن فرمت مورد انتظار برای ورودی
+        example 3 = ارائه مثال از محتوای مورد نیاز
+        example 4 = جایگزین ساده برای برچسب
       Display:
     Values:
     Important Tags =
