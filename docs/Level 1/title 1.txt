@@ -1311,7 +1311,7 @@ special tag = DOCTYPE html
     attribute = rowspan
     attribute = open
   =-= multiple
-    Abbreviation() {} =>
+    Abbreviation{multiple} => چندتایی/چندگانه
     Attached file: true
     Usage:
     Properties =
