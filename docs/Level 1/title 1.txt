@@ -1340,7 +1340,7 @@ special tag = DOCTYPE html
       Display: متن کمرنگ و خاکستری که با کلیک روی فیلد خود به خود نابود شده و در صورت خالی رها کردن فیلد باز نمایش داده میشود
     Values:
     Important Tags = input - textarea
-    SEO =
+    SEO = غیر مستقیم و با تجربه کاربری
     SEO Point =
     Point =
   =-= size
