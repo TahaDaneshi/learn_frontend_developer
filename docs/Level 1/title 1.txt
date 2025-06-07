@@ -1329,7 +1329,7 @@ special tag = DOCTYPE html
       2- ساختار داده: سازماندهی بهتر داده‌های ورودی کاربر
       3- دسترسی پذیری: باید با برچسب‌های مناسب همراه باشد تا برای خوانندگان صفحه قابل فهم باشد
   =-= palceholder
-    Abbreviation() {} =>
+    Abbreviation{palceholder} => متن نگهدارنده/نوشته راهنما
     Attached file: true
     Properties =
       Target:
