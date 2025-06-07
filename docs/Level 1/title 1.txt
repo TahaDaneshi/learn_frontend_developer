@@ -1342,6 +1342,10 @@ special tag = DOCTYPE html
     Important Tags = input - textarea
     SEO = غیر مستقیم و با تجربه کاربری
     SEO Point =
+      1- نیست label جایگزین: همراه با این اتریبیوت استفاده شود <label> بهتر است همیشه از تگ SEO برای
+      2- محتوا نباید ضروری باشد: را ایندکس نکنند palceholder موتورهای جستجو ممکن است محتوای
+      3- رنگ کم‌کنتراست: ممکن است برای برخی کاربران قابل مشاهده نباشد
+      4- دسترسی‌پذیری: رانخوانند placeholder ممکن است همیشه Screen Readers
     Point =
   =-= size
     Abbreviation() {} =>
