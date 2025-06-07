@@ -1347,7 +1347,7 @@ special tag = DOCTYPE html
       3- رنگ کم‌کنتراست: ممکن است برای برخی کاربران قابل مشاهده نباشد
       4- دسترسی‌پذیری: رانخوانند placeholder ممکن است همیشه Screen Readers
   =-= size
-    Abbreviation() {} =>
+    Abbreviation{size} => اندازه
     Attached file: true
     Properties =
       Target:
