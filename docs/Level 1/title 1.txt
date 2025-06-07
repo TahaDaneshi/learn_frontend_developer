@@ -1338,7 +1338,7 @@ special tag = DOCTYPE html
         example 3 = ارائه مثال از محتوای مورد نیاز
         example 4 = جایگزین ساده برای برچسب
       Display: متن کمرنگ و خاکستری که با کلیک روی فیلد خود به خود نابود شده و در صورت خالی رها کردن فیلد باز نمایش داده میشود
-    Values:
+    Values: متن یا عدد
     Important Tags = input - textarea
     SEO = غیر مستقیم و با تجربه کاربری
     SEO Point =
