@@ -1381,7 +1381,7 @@ special tag = DOCTYPE html
         example 3 = کاهش تکرار داده‌ها در سطرهای تکراری  
       Display:
     Values:
-    Important Tags =
+    Important Tags = td - th
     SEO =
     SEO Point =
     Point =
