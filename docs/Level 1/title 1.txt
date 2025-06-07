@@ -1313,7 +1313,6 @@ special tag = DOCTYPE html
   =-= multiple
     Abbreviation{multiple} => چندتایی/چندگانه
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
@@ -1325,7 +1324,6 @@ special tag = DOCTYPE html
   =-= palceholder
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
@@ -1337,7 +1335,6 @@ special tag = DOCTYPE html
   =-= size
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
@@ -1349,7 +1346,6 @@ special tag = DOCTYPE html
   =-= bgcolor
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
@@ -1361,7 +1357,6 @@ special tag = DOCTYPE html
   =-= rowspan
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
@@ -1373,7 +1368,6 @@ special tag = DOCTYPE html
   =-= open
     Abbreviation() {} =>
     Attached file: true
-    Usage:
     Properties =
       Target:
       Display:
