@@ -1375,7 +1375,10 @@ special tag = DOCTYPE html
     Abbreviation(rowspan) [Row => سطر, Span => ادغام/گسترش]
     Attached file: true
     Properties =
-      Target:
+      Target: باید در بر بگیرد (<th> or <td>) تعیین تعداد سطرهایی که یک سلول جدول
+        example 1 = ادغام عمودی سلول‌ها در جدول  
+        example 2 = ساخت ساختارهای جدولی پیچیده (مثل گزارش‌ها، داشبوردها)  
+        example 3 = کاهش تکرار داده‌ها در سطرهای تکراری  
       Display:
     Values:
     Important Tags =
