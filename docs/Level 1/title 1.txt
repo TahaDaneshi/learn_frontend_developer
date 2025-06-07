@@ -1357,7 +1357,7 @@ special tag = DOCTYPE html
       Display:
     Values:
     Important Tags = input - select
-    SEO =
+    SEO = عدم تأثیر مستقیم بر رتبه‌بندی
     SEO Point =
     Point =
   =-= bgcolor
