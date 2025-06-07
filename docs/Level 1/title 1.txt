@@ -1356,7 +1356,7 @@ special tag = DOCTYPE html
         example 3 = با تنظیم اندازه مناسب برای فیلدها UX بهبود
       Display:
     Values:
-    Important Tags =
+    Important Tags = input - select
     SEO =
     SEO Point =
     Point =
