@@ -1380,7 +1380,7 @@ special tag = DOCTYPE html
         example 2 = ساخت ساختارهای جدولی پیچیده (مثل گزارش‌ها، داشبوردها)  
         example 3 = کاهش تکرار داده‌ها در سطرهای تکراری  
       Display:
-    Values:
+    Values: number
     Important Tags = td - th
     SEO = تأثیر غیرمستقیم
     SEO Point =
