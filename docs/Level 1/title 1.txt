@@ -1339,7 +1339,7 @@ special tag = DOCTYPE html
         example 4 = جایگزین ساده برای برچسب
       Display: متن کمرنگ و خاکستری که با کلیک روی فیلد خود به خود نابود شده و در صورت خالی رها کردن فیلد باز نمایش داده میشود
     Values:
-    Important Tags =
+    Important Tags = input - textarea
     SEO =
     SEO Point =
     Point =
