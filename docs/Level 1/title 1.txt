@@ -1386,7 +1386,10 @@ special tag = DOCTYPE html
     Abbreviation{open} => باز/گشوده
     Attached file: true
     Properties =
-      Target:
+      Target: نشان می‌دهد که المان مربوطه باید در حالت باز/نمایش داده شده رندر شود
+        example 1 = بدون نیاز به کلیک <datails> نمایش پیش‌فرض محتوای
+        example 2 = هنگام بارگذاری صفحه <dialog> نمایش خودکار پنجره‌های
+        example 3 = بهبود تجربه کاربری با نمایش سریع اطلاعات مهم
       Display:
     Values:
     Important Tags =
