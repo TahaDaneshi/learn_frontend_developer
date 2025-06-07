@@ -1318,7 +1318,6 @@ special tag = DOCTYPE html
         example 1 = آپلود چندین فایل به صورت همزمان
         example 2 = انتخاب چندین آیتم از لیست
         example 3 = وارد کردن چندین ایمیل در یک فیلد ورودی
-      Display:
     Meaning:
     Important Tags =
     SEO =
