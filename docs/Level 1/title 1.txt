@@ -1393,7 +1393,7 @@ special tag = DOCTYPE html
       Display:
     Values:
     Important Tags =
-    SEO =
+    SEO = غیر مستقیم
     SEO Point =
       1- توسط خزنده‌ها ایندکس می‌شوند open محتویات باز شده توسط
       2- ⚠استفاده بیش از حد ممکن است بار صفحه را افزایش دهد
