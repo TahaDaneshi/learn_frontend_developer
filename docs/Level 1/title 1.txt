@@ -1372,7 +1372,7 @@ special tag = DOCTYPE html
     SEO Point =
     Point =
   =-= rowspan
-    Abbreviation() {} =>
+    Abbreviation(rowspan) [Row => سطر, Span => ادغام/گسترش]
     Attached file: true
     Properties =
       Target:
