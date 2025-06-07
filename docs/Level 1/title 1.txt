@@ -1350,7 +1350,10 @@ special tag = DOCTYPE html
     Abbreviation{size} => اندازه
     Attached file: true
     Properties =
-      Target:
+      Target: تعیین عرض عنصر (بر حسب کاراکترها برای فیلدهای متنی یا آیتم‌ها برای لیست‌ها)
+        example 1 = تعیین عرض فیلدهای ورودی متنی (بر اساس تعداد کاراکترهای تقریبی)  
+        example 2 = کنترل تعداد گزینه‌های قابل مشاهده در 
+        example 3 = با تنظیم اندازه مناسب برای فیلدها UX بهبود
       Display:
     Values:
     Important Tags =
