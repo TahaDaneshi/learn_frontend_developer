@@ -1193,7 +1193,7 @@ special tag = DOCTYPE html
       3- برای امنیت بیشتر بهتر است با اعتبارسنجی سمت سرور ترکیب شود
     Point =
   =-= disabled
-    Abbreviation() {} =>
+    Abbreviation{disabled} => غیرفعال
     Target:
     Values:
     Important Tags =
