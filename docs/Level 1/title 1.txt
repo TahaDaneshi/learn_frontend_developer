@@ -1204,6 +1204,9 @@ special tag = DOCTYPE html
       input - textarea - select - button - fieldset - optgroup - option
     SEO = محتوای این عناصر معمولاً در ایندکس شدن صفحه تأثیر چندانی ندارد
     SEO Point =
+      1- معمولاً توسط کراولرها نادیده گرفته می‌شوند
+      2- از نظر دسترسی (accessibility): توسط خوانندگان صفحه خوانده می‌شوند
+      3- تکیه کرد، چون کاربران می‌توانند آن را در ابزار توسعه‌دهنده تغییر دهند disabled برای اطلاعات مهم نباید فقط به
     Point =
   =-= autofocus
     Abbreviation() {} =>
