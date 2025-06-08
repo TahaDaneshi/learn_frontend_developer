@@ -1226,7 +1226,7 @@ special tag = DOCTYPE html
       3- در فرم‌های جستجو بسیار مفید است
     Point =
   =-= required
-    Abbreviation() {} =>
+    Abbreviation{required} => الزامی
     Target:
     Values:
     Important Tags =
