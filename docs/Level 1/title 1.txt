@@ -1232,7 +1232,7 @@ special tag = DOCTYPE html
       ✅ اجباری کردن فیلدهای ضروری (مثل ایمیل، رمز عبور، نام کاربری)  
       ✅ کاهش خطاهای فرم قبل از ارسال به سرور  
       ✅ با نمایش پیام خطای خودکار مرورگر UX بهبود 
-    Values:
+    Values: none
     Important Tags =
     SEO =
     SEO Point =
