@@ -1210,7 +1210,11 @@ special tag = DOCTYPE html
     Point =
   =-= autofocus
     Abbreviation(autofocus) {auto-focus} => تمرکز خودکار
-    Target:
+    Target: این اتریبیوت مشخص می‌کند که عنصر باید به طور خودکار هنگام بارگذاری صفحه فوکوس (تمرکز) بگیرد
+      example 1 = تمرکز خودکار روی اولین فیلد فرم‌های ورود داده
+      example 2 =با هدایت سریع کاربر به نقطه تعامل اصلی UX بهبود 
+      example 3 = برای تمرکز روی فیلدهای جستجو (SPA) در برنامه‌های تک صفحه‌ای 
+      example 4 = در رابط‌های خط فرمان مبتنی بر وب
     Values:
     Important Tags =
     SEO =
