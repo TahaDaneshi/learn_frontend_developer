@@ -1185,7 +1185,7 @@ special tag = DOCTYPE html
       example 2 = نمایش مقادیر پیش‌فرضی که کاربر می‌تواند ببیند اما نباید ویرایش کند
       example 3 = در فرم‌هایی که برخی فیلدها باید ثابت بمانند
     Values:
-    Important Tags =
+    Important Tags = input - textarea
     SEO =
     SEO Point =
     Point =
