@@ -1178,8 +1178,38 @@ special tag = DOCTYPE html
     attribute = disabled
     attribute = autofocus
     attribute = required
-
-
+  =-= readonly
+    Abbreviation() {} =>
+    Target:
+    Values:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= disabled
+    Abbreviation() {} =>
+    Target:
+    Values:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= autofocus
+    Abbreviation() {} =>
+    Target:
+    Values:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
+  =-= required
+    Abbreviation() {} =>
+    Target:
+    Values:
+    Important Tags =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) tags -  table
     tag = table
