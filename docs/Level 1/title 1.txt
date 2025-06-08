@@ -1200,7 +1200,8 @@ special tag = DOCTYPE html
       example 3 = نمایش گزینه‌هایی که فعلاً در دسترس نیستند
       example 4 = ایجاد تفاوت بصری بین عناصر فعال و غیرفعال
     Values:
-    Important Tags =
+    Important Tags = این اتریبیوت برای عناصر فرم‌ها استفاده می‌شود
+      input - textarea - select - button - fieldset - optgroup - option
     SEO =
     SEO Point =
     Point =
