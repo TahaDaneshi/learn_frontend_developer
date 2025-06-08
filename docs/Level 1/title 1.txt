@@ -1186,7 +1186,7 @@ special tag = DOCTYPE html
       example 3 = در فرم‌هایی که برخی فیلدها باید ثابت بمانند
     Values:
     Important Tags = input - textarea
-    SEO =
+    SEO = این اتریبیوت بر ایندکس شدن محتوا تأثیر منفی ندارد
     SEO Point =
     Point =
   =-= disabled
