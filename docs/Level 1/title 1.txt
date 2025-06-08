@@ -1202,7 +1202,7 @@ special tag = DOCTYPE html
     Values:
     Important Tags = این اتریبیوت برای عناصر فرم‌ها استفاده می‌شود
       input - textarea - select - button - fieldset - optgroup - option
-    SEO =
+    SEO = محتوای این عناصر معمولاً در ایندکس شدن صفحه تأثیر چندانی ندارد
     SEO Point =
     Point =
   =-= autofocus
