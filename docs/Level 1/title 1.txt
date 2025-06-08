@@ -1194,7 +1194,11 @@ special tag = DOCTYPE html
     Point =
   =-= disabled
     Abbreviation{disabled} => غیرفعال
-    Target:
+    Target: مشخص می‌کند که عنصر باید غیرفعال (غیرقابل تعامل) باشد
+      example 1 = غیرفعال کردن موقت برخی گزینه‌ها تا شرایط خاصی برقرار شود
+      example 2 = با فرم ارسال نمی‌شوند disabled جلوگیری از ارسال برخی فیلدها با فرم (فیلدهای 
+      example 3 = نمایش گزینه‌هایی که فعلاً در دسترس نیستند
+      example 4 = ایجاد تفاوت بصری بین عناصر فعال و غیرفعال
     Values:
     Important Tags =
     SEO =
