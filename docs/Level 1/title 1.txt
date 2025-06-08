@@ -1217,7 +1217,7 @@ special tag = DOCTYPE html
       example 4 = در رابط‌های خط فرمان مبتنی بر وب
     Values:
     Important Tags =
-    SEO =
+    SEO = تأثیر مستقیمی بر رتبه‌بندی ندارد
     SEO Point =
     Point =
   =-= required
