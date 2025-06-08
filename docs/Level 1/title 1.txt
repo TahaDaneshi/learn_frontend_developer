@@ -1215,7 +1215,7 @@ special tag = DOCTYPE html
       example 2 =با هدایت سریع کاربر به نقطه تعامل اصلی UX بهبود 
       example 3 = برای تمرکز روی فیلدهای جستجو (SPA) در برنامه‌های تک صفحه‌ای 
       example 4 = در رابط‌های خط فرمان مبتنی بر وب
-    Values:
+    Values: none
     Important Tags =
     SEO = تأثیر مستقیمی بر رتبه‌بندی ندارد
     SEO Point =
