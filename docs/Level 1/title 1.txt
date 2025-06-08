@@ -1179,7 +1179,7 @@ special tag = DOCTYPE html
     attribute = autofocus
     attribute = required
   =-= readonly
-    Abbreviation() {} =>
+    Abbreviation(readonly) {read-only} => فقط خواندنی
     Target:
     Values:
     Important Tags =
