@@ -1209,7 +1209,7 @@ special tag = DOCTYPE html
       3- تکیه کرد، چون کاربران می‌توانند آن را در ابزار توسعه‌دهنده تغییر دهند disabled برای اطلاعات مهم نباید فقط به
     Point =
   =-= autofocus
-    Abbreviation() {} =>
+    Abbreviation(autofocus) {auto-focus} => تمرکز خودکار
     Target:
     Values:
     Important Tags =
