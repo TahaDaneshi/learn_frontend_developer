@@ -775,7 +775,11 @@ special tag = DOCTYPE html
   =-= section
     Abbreviation{section} => بخش
     Attached file: true
-    Target:
+    Target: ایجاد یک بخش مستقل و گروه‌بندی شده از محتوا که معمولاً شامل یک عنوان است
+      example 1 = گروه‌بندی محتوای مرتبط در صفحه
+      example 2 = ایجاد بخش‌های منطقی در مقاله‌های بلند
+      example 3 = جداکردن قسمت‌های مختلف یک صفحه (مثل: مقدمه، ویژگی‌ها، تماس)
+      example 4 = مناسب برای محتوایی که نیاز به عنوان دارد
     Display:
     Meaning:
     Important Attributes =
