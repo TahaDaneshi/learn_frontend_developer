@@ -725,7 +725,9 @@ special tag = DOCTYPE html
   =-= header
     Abbreviation{header} => سرصفحه
     Attached file: true
-    Target:
+    Target: تعریف بخش بالایی و معرفی بخش های پایین تر
+      example 1 = فرم جستجو یا اطلاعات تماس است (navbar)معمولاً شامل لوگو، عنوان اصلی صفحه، منوی ناوبری 
+      example 2 = استفاده میشود <article> / <section> یا بالای هر <body> می‌تواند در بالای صفحه 
     Display:
     Meaning: یک بخش معرفی‌کننده یا ناوبری برای محتوای صفحه یا یک بخش خاص
     Important Attributes =
