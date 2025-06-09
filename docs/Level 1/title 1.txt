@@ -755,6 +755,9 @@ special tag = DOCTYPE html
     Meaning:
     Important Attributes =
     SEO =
+      1- برای موتورهای جستجو (Semantic HTML) بهبود ساختار معنایی
+      2- نمایش بهتر اطلاعات کپی‌رایت و تاریخ‌ها (مفید برای محتوای به‌روز)
+      3- امکان قراردادن لینک‌های داخلی (مثل نقشه سایت) برای ایندکس بهتر
     SEO Point =
     Point =
   =-= section 
