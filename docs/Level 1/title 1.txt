@@ -723,7 +723,7 @@ special tag = DOCTYPE html
       5- JavaScript: بسازید c(غیر ثابت) میتوانید سایت هایی خاص و فعال
 
   =-=header
-    Abbreviation() {} =>
+    Abbreviation{header} => سرصفحه
     Attached file: true
     Target:
     Display:
