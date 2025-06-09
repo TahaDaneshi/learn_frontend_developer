@@ -772,8 +772,8 @@ special tag = DOCTYPE html
       1- <footer> قراردادن محتوای اصلی صفحه در
       2- استفاده از فوتر برای لینک‌های اسپم (مثل کلمات کلیدی بی‌ربط)
     Difference(header) = معمولاً حاوی اطلاعات فرعی و تکمیلی است، نه محتوای اصلی <footer>
-  =-= section 
-    Abbreviation() {} =>
+  =-= section
+    Abbreviation{section} => بخش
     Attached file: true
     Target:
     Display:
