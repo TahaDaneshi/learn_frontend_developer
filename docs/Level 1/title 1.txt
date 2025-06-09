@@ -783,6 +783,9 @@ special tag = DOCTYPE html
     Display:
     Meaning:
     Important Attributes =
+      1- aria-labelledby: برای ارتباط با عنصر عنوان‌دهنده
+      2- aria-label: وقتی عنوان بصری ندارد
+      3- id: برای ایجاد نقاط پرش در صفحه
     SEO =
       1- بهبود ساختار معنایی صفحه برای موتورهای جستجو
       2- کمک به درک بهتر روابط بین بخش‌های محتوا
