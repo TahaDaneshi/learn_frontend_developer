@@ -732,6 +732,8 @@ special tag = DOCTYPE html
     Meaning: یک بخش معرفی‌کننده یا ناوبری برای محتوای صفحه یا یک بخش خاص
     Important Attributes =
     SEO =
+      1- ساختار صفحه را برای موتورهای جستجو خوانا می‌کند.  
+      2- محتوا را معنادارتر می‌کند و به خزنده‌ها در درک بهتر صفحه کمک می‌کند Semantic HTML با کمک به
     SEO Point =
     Point =
   =-= footer
