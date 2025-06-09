@@ -745,7 +745,7 @@ special tag = DOCTYPE html
       3- اصلی می‌تواند به بهینه‌سازی کمک کند <header> داخل <h1> قرار دادن کلمات کلیدی در
     Difference(head) = <title> , <meta> حاوی متادیتاهای نامرئی مانند <head> بخشی از محتوای مرئی صفحه است، اما <header>
   =-= footer
-    Abbreviation() {} =>
+    Abbreviation{footer} => پاصفحه
     Attached file: true
     Target:
     Display:
