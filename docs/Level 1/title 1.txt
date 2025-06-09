@@ -723,21 +723,85 @@ special tag = DOCTYPE html
       5- JavaScript: بسازید c(غیر ثابت) میتوانید سایت هایی خاص و فعال
 
   =-=header
- 
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-=footer
- 
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-=section 
- 
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-=article
- 
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-=div
- 
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-=datails
- 
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-=dialog
- 
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
   =-=summary
-
+    Abbreviation() {} =>
+    Attached file: true
+    Target:
+    Display:
+    Meaning:
+    Important Attributes =
+    SEO =
+    SEO Point =
+    Point =
 ===========================================================================================
 ) tags 8 - get information 1
     tag = form
