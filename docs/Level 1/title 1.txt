@@ -722,7 +722,7 @@ special tag = DOCTYPE html
       4- CSS: آن را به منوی مدرن تبدیل کنید CSS میتوانید با
       5- JavaScript: بسازید c(غیر ثابت) میتوانید سایت هایی خاص و فعال
 
-  =-=header
+  =-= header
     Abbreviation{header} => سرصفحه
     Attached file: true
     Target:
@@ -732,7 +732,7 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-=footer
+  =-= footer
     Abbreviation() {} =>
     Attached file: true
     Target:
@@ -742,7 +742,7 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-=section 
+  =-= section 
     Abbreviation() {} =>
     Attached file: true
     Target:
@@ -752,7 +752,7 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-=article
+  =-= article
     Abbreviation() {} =>
     Attached file: true
     Target:
@@ -762,7 +762,7 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-=div
+  =-= div
     Abbreviation() {} =>
     Attached file: true
     Target:
@@ -772,7 +772,7 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-=datails
+  =-= datails
     Abbreviation() {} =>
     Attached file: true
     Target:
@@ -782,7 +782,7 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-=dialog
+  =-= dialog
     Abbreviation() {} =>
     Attached file: true
     Target:
@@ -792,7 +792,7 @@ special tag = DOCTYPE html
     SEO =
     SEO Point =
     Point =
-  =-=summary
+  =-= summary
     Abbreviation() {} =>
     Attached file: true
     Target:
