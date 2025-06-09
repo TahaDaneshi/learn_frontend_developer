@@ -764,6 +764,7 @@ special tag = DOCTYPE html
       3- از متن کپی‌رایت با سال به‌روز استفاده کنید (مثلاً © 2024)
       4- لینک‌های مهم (مثل "قوانین"، "تماس با ما") را در فوتر اصلی قرار دهید
     Point =
+    Difference(header) = معمولاً حاوی اطلاعات فرعی و تکمیلی است، نه محتوای اصلی <footer>
   =-= section 
     Abbreviation() {} =>
     Attached file: true
