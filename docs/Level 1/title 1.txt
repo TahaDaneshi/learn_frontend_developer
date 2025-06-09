@@ -740,6 +740,7 @@ special tag = DOCTYPE html
       3- برای منوهای ناوبری اصلی استفاده نمایید <nav> از
       4- در بخش‌های مختلف خودداری کنید <header> از تکرار بی هدف
     Point =
+    Difference(head) = <title> , <meta> حاوی متادیتاهای نامرئی مانند <head> بخشی از محتوای مرئی صفحه است، اما <header>
   =-= footer
     Abbreviation() {} =>
     Attached file: true
