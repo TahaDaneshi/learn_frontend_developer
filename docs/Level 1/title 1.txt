@@ -727,7 +727,7 @@ special tag = DOCTYPE html
     Attached file: true
     Target:
     Display:
-    Meaning:
+    Meaning: یک بخش معرفی‌کننده یا ناوبری برای محتوای صفحه یا یک بخش خاص
     Important Attributes =
     SEO =
     SEO Point =
