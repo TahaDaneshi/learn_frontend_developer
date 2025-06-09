@@ -784,6 +784,9 @@ special tag = DOCTYPE html
     Meaning:
     Important Attributes =
     SEO =
+      1- بهبود ساختار معنایی صفحه برای موتورهای جستجو
+      2- کمک به درک بهتر روابط بین بخش‌های محتوا
+      3- امکان نمایش بهتر در نتایج جستجو 
     SEO Point =
     Point =
   =-= article
