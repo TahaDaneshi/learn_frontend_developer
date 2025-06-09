@@ -747,7 +747,10 @@ special tag = DOCTYPE html
   =-= footer
     Abbreviation{footer} => پاصفحه
     Attached file: true
-    Target:
+    Target: که معمولاً شامل اطلاعات تکمیلی است <article>, <section> بخش پایانی یک صفحه یا یک بخش
+      example 1 = در پایین یک مقاله یا بخش: مثلاً اطلاعات نویسنده، تاریخ انتشار، تگ‌های مرتبط.  
+      example 2 = معمولاً محتوای تکرارشونده در صفحات مختلف سایت را شامل می‌شود
+      example 3 = شامل اطلاعات تماس، لینک‌های مفید، کپی‌رایت، نقشه سایت و (<body> داخل) در پایین صفحه اصلی
     Display:
     Meaning:
     Important Attributes =
