@@ -796,6 +796,13 @@ special tag = DOCTYPE html
       3- برای محتوای مستقل که به تنهایی معنا دارد استفاده شود
       4- پرهیز کنید section از تودرتویی بی‌رویه
     Point =
+    Difference(div) = خنثی است <div> معنادار است اما <section>
+      اهمیت بیشتری می‌دهند <section> موتورهای جستجو به محتوای
+    Difference(article) =
+      -  برای محتوای کامل و مستقل (مثل پست وبلاگ) <article>
+      -  برای گروه‌بندی مطالب مرتبط <section>
+    Warning=
+      1- استفاده کنید <br> برای استایل‌دهی استفاده نکنید (برای این کار از  Wrapper به عنوان
   =-= article
     Abbreviation() {} =>
     Attached file: true
