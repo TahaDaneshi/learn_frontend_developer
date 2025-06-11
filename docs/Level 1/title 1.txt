@@ -830,6 +830,9 @@ special tag = DOCTYPE html
       4- از تودرتویی بی‌رویه اجتناب کنید
       5- ترکیب شود (Schema.org) با میکرودیتا 
     Point =
+    Difference(section) =
+      - <article> محتوای کامل و مستقل است (مثل یک پست وبلاگ)
+      - <section> فقط گروه‌بندی موضوعی است (مثل یک فصل از مقاله)
   =-= div
     Abbreviation() {} =>
     Attached file: true
