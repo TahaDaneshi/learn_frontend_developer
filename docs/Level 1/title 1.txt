@@ -806,7 +806,12 @@ special tag = DOCTYPE html
   =-= article
     Abbreviation{article} => مقاله/مطلب
     Attached file: true
-    Target:
+    Target: ایجاد یک بخش مستقل و خودکفا از محتوا که می‌تواند به تنهایی توزیع یا استفاده شود
+      1- پست‌های وبلاگ یا مقالات
+      2- خبرهای سایت
+      3- کامنت‌های کاربران
+      4- ویجت‌های مستقل (مثل ابزارهای محاسباتی)
+      5- محصولات در صفحه فروشگاه
     Display:
     Meaning:
     Important Attributes =
