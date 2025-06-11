@@ -804,7 +804,7 @@ special tag = DOCTYPE html
     Warning=
       1- استفاده کنید <br> برای استایل‌دهی استفاده نکنید (برای این کار از  Wrapper به عنوان
   =-= article
-    Abbreviation() {} =>
+    Abbreviation{article} => مقاله/مطلب
     Attached file: true
     Target:
     Display:
