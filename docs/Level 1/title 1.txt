@@ -815,6 +815,9 @@ special tag = DOCTYPE html
     Display:
     Meaning:
     Important Attributes =
+      1- id: برای شناسایی منحصر به فرد
+      2- aria-labelledby: برای دسترسی‌پذیری
+      3- itemscope و itemtype: برای میکرودیتا
     SEO =
       1- نشان‌دهنده محتوای اصلی و باارزش صفحه
       2- کمک به موتورهای جستجو برای شناسایی محتوای قابل ایندکس
