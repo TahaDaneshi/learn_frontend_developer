@@ -649,10 +649,8 @@ special tag = DOCTYPE html
   =-= target
     Abbreviation() {} =>
     Attached file: true
-    Usage:
-    Properties =
-      Target:
-      Display:
+    Target:
+    Display:
     Meaning:
     Important Tags =
     SEO =
@@ -661,10 +659,8 @@ special tag = DOCTYPE html
   =-= rel
     Abbreviation() {} =>
     Attached file: true
-    Usage:
-    Properties =
-      Target:
-      Display:
+    Target:
+    Display:
     Meaning:
     Important Tags =
     SEO =
@@ -673,10 +669,8 @@ special tag = DOCTYPE html
   =-= download
     Abbreviation() {} =>
     Attached file: true
-    Usage:
-    Properties =
-      Target:
-      Display:
+    Target:
+    Display:
     Meaning:
     Important Tags =
     SEO =
