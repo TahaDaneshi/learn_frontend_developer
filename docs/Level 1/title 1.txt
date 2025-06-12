@@ -860,6 +860,7 @@ special tag = DOCTYPE html
       2- (div soup) اجتناب کنید <div> از تودرتویی بی‌رویه 
       3- استفاده کنید <section> , <article> برای بخش‌های مهم از تگ‌های معنایی مثل
     Point =
+    Difference(nav, article, section) = معنای خاصی به موتور جستجو منتقل نمیکند بر خلاف این تگ ها div
   =-= datails
     Abbreviation() {} =>
     Attached file: true
