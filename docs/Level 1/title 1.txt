@@ -860,6 +860,9 @@ special tag = DOCTYPE html
       2- (div soup) اجتناب کنید <div> از تودرتویی بی‌رویه 
       3- استفاده کنید <section> , <article> برای بخش‌های مهم از تگ‌های معنایی مثل
     Point =
+      1- ایده‌آل است JavaScript برای کامپوننت‌های پیچیده
+      2- بسیار کاربرد دارد Flexbox و CSS Grid ترکیب با
+      3- باید به عنوان آخرین راه‌حل در نظر گرفته شود و باید اول از تگ های معنا دار استفاده شود div
     Difference(nav, article, section) = معنای خاصی به موتور جستجو منتقل نمیکند بر خلاف این تگ ها div
   =-= datails
     Abbreviation() {} =>
