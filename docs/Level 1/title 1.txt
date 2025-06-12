@@ -848,7 +848,9 @@ special tag = DOCTYPE html
     Display:
     Meaning:
     Important Attributes =
-    SEO =
+    SEO = تأثیر مستقیمی بر سئو ندارد
+      1- استفاده بیش از حد ممکن است ساختار صفحه را برای موتورهای جستجو نامشخص کند
+      2- فقدان معنای می‌تواند درک محتوا را برای خزنده‌ها سخت‌تر کند
     SEO Point =
     Point =
   =-= datails
