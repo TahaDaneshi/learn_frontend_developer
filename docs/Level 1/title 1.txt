@@ -839,7 +839,7 @@ special tag = DOCTYPE html
       - <article> محتوای کامل و مستقل است (مثل یک پست وبلاگ)
       - <section> فقط گروه‌بندی موضوعی است (مثل یک فصل از مقاله)
   =-= div
-    Abbreviation() {} =>
+    Abbreviation(div) {Division} => بخش‌بندی
     Attached file: true
     Target:
     Display:
