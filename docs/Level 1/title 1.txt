@@ -841,7 +841,10 @@ special tag = DOCTYPE html
   =-= div
     Abbreviation(div) {Division} => بخش‌بندی
     Attached file: true
-    Target:
+    Target: یک کانتینر عمومی برای گروه‌بندی و ساختاربندی محتوا که هیچ معنای خاصی ندارد
+      example 1 = ایجاد ساختار کلی صفحه (لیاوت)
+      example 2 = CSS گروه‌بندی عناصر برای استایل‌دهی با 
+      example 3 = جایگزین برای تگ‌های معنایی وقتی معنای مناسب وجود ندارد
     Display:
     Meaning:
     Important Attributes =
