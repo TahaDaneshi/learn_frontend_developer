@@ -902,7 +902,12 @@ special tag = DOCTYPE html
   =-= dialog
     Abbreviation{dialog} => مکالمه/پنجره محاوره‌ای
     Attached file: true
-    Target:
+    Target: یا غیرمُدال در صفحه (Modal) یک عنصر برای ایجاد پنجره‌های مُدال
+      example 1 = (Confirm/Cancel dialogs) پنجره‌های تأیید/لغو 
+      example 2 = فرم‌های ورود اطلاعات
+      example 3 = نمایش اطلاعیه‌ها
+      example 4 = گالری تصاویر
+      example 5 = راهنماهای تعاملی
     Display:
     Meaning:
     Important Attributes =
