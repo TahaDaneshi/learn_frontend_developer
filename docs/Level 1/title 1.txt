@@ -911,7 +911,10 @@ special tag = DOCTYPE html
     Display:
     Meaning:
     Important Attributes =
-    SEO =
+    SEO = غیرمستقیم
+      1- ممکن است در برخی موارد به عنوان محتوای پنهان در نظر گرفته شود
+      2- نیاز به مدیریت صحیح برای جلوگیری از مشکلات سئو
+      3- توسط موتورهای جستجو ایندکس می‌شود <dialog> محتوای داخل
     SEO Point =
     Point =
   =-= summary
