@@ -885,6 +885,10 @@ special tag = DOCTYPE html
       4- قرار دهید <details> در صورت امکان محتوای اصلی را خارج از
       5- استفاده کنید Schema.org markup ها از FAQ برای
     Point =
+      1- باشد HTML می‌تواند شامل هر نوع محتوای
+      2- هنگام تغییر حالت فراخوانی می‌شود toggle رویداد
+      3- می‌توان علامت +/- را تغییر داد CSS با
+      4- استفاده کنید aria-expanded برای دسترسی‌پذیری از
   =-= dialog
     Abbreviation() {} =>
     Attached file: true
