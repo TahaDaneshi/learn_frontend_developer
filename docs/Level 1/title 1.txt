@@ -900,7 +900,7 @@ special tag = DOCTYPE html
       2- استایل پیش‌فرض در مرورگرهای مختلف متفاوت است
       3- امکان کنترل کامل تعاملات وجود ندارد
   =-= dialog
-    Abbreviation() {} =>
+    Abbreviation{dialog} => مکالمه/پنجره محاوره‌ای
     Attached file: true
     Target:
     Display:
