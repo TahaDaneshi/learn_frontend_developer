@@ -870,7 +870,11 @@ special tag = DOCTYPE html
     Display:
     Meaning:
     Important Attributes =
-    SEO =
+    SEO = غیرمستقیم
+      1- توسط موتورهای جستجو ایندکس می‌شود <details> محتوای داخل
+      2- نمایش داده شود expanded ممکن است در نتایج جستجو به صورت
+      3- کمک به سازماندهی محتوای صفحه بدون شلوغی بصری
+      4- (UX) بهبود تجربه کاربری
     SEO Point =
     Point =
   =-= dialog
