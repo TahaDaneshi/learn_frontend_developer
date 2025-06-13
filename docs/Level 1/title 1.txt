@@ -861,7 +861,12 @@ special tag = DOCTYPE html
   =-= details
     Abbreviation{details} => جزئیات
     Attached file: true
-    Target:
+    Target: ایجاد یک عنصر تعاملی که امکان نمایش/مخفی کردن محتوای اضافی را فراهم می‌کند
+      example 1 = (expandable sections) ایجاد بخش‌های قابل گسترش
+      example 2 = صفحات FAQ پیاده سازی
+      example 3 = نمایش توضیحات تکمیلی
+      example 4 = گزینه‌های پیشرفته در فرم‌ها
+      example 5 = محتوای اختیاری که نیاز به صرفه‌جویی در فضا دارد
     Display:
     Meaning:
     Important Attributes =
