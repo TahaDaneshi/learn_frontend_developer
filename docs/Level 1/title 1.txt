@@ -924,6 +924,10 @@ special tag = DOCTYPE html
       4- با میکرودیتاها ترکیب شود
       5- قرار ندهید open محتوای مهم را در حالت اولیه
     Point =
+    Warning =
+      1- پشتیبانی محدود در برخی مرورگرهای قدیمی
+      2- CSS/JS سفارشی‌سازی محدود بدون 
+      3- مدیریت پیچیده حالت‌های پیشرفته
   =-= summary
     Abbreviation() {} =>
     Attached file: true
