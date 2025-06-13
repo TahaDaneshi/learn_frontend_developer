@@ -858,7 +858,7 @@ special tag = DOCTYPE html
       2- بسیار کاربرد دارد Flexbox و CSS Grid ترکیب با
       3- باید به عنوان آخرین راه‌حل در نظر گرفته شود و باید اول از تگ های معنا دار استفاده شود div
     Difference(nav, article, section) = معنای خاصی به موتور جستجو منتقل نمیکند بر خلاف این تگ ها div
-  =-= datails
+  =-= details
     Abbreviation() {} =>
     Attached file: true
     Target:
