@@ -623,7 +623,6 @@ special tag = DOCTYPE html
     attribute = download
   =-= href
     Abbreviation(href) {Hypertext Reference} => ارجاع ابر متنی
-    Attached file: true
     Usage: مشخص کننده مقصد یک لینک یا ارتباط بین منابع است 
     Properties =
       Target: تایین مقصد یک لینک
@@ -648,7 +647,6 @@ special tag = DOCTYPE html
       1-استفاده شود <a> حتماً از این اتریبیوت در تگ
   =-= target
     Abbreviation() {} =>
-    Attached file: true
     Target:
     Display:
     Meaning:
@@ -658,7 +656,6 @@ special tag = DOCTYPE html
     Point =
   =-= rel
     Abbreviation() {} =>
-    Attached file: true
     Target:
     Display:
     Meaning:
@@ -668,7 +665,6 @@ special tag = DOCTYPE html
     Point =
   =-= download
     Abbreviation() {} =>
-    Attached file: true
     Target:
     Display:
     Meaning:
