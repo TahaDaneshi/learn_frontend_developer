@@ -715,7 +715,6 @@ special tag = DOCTYPE html
       3-  دسترسی پذیری: استفاده شود aria-label حتماً از
       4- CSS: آن را به منوی مدرن تبدیل کنید CSS میتوانید با
       5- JavaScript: بسازید c(غیر ثابت) میتوانید سایت هایی خاص و فعال
-
   =-= header
     Abbreviation{header} => سرصفحه
     Attached file: true
