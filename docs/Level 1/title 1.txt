@@ -938,7 +938,7 @@ special tag = DOCTYPE html
       4- راهنمای تعاملی
       5- پنل تنظیمات
   =-= summary
-    Abbreviation() {} =>
+    Abbreviation{summary} => خلاصه/چکیده
     Attached file: true
     Target:
     Display:
