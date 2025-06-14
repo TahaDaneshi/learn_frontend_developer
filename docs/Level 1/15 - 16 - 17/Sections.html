@@ -288,11 +288,20 @@
   <footer id="fa-footer"></footer>
   <script>
     // Simple script to handle dialog
-    const contactDialog = document.getElementById('contactDialog');
+    const contactDialogEn = document.getElementById('contactDialog');
 
     document.querySelector('form[method="dialog"]').addEventListener('submit', (e) => {
       e.preventDefault();
       alert('Thank you for your question! We will respond soon.');
+      contactDialogEn.close();
+    });
+    // Fa section
+    // اسکریپت ساده برای مدیریت دیالوگ
+    const contactDialogFa = document.getElementById('contactDialog');
+
+    document.querySelector('form[method="dialog"]').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('سپاس از سوال شما! به زودی پاسخ خواهیم داد.');
       contactDialog.close();
     });
   </script>
