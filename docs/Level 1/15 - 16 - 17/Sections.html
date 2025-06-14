@@ -171,13 +171,13 @@
         </details>
       </section>
 
-      <button onclick="document.getElementById('contactDialog').showModal()">
+      <button onclick="document.getElementById('contactDialogEn').showModal()">
         Contact Instructor
       </button>
 
-      <dialog id="contactDialog">
+      <dialog id="contactDialogEn">
         <h2>Contact Form</h2>
-        <form method="dialog">
+        <form method="dialogEn">
           <div>
             <label for="name">Name:</label>
             <input type="text" id="name" required>
@@ -192,7 +192,7 @@
           </div>
           <div class="dialog-actions">
             <button type="submit">Send</button>
-            <button onclick="contactDialog.close()">Cancel</button>
+            <button onclick="contactDialogEn.close()">Cancel</button>
           </div>
         </form>
       </dialog>
@@ -247,13 +247,13 @@
         </details>
       </section>
 
-      <button onclick="document.getElementById('contactDialog').showModal()">
+      <button onclick="document.getElementById('contactDialogFa').showModal()">
         تماس با مربی
       </button>
 
-      <dialog id="contactDialog">
+      <dialog id="contactDialogFa">
         <h2>فرم تماس</h2>
-        <form method="dialog">
+        <form method="dialogFa">
           <div>
             <label for="name">نام:</label>
             <input type="text" id="name" required>
@@ -268,7 +268,7 @@
           </div>
           <div class="dialog-actions">
             <button type="submit">ارسال</button>
-            <button onclick="contactDialog.close()">انصراف</button>
+            <button onclick="contactDialogFa.close()">انصراف</button>
           </div>
         </form>
       </dialog>
@@ -288,21 +288,21 @@
   <footer id="fa-footer"></footer>
   <script>
     // Simple script to handle dialog
-    const contactDialogEn = document.getElementById('contactDialog');
+    const contactDialogEn = document.getElementById('contactDialogEn');
 
-    document.querySelector('form[method="dialog"]').addEventListener('submit', (e) => {
+    document.querySelector('form[method="dialogEn"]').addEventListener('submit', (e) => {
       e.preventDefault();
       alert('Thank you for your question! We will respond soon.');
       contactDialogEn.close();
     });
     // Fa section
     // اسکریپت ساده برای مدیریت دیالوگ
-    const contactDialogFa = document.getElementById('contactDialog');
+    const contactDialogFa = document.getElementById('contactDialogFa');
 
-    document.querySelector('form[method="dialog"]').addEventListener('submit', (e) => {
+    document.querySelector('form[method="dialogFa"]').addEventListener('submit', (e) => {
       e.preventDefault();
       alert('سپاس از سوال شما! به زودی پاسخ خواهیم داد.');
-      contactDialog.close();
+      contactDialogFa.close();
     });
   </script>
 </body>
