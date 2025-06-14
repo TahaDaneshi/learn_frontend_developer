@@ -940,7 +940,11 @@ special tag = DOCTYPE html
   =-= summary
     Abbreviation{summary} => خلاصه/چکیده
     Attached file: true
-    Target:
+    Target: ارائه می دهد <details> عنصری که عنوان/خلاصه‌ای برای محتوای
+      example 1 = <details> به عنوان عنوان کلیک‌پذیر برای بخش‌های
+      example 2 = در آکاردئون‌ها و بخش‌های قابل گسترش
+      example 3 = برای نمایش خلاصه محتوای مفصل
+      example 4 = ها و راهنمای تعاملیFAQ در
     Display:
     Meaning:
     Important Attributes =
