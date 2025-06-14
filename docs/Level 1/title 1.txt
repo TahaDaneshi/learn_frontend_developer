@@ -948,6 +948,9 @@ special tag = DOCTYPE html
     Display:
     Meaning:
     Important Attributes =
+      1- aria-expanded: نشان‌دهنده وضعیت باز/بسته بودن
+      2- aria-controls: ارتباط با محتوای کنترل‌شده
+      3- data-*: برای ذخیره داده‌های سفارشی
     SEO =
     SEO Point =
     Point =
