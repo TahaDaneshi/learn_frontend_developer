@@ -80,6 +80,12 @@
       padding: 15px;
       border-radius: 5px;
       overflow-x: auto;
+      width: max-content;
+      margin: 5px;
+      border: 2px solid green;
+      border-radius: 2px;
+      text-align: left;
+      direction: ltr;
     }
 
     .note {
@@ -192,7 +198,81 @@
       </dialog>
     </article>
     <!-- Fa -->
+    <article itemscope itemtype="https://schema.org/TechArticle">
+      <header>
+        <h2 itemprop="headline">توسعه فرانت‌اند مدرن</h2>
+        <p>تاریخ انتشار: <time datetime="2023-11-15" itemprop="datePublished">۱۵ نوامبر ۲۰۲۳</time></p>
+      </header>
 
+      <section aria-labelledby="html-section">
+        <h3 id="html-section">عناصر معنایی HTML5</h3>
+        <p>HTML5 عناصر معنایی را معرفی کرد که معنای خود را به مرورگرها و توسعه‌دهندگان به وضوح توصیف می‌کنند.</p>
+
+        <details itemscope itemtype="https://schema.org/Question">
+          <summary itemprop="name">چرا از HTML معنایی استفاده کنیم؟</summary>
+          <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+            <p itemprop="text">HTML معنایی دسترسی‌پذیری، سئو و نگهداری کد را بهبود می‌بخشد.</p>
+            <div class="code-container">
+              <pre><code>&lt;article&gt;
+    &lt;header&gt;
+        &lt;h1&gt;عنوان مقاله&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;section&gt;
+        &lt;p&gt;محتوای مقاله...&lt;/p&gt;
+    &lt;/section&gt;
+    &lt;footer&gt;
+        &lt;p&gt;اطلاعات نویسنده&lt;/p&gt;
+    &lt;/footer&gt;
+&lt;/article&gt;</code></pre>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section aria-labelledby="react-section">
+        <h3 id="react-section">کامپوننت‌های ریکت</h3>
+        <p>کامپوننت‌های ریکت به شما اجازه می‌دهند رابط کاربری را به بخش‌های مستقل و قابل استفاده مجدد تقسیم کنید.</p>
+
+        <div class="note">
+          <p>کامپوننت‌ها می‌توانند مبتنی بر کلاس یا تابعی با هوک‌ها باشند.</p>
+        </div>
+
+        <details>
+          <summary>مثال کامپوننت تابعی</summary>
+          <div class="code-container">
+            <pre><code>function Welcome(props) {
+    return &lt;h1&gt;سلام، {props.name}&lt;/h1&gt;;
+}</code></pre>
+          </div>
+        </details>
+      </section>
+
+      <button onclick="document.getElementById('contactDialog').showModal()">
+        تماس با مربی
+      </button>
+
+      <dialog id="contactDialog">
+        <h2>فرم تماس</h2>
+        <form method="dialog">
+          <div>
+            <label for="name">نام:</label>
+            <input type="text" id="name" required>
+          </div>
+          <div>
+            <label for="email">ایمیل:</label>
+            <input type="email" id="email" required>
+          </div>
+          <div>
+            <label for="question">سوال:</label>
+            <textarea id="question" rows="4" required></textarea>
+          </div>
+          <div class="dialog-actions">
+            <button type="submit">ارسال</button>
+            <button onclick="contactDialog.close()">انصراف</button>
+          </div>
+        </form>
+      </dialog>
+    </article>
   </main>
 
   <footer id="en-footer" role="contentinfo">
