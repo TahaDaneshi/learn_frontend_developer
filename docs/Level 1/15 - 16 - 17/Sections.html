@@ -110,7 +110,7 @@
       <img id="img-current-mode" src="../../../learn images/Icons/Objects/Moon.svg" alt="mode">
     </button>
   </div>
-  <header role="banner">
+  <header id="en-header" role="banner">
     <h1>Web Development Masterclass</h1>
     <nav aria-label="Main navigation">
       <ul>
@@ -121,7 +121,7 @@
       </ul>
     </nav>
   </header>
-  <header role="banner">
+  <header class="fa-header" role="banner">
     <h1>کلاس استادی توسعه وب</h1>
     <nav aria-label="منوی اصلی">
       <ul>
@@ -318,6 +318,12 @@
       alert('سپاس از سوال شما! به زودی پاسخ خواهیم داد.');
       contactDialogFa.close();
     });
+    // change mode and language button
+    // ELEMENTS
+    const enFooter = document.getElementById('en-footer'); //EN
+    const enHeader = document.getElementById('enHeader'); // EN
+    const faFooter = document.getElementById('fa-footer'); // FA
+    const faHeader = document.getElementById('faHeader'); // FA
   </script>
 </body>
 
