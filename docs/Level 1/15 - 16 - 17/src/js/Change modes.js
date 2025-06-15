@@ -2,7 +2,7 @@
 
 // ELEMENTS
 const HTML = document.getElementById("root");
-const nav = document.getElementsByTagName('nav')[0];
+const nav = document.getElementsByClassName('main-nav')[0];
 // changers
 // language mode changer
 const btnChangeLanguage = document.getElementById('btn-change-language');
