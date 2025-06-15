@@ -325,6 +325,13 @@
     const enHeader = document.getElementById('en-header'); // EN
     const faFooter = document.getElementById('fa-footer'); // FA
     const faHeader = document.getElementById('fa-header'); // FA
+    btnChangeLanguage0.addEventListener('click', () => {
+      let elements = [enFooter, enHeader, faFooter, faHeader];
+      console.log(elements[3]);
+      elements.forEach(element => {
+        element.classList.toggle("none");
+      });
+    })
   </script>
 </body>
 
