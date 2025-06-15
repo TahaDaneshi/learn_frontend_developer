@@ -1,7 +1,7 @@
 /* nav style */
 
 /* NAV CONTAINER */
-nav {
+.main-nav {
   height: 33px;
   padding: 7px;
   display: flex;
@@ -16,7 +16,7 @@ nav {
 
 /* NAV BUTTONS */
 
-nav button {
+.main-nav button {
   height: 26px;
   display: flex;
   align-items: center;
